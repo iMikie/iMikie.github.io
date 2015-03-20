@@ -1,2 +1,2 @@
 
-Redirect  t1-git-blog.html  https://iMikie.github.io/blog/rich_blog_proto/home.html
+Redirect 301 /blog/t1-git-blog.html https://iMikie.github.io/blog/rich_blog_proto/home.html
