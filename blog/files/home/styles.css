@@ -37,7 +37,7 @@
 #u2 {
   position:absolute;
   left:42px;
-  top:172px;
+  top:186px;
   width:658px;
   height:38px;
   font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
@@ -89,7 +89,6 @@
   height:449px;
   font-family:'HelveticaNeue', 'Helvetica Neue';
   font-weight:400;
-  font-style:normal;
   font-size:14px;
   line-height:20px;
 }
@@ -109,8 +108,8 @@
 }
 #u8 {
   position:absolute;
-  left:490px;
-  top:940px;
+  left:480px;
+  top:960px;
   width:140px;
   height:70px;
 }
@@ -131,8 +130,8 @@
 }
 #u10 {
   position:absolute;
-  left:500px;
-  top:948px;
+  left:490px;
+  top:967px;
   width:120px;
   height:56px;
 }
