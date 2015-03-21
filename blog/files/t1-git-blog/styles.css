@@ -186,6 +186,8 @@
   top:20px;
   width:176px;
   height:20px;
+  text-decoration:underline;
+  color:#0033CC;
 }
 #u17 {
   position:absolute;
@@ -214,6 +216,8 @@
   top:40px;
   width:209px;
   height:20px;
+  text-decoration:underline;
+  color:#0033CC;
 }
 #u20 {
   position:absolute;
@@ -242,6 +246,8 @@
   top:60px;
   width:117px;
   height:20px;
+  text-decoration:underline;
+  color:#0033CC;
 }
 #u23 {
   position:absolute;
