@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title> think.build </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-1-stylesheet.css">
+</head>
+
+<nav>
+  <p>Posts</p>
+  <p>March 2015</p>
+  <p><a href="blog-1.html"> Your Cheapest Developer</a></p>
+  <p><a href="blog-2.html"> DBC Kitchen Culture</a></p>
+  <p><a href="blog-3.html"> Reflections on Version control</a></p>
+</nav>
+
+<div id="nameplate">
+  Mike Farr
+  <p id="title-style">A Dev BootCamp Technical Blog
+  </p>
+</div>
+
+<header>
+  Your cheapest developer is yourself.
+</header>
+
+<figure>
+  <img src="imgs/u5.jpg"/>
+</figure>
+
+<main>
+<p>
+<h3> Version control was invented to solve a couple of problems.</h3>
+<p></p>
+First, it enables multiple people to work on the same set of files without stomping on each other's work.  For example, two or more may want to work on the same file at the same time.  If one copies his version of the file back to the master directory and then the other person does, the latter over-rides the former.  You usually want only one person to be modifying a file at the same time. Version control catches modifications made by more than one person to the same file and assists in sorting out the differences
+<p></p>
+Second, you may need several versions of the set of files.  One is the last stable version, another ay be the current set of feature enhancements you are working on, another may be a special version for an important client.  If you simply copied the set of files each time you needed a new version then enhancements made to one version would have to be manually edited back into the other versions.
+<p></p>
+In my early days I wrote in assembler for a company that had a library of macros that turned our assembler into somewhat of a C like language.  Every engineer copied the library and modified it to their hearts content.  Thus we had 5 versions of the library.  Imagine each engineer programming in a slightly different language.  It was stupid.
+<p></p>
+Here is another example. I have written a science fiction story where the protagonist is a very bright 12 year old girl. (I have a very bright 12-year-old niece). I finished the story and gave it to friends to read.  They liked the story but pointed out that the 12 -year-old character demonstrated thinking beyond her years.   So I created a version of the first chapter of the story and changed her age to 16.  Most of the language that reveals her as 12 is in that chapter.  Now I had two versions but they only differed in one chapter.
+<p></p>
+Well pretty soon I had a folder full of versions and I have no idea which contains what changes.  I'm now using git and GitHub for that story.  GitHub is just a cloud site where you can store git repositories and pull and push changes.  It also allows me to share the story with a reliable download that I never seem to be able to do with a Dropbox link.  Now, git doesn't save any space with compression because the files are binary but at least I have version control and I'n not storing multiple versions of chapters that haven't changed.  It's also easy to keep the different versions apart.  I now don't mind trying a new version because I can branch and merge or delete so easily.
+<p></p>
+What I did was to break up the story into separate files for the chapters.  I made a 16 year-old-branch and a 12-year-old branch.  I can also edit the master (or branch and merge an experiment back into the master) and pull the changes to the 12 and 16 year old versions.  I merge and pull the changes only when they are done.  That way if I have an opportunity to submit the story to a magazine or contest, I always have a version that's ready to go.
+<p></p>
+The only problem I have now is that I don't know any 16 year olds so writing in a 16 year old's voice is a little tough.  I may have to change the character to a boy, but the original idea was inspired by my niece's love of science.
+<p></p>
+I've also rolled back versions before without git and it was painful.  I had to go into Time Machine on the Mac and read each version.
+<p></p>
+I used used version control before, one of the centralized kinds, maybe CVS or Subversion.  It was horrible, cryptic, and every so often would get its drawers in a snit such that my head of engineering would have to spend a day getting everything and everyone sorted out and building again.
+<p></p>
+Git is much better.  There's about 3 or 4 commands that you need to know and it just works.  There are a lot of resources on line so if you run into a problem, someone has solved it.
+<p></p>
+There is even something called GitFlow which is a scheme for how a large programming project should make branches, what they should be named and when and how they get merged back in.  This appears to have caught on in the community.  I appreciate the notion of being able to walk onto any project and already know how it's source control is organized.  SourceTree is a GUI for supporting Git Flow and the original
+<a href="http://nvie.com/posts/a-successful-git-branching-model/">GitFlow article by Vincent Driessen</p>
+
+<footer>
+ <p> Mike Farr
+  <br>
+  <em>Everything that's interesting to do was once impossible.</em>
+   <br>
+   March 20, 2015
+ </p>
+  </footer>
+</main>
+
