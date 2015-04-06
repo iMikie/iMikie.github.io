@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Integer.css">
+
+    <title></title>
+
+
+</head>
+<body>
+
+<h1> creating arrays </h1>
+<table>
+    <tr>
+        <td colspan="4"> <span class="variable">numbers</span> <span class="command">=</span> [<span class="variable">1,2,3,4</span>]</td>
+    </tr>
+    <tr>
+        <td colspan="4"> <span class="variable">strings</span> <span class="command">=</span> [<span class="comment">"foo", "baz" "boo"</span>]</td>
+    </tr>
+    <tr>
+        <td colspan="4"> <span class="variable">empty_ar</span> <span class="command">=</span> [], <span class="variable">empty_ar <span class="command">=</span> <span class="rbclass">Array.</span><span
+                class="command">new</span></td>
+    </tr>
+    <tr>
+
+        <td colspan="4"> <span class="variable">game_board</span> <span class="command">=</span> <span class="rbclass">Array.</span><span
+                class="command">new</span>(8) { <span class="rbclass">Array.</span><span
+                class="command">new</span>(8) }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="comment">#init an 8 x 8 multi-dim array this way.</span></td>
+    </tr>
+    <tr>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+    </tr>
+
+</table>
+<br>
+<p class="announcement">In the following sections let:
+    <span class="variable">ar</span><span class="command"> = </span>
+    <span class="reg-code">[
+        <span class="comand">5</span>,
+        <span class="command">6</span>,
+        <span class="command">7</span>,
+        <span class="command">8</span>]
+    </span>
+</p>
+
+<h2>indexing</h2>
+
+<table>
+    <tr>
+        <td><span class="variable">ar</span>[<span class="variable">i]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;#=> ith element</span></td>
+        <td><span class="variable">ar</span>[<span class="variable">-2]</span><span class="comment">  &nbsp;#=> 7, 2nd from end</span></td>
+        <td><span class="variable">ar</span>[<span class="variable">1..3</span>]<span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [6,7,8]  </span></td>
+        <td><span class="variable">ar</span>[<span class="variable">2,2]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [7,8]  </span></td>
+    </tr>
+</table>
+<h2>operators</h2>
+
+
+<table>
+    <tr>
+        <td><span class="variable">ar</span> <span class="command"> << </span> [<span class="variable">9</span>]&nbsp;&nbsp;<span class="comment"> #=>[5,6,7,8,9]</span>
+        </td>
+        <td><span class="variable">ar</span> <span class="command">+</span> <span class="variable">9</span>&nbsp;&nbsp;<span class="comment"> #=> [5,6,7,8,9]</span>
+        </td>
+        <td><span class="variable">ar</span>.<span class="command">concat</span>(<span
+                class="variable">9</span>)<span class="comment">#=> [5,6,7,8,9]</span></td>
+        <td><span class="variable">ar</span> <span class="command"> - </span>
+            [<span class="variable">5</span>,
+            <span class="variable">6</span>]</span>&nbsp;&nbsp;<span class="comment"> #=> [7,8]</span>
+        </td>
+
+    </tr>
+</table>
+
+<h2>methods</h2>
+<table>
+    <tr>
+        <td colspan="2">[].<span class="command">size</span>, [].<span class="command">length</span><span
+                class="comment"> &nbsp;&nbsp; #returns the number of elements</span></td>
+        <td colspan="2">[].<span class="command">count(<span class="variable">val</span>)</span><span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #number of elements that == val </span><br>
+            [].<span class="command">count{|<span class="variable">el</span>| <span
+                    class="variable">el</span> < 5}</span><span class="comment"> #number that pass block test.</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">delete</span>(el)<span class="comment"> #delete 1st el, rtn idx (modifies array)</span>
+        </td>
+        <td colspan="2">[].<span class="command">delete_at</span>(n)<span class="comment">  #delete el at index n (modifies array)</span>
+        </td>
+    </tr>
+    <tr>
+
+        <td colspan="2">[].<span class="command">index</span>(el)<span class="comment"> &nbsp; #rtn index of 1st occurrence>
+        </td>
+        <td colspan="2">[].<span class="command">take</span>(n)<span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;#return new array with first n elements</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">drop</span>(n)<span class="comment">&nbsp;&nbsp;#return new array w/out first n elements</span>
+        </td>
+        <td colspan="2">[].<span class="command">insert</span>(<span class="variable">idx, el,...</span>)<span
+                class="comment">  #after ith el (modifies array)
+        </td>
+    </tr>
+    <tr>
+
+        <td colspan="2">[].<span class="command">join</span>(<span class="variable">delim</span>)<span class="comment"> &nbsp; #return string with delim between els</span>
+        </td>
+        <td colspan="2">[].<span class="command">include?</span>(<span class="variable">el</span>)<span class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #return true if array contains el</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">push</span>(<span class="variable">el</span>)<span class="comment"> &nbsp; #append el onto the end (modifies array)</span>
+        </td>
+
+        <td colspan="2">[].<span class="command">pop</span>(<span class="variable">n)<span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #remove first n el's (modifies array)</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">flatten</span>(<span class="variable">el</span>)<span class="comment"> &nbsp; #rtn 1 dim new array of all elements</span>
+        </td>
+
+        <td colspan="2">[].<span class="command">pop</span>(<span class="variable">n</span>)<span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #remove first n el's (modifies array)</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+    </tr>
+
+</table>
+<h2>iterators</h2>
+
+<table>
+    <tr>
+        <td class="code-2">[].<span class="command">each</span>{|<span class="variable">el</span>| puts <span
+                class="variable">el</span>}<span class="comment"> &nbsp; #do block to each el</span>
+        </td>
+        <td class="code-2">[].<span class="command">each_with_index</span>{|<span class="variable">el</span>,idx| puts
+            <span class="variable">el</span> + <span class="variable"> idx </span>}<br><span
+                    class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #pass both idx and el to block for each el</span>
+        </td>
+
+    </tr>
+    <tr>
+        <td class="code-2">[].<span class="command">map&nbsp;</span>{|<span class="variable">el</span>| <span
+                class="variable">el</span>.upcase}<span class="comment"> &nbsp; #new array with results</span><br>
+            [].<span class="command">map!</span>{|<span class="variable">el</span>| <span class="variable">el</span>.upcase}<span
+                    class="comment"> &nbsp; #replace each el with result</span>
+        </td>
+        <td class="code-2">[].<span class="command">inject(
+            <span class="variable">init</span>)</span>{|
+            <span class="variable">memo,el</span>|
+            <span class="variable">memo </span> * <span class="variable"> el</span>}
+            <span class="comment"> &nbsp;&nbsp;#for each el: memo = block(memo,el) memo starts w/ init if present</span>
+        </td>
+    </tr>
+</table>
+
+<p class="caption">Each of the following methods takes a block with a condition, e.g. <span class="embed-code">{|<span
+        class="variable">el</span>| <span class="variable">el</span> <span class="command"> ></span> 5}</span></p>
+
+<table>
+    <tr>
+        <td>[].<span class="command">any?</span></td>
+        <td>[].<span class="command">all?</span></td>
+        <td>[].<span class="command">none?</span></td>
+        <td>[].<span class="command">delete_if</span></td>
+        <td>[].<span class="command">select</span></td>
+    </tr>
+    <tr>
+        <td>[].<span class="command">find</span></td>
+        <td>[].<span class="command">find_index</span></td>
+        <td>[].<span class="command">find_all</span></td>
+        <td>[].<span class="command">first, first(n)</span></td>
+    </tr>
+</table>
+
+<p class="caption">Each of these take a block comparison, e.g. <span class="embed-code">{|<span
+        class="variable">el,el_next</span>| <span class="variable">el</span> <span class="command"><=></span> <span
+        class="variable">el_next</span>}</span>
+</p>
+<table>
+    <tr>
+        <td>[].<span class="command">min, min(n)</span></td>
+        <td>[].<span class="command">max, max(n)</span></td>
+        <td>[].<span class="command">sort</span></td>
+    </tr>
+</table>
+<h1>Spat operator</h1>
+
+<p class="caption">The splat operator turns a parameter list into an array:
+</p>
+<table>
+    <tr>
+        <td class="code-2">def <span class="command">my_max</span>(*<span class="variable">values</span>) <br>
+            &nbsp;&nbsp;<span class="variable">values</span>.<span class="command">max</span><br>
+            end<br><br>
+            <span class="variable">max</span> = <span class="command">my_max</span>(3,4,5,2,1)
+        </td>
+        <td class="comment">#splat puts the parameters into array values.</td>
+
+    </tr>
+</table>
+<p class="caption">And an array into a parameter list:
+</p>
+
+<table>
+    <tr>
+        <td class="code-2"><span class="variable">parms</span> = [25, 5]<br><br>
+            def <span class="command">my_divide</span>(*[<span
+                    class="variable">numerator, denominator</span>)] <br>
+            &nbsp;&nbsp;<span class="variable">numerator</span>/<span class="variable">denominator</span><br>
+            end<br><br>
+            <span class="command">my_divide</span>(*<span class="variable">parms</span>)
+        </td>
+        <td class="comment">#splat turns the array [25,5] into a list of parameters.</td>
+
+    </tr>
+</table>
+
+
+</body>
+</html>

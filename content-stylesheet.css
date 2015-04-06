@@ -1,0 +1,96 @@
+#index-of-posts {
+    position: absolute;
+    width: 240px;
+    height: 800px;
+    top: 180px;
+    margin-left: 555px;
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    font-size: 14px;
+    border:none;
+}
+header {
+    position: block;
+    margin-top: 150px;
+    margin-left: 32px;
+    width: 757px;
+    height: 38px;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #003399;
+}
+
+figure {
+    position: block;
+    margin-left: 35px;
+    margin-right: 35%;
+    width: 600px;
+}
+
+figure img {
+    width: 500px;
+}
+
+nav p:first-child {
+    color: #003399;
+    font-size: 20px;
+    margin-left: -1em;
+}
+
+nav p {
+    margin-left: -0.5em;
+    margin-top: -0.25em;
+}
+
+nav p a:link {
+    color: #003399;
+    margin-left: 1em;
+
+}
+
+nav p a:visited {
+    color: #603360;
+}
+
+nav p a:hover {
+    color: #6033F0;
+}
+
+main {
+    position: block;
+    margin: 3em 35% 5em 35px;
+    left: 23px;
+
+    height: 449px;
+    font-family: 'HelveticaNeue', 'Helvetica Neue';
+    font-size: 14px;
+    line-height: 20px;
+    color: #505050;
+
+}
+
+#title-style {
+    color: #606060;
+    font-size: 16px;
+    margin-top: -0.15em;
+
+}
+
+#nameplate {
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    top: 40px;
+    width: 240px;
+    height: 60px;
+    font-family: 'HelveticaNeue', 'Helvetica Neue';
+    font-style: normal;
+    color: #003399;
+}
+
+footer {
+    margin-top: 5em;
+    border-top: 2px groove #606060;
+}

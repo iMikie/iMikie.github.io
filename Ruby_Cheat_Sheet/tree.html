@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="tree.css">
+
+    <title></title>
+
+    <SCRIPT LANGUAGE="JavaScript">
+        function toggle_visible(img_name, content_name) {
+            is_vis = document.getElementById(content_name).style.display;
+            if (!is_vis || is_vis == "none") {
+                document.getElementById(content_name).style.display = "block"
+                document.getElementById(img_name).src = "imgs/arrow_down.png"
+
+            } else {
+                document.getElementById(content_name).style.display = "none"
+                document.getElementById(img_name).src = "imgs/arrow.png"
+            }
+        }
+    </script>
+
+</head>
+
+<header>
+<p>
+    Ruby Cheatsheet
+</p>
+
+</header>
+<body>
+
+<h1 class="heading-node" onclick="toggle_visible('img-1', 'topic-integer');">
+    <img id="img-1" src="imgs/arrow.png" alt="+"/>
+    Integer
+</h1>
+<iframe class="section-style" id="topic-integer" src="Integer.html">
+</iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-2', 'topic-2');">
+    <img id="img-2" src="imgs/arrow.png" alt="+"/>
+    Float
+</h1>
+<section class="section-style" id="topic-2">
+    Some tree text here
+    and here is some more.
+</section>
+<h1 class="heading-node" onclick="toggle_visible('img-3', 'topic-array');">
+    <img id="img-3" src="imgs/arrow.png" alt="+"/>
+    Array
+</h1>
+<iframe class="section-style" id="topic-array" src="Array.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-4', 'topic-strings');">
+    <img id="img-4" src="imgs/arrow.png" alt="+"/>
+    Strings
+</h1>
+<iframe class="section-style" id="topic-strings" src="Strings.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-5', 'topic-hash');">
+    <img id="img-5" src="imgs/arrow.png" alt="+"/>
+    Hash
+</h1>
+<iframe class="section-style" id="topic-array" src="Hash.html"></iframe>
+
+
+<h1 class="heading-node" onclick="toggle_visible('img-6', 'topic-control');">
+    <img id="img-6" src="imgs/arrow.png" alt="+"/>
+    Control Structures
+</h1>
+<iframe class="section-style" id="topic-array" src="ControlStructures.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-7', 'topic-loops');">
+    <img id="img-7" src="imgs/arrow.png" alt="+"/>
+    Loops
+</h1>
+<iframe class="section-style" id="topic-array" src="Loops.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-8', 'topic-classes');">
+    <img id="img-8" src="imgs/arrow.png" alt="+"/>
+    Classes
+</h1>
+<iframe class="section-style" id="topic-array" src="Classes.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-9', 'topic-blocks');">
+    <img id="img-9" src="imgs/arrow.png" alt="+"/>
+    Blocks
+</h1>
+<iframe class="section-style" id="topic-array" src="Blocks.html"></iframe>
+
+<h1 class="heading-node" onclick="toggle_visible('img-10', 'topic-files');">
+    <img id="img-10" src="imgs/arrow.png" alt="+"/>
+    File I/O
+</h1>
+<iframe class="section-style" id="topic-array" src="Files.html"></iframe>
+
+</body>
+</html>
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Integer.css">
+
+    <title></title>
+</head>
+<body>
+<h1> creating strings </h1>
+<table>
+    <tr>
+        <td colspan="2"><span class="variable">null_string </span><span class="command">=</span> "";
+        </td>
+        <td colspan="2"><span class="variable">null_string</span> <span class="command">=</span> <span
+                class="rbclass">String</span>.<span class="command">new</span></td>
+    </tr>
+    <tr>
+        <td colspan="2"><span class="variable">my_string</span> <span class="command">=</span> <span class="comment">"This is a string."</span>
+        </td>
+        <td colspan="2"><span class="variable">multi_line</span> <span class="command">=</span> <span class="comment">"This is a multi-\nline string."</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4"><span class="variable">multi_line</span> <span class="command">=</span> %q{<span
+                class="comment">This is a multi-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;line text string.</span>}
+        </td>
+    </tr>
+    <tr>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+        <td class="zero-height"></td>
+    </tr>
+
+
+</table>
+<p class="announcement">In the following sections let:
+    <span class="variable">s</span><span class="command"> = </span>
+    <span class="comment">"hello world"</span>
+</p>
+
+<h2>indexing -- yes, just like arrays</h2>
+
+<table>
+    <tr>
+        <td><span class="variable">s</span>[i]<span class="comment">  #=> ith char</span></td>
+        <td><span class="variable">s</span>[-2]<span class="comment">  #=>"l" 2nd to last</span></td>
+        <td><span class="variable">s</span>[2..6]<span class="comment">  #=>"llo w" </span></td>
+        <td><span class="variable">s</span>[2,3]<span class="comment">  #=>"llo" [idx,cnt]</span></td>
+    </tr>
+
+</table>
+<h2>string operators -- like arrays</h2>
+
+    <table>
+        <tr>
+            <td><span class="variable">s</span><span class="command"> << </span><span class="comment">"woot"</span></td>
+            <td><span class="variable">s</span><span class="command"> + </span><span class="comment">"woot"</span></td>
+            <td><span class="variable">s</span>.<span class="command">concat</span>(<span
+                    class="variable">more_word</span>)
+            </td>
+            <td><span class="variable">s</span><span class="command"> * </span> <span class="variable">3</span><span
+                    class="comment">
+            &nbsp;&nbsp;#=> s + s + s </span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="variable">s</span><span class="command"> =~ <span
+                    class="comment">/world/</span>
+            &nbsp;&nbsp;#=> 6, idx of match</span></td>
+            <td colspan="2"><span class="variable">s</span>[<span class="comment">"world"</span>]
+                <span class="comment">&nbsp;&nbsp;#=> "world", rtn search string if found</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="command"> ==, >, <, >=, <= </span><span class="comment">
+            &nbsp;&nbsp;#compare ascii, rtn true/false</span></td>
+            <td colspan="2"><span class="variable">s</span>
+                <span class="command"> <=> </span> <span class="variable">s2</span><span class="comment">
+            &nbsp;&nbsp;#compare ascii, return -1 0 1</span></td>
+        </tr>
+        <tr>
+            <td colspan="4"><span class="variable">num</span>
+                <span class="command"> = </span> <span class="variable">2;</span>
+                <span class="comment">"Love me </span>#{<span class="variable">num</span>}
+                <span class="comment">times"&nbsp;&nbsp;&nbsp;&nbsp; #=> "Love me 2 times",  Object must have a .to_s method</span>
+            </td>
+        </tr>
+    </table>
+
+    <h2>methods</h2>
+    <table>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">chars</span>(str)<span
+                    class="comment"> &nbsp; #=> array of chars</span></td>
+            <td colspan="2"><span class="variable">s.</span><span class="command">chomp</span>
+                <span class="comment"> &nbsp; #=> e.g. gets.chomp,  remove EOL chars</span></td>
+        </tr>
+        <tr>
+            <td colspan="2">s.<span class="command">count(<span class="variable">str</span>)</span><span
+                    class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #sum each time any ch in str appears</span>
+            </td>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">delete</span>(str)<span
+                    class="comment"> #rtn string w/out all occ. of str</span><br>
+                <span class="variable">s</span>.
+                <span class="command">delete!</span>(<span class="variable">str</span>)<span class="comment"> #same but modify s</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">[].<span class="command">empty?</span><span
+                    class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #=> true if string is empty</span>
+            </td>
+            <td colspan="2">[].<span class="command">end_with?</span>(<span class="variable">str</span>)<span
+                    class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #=> true if string ends with str</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">[].<span class="command">include?</span>(<span class="variable">str</span>)<span
+                    class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #=> true if string contains str</span>
+            </td>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">index</span>(str)<span
+                    class="comment"> &nbsp; #=> index of 1st occurrence</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">insert</span>(<span class="variable">3, "aaa"</span>)
+                <span class="comment">  #=> "hellaaao world" (s is modified)</span>
+            </td>
+
+            <td colspan="2"><span class="variable">s</span>.<span class="command">length</span><br>
+                <span class="variable">s</span>.<span class="command">size</span><span
+                        class="comment"> &nbsp;&nbsp; #=> length of string</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">lines</span>
+                <span class="comment"> #=> break at \n, rtn array </span><br>
+                <span class="variable">s</span>.
+                <span class="command">lines</span>(<span class="comment">".  "</span>)
+                <span class="comment"> #=>break on ".  " instead</span>
+            </td>
+            <td colspan="2"><span class="variable">'c'</span>.<span class="command">ord,</span>
+                <span class="comment">  #=> ascii number for char</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">reverse,</span> <span
+                    class="variable">s</span>.<span class="command">reverse!</span>
+                <span class="comment">  #=> s reversed</span></td>
+            <td colspan="2">
+                <span class="variable">s</span>.<span class="command">scan</span>(<span class="comment">/w+/</span>)
+                <span class="comment"> #=>break on regex instead</span>
+            </td>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">split</span><span
+                    class="comment"> #=> break at ' ', rtn array </span><br>
+                <span class="variable">s</span>.<span class="command">split</span>(<span class="comment">";\n"</span>)
+                <span class="comment"> #=>break on ";\n" instead</span>
+            </td>
+            <td colspan="2">[].<span class="command">start_with?</span>(<span class="variable">str</span>)<span
+                    class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #=> true if string starts with str</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">strip, </span>
+                <span class="variable">s</span>.<span class="command">strip!</span>
+                <span class="comment">  #=> "remove leading whitespace</span>
+            </td>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">to_i</span>
+                <span class="comment"> #=> convert to Integer</span></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span class="variable">s</span>.<span class="command">to_f</span>
+                <span class="comment"> #=> convert to float</span>
+            </td>
+            <td colspan="2"><span class="variable">s</span>.<span class="command">upcase, </span>
+                <span class="variable">s</span>.<span class="command">upcase!</span>
+                <span class="comment">  #=> all chars upcased.  </span>
+            </td>
+
+        <tr>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+        </tr>
+
+    </table>
+    <h2>iterators</h2>
+    <table>
+        <tr>
+            <td colspan="2"><span class="variable">s.</span><span class="command">each_char</span>{|<span
+                    class="variable">ch</span>| puts <span
+                    class="variable">ch</span>}<span class="comment"> &nbsp; #do block to each char</span>
+            </td>
+            <td colspan="2"><span class="variable">s.</span><span class="command">each_line(delim)</span>{|<span
+                    class="variable">line</span>|
+                <span class="command">puts </span><span class="variable">line</span>}<span
+                        class="comment"> &nbsp;&nbsp;#=> if delim missing, default is crlf</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><span class="variable">s</span>.<span class="command">gsub&nbsp;</span>(<span
+                    class="variable">search, replace</span>)
+                <span class="comment"> &nbsp; #=> replace all occ. of search with replace</span><br>
+                <span class="variable">s</span>.<span class="command">gsub!</span>(<span class="variable">search, replace</span>)
+                <span class="comment"> &nbsp; #same but modifies self</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+            <td class="zero-height"></td>
+        </tr>
+    </table>
+</body>
+</html>

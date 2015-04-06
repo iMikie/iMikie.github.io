@@ -1,0 +1,39 @@
+nav {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    font-size: 14px;
+}
+
+nav p:first-child {
+    color: #003366;
+    font-size: 20px;
+    margin-left: -0.5em;
+
+}
+
+nav p {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    margin-top: -0.35em;
+}
+
+nav p a:link {
+    color: #003399;
+    margin-left:1em;
+}
+
+nav p a:visited {
+    color: #603360;
+}
+
+nav p a:hover {
+    color: #A0A3F0;
+}
+.plink {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    margin-left: 2em;
+    margin-top: -0.35em;
+    text-decoration:underline;
+    cursor:pointer;
+    color:#003399;
+
+}
+
