@@ -5,27 +5,28 @@
   <link rel="stylesheet" type="text/css" href="site-master.css">
 
   <SCRIPT LANGUAGE="JavaScript">
-  function reload_iframe(loc, pos){
-    document.getElementById('embedded_page').src = loc;
-    document.getElementById('iframe_handle').style.top=pos;
-
-  }
+      function reload_iframe(loc, pos){
+          document.getElementById('embedded_page').src = loc;
+          document.getElementById('iframe_handle').style.top=pos;
+      }
+      function new_iframe(loc){
+          document.getElementById('embedded_page').src = loc;
+      }
   </script>
 
 </head>
-<div id="sub-title">
+<div id="sub-title" >
   --a project site for Mike Farr
 </div>
 
 <div id="iframe_handle">
 </div>
 
-<img id="site-title" src="imgs/site/think_build.png" alt="think.build" >
+<img id="site-title" src="imgs/site/think_build.png" alt="think.build" />
 
 <nav id="nav-style">
   <div id="nav-button-1">
     <a onclick="reload_iframe('architecture/architecture-1.html','140px');" href="#"><br>Architecture</a>
-
   </div>
   <div id="nav-button-2">
     <a onclick="reload_iframe('film/film-1.html','265px');" href="#"><br>Film</a>
@@ -42,6 +43,6 @@
 
 </nav>
 <main>
-  <iframe id="embedded_page" src="blog/blog-1.html">
+  <iframe id="embedded_page" src="blog/blog-1.html"  onload="window.top.scrollTo(0,0);">
   </iframe>
 </main>
