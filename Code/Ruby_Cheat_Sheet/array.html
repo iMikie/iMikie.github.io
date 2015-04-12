@@ -13,21 +13,24 @@
 <h1> creating arrays </h1>
 <table>
     <tr>
-        <td colspan="4"> <span class="variable">numbers</span> <span class="command">=</span> [<span class="variable">1,2,3,4</span>]</td>
+        <td colspan="4"><span class="variable">numbers</span> <span class="command">=</span> [<span class="variable">1,2,3,4</span>]
+        </td>
     </tr>
     <tr>
-        <td colspan="4"> <span class="variable">strings</span> <span class="command">=</span> [<span class="comment">"foo", "baz" "boo"</span>]</td>
+        <td colspan="4"><span class="variable">strings</span> <span class="command">=</span> [<span class="comment">"foo", "baz" "boo"</span>]
+        </td>
     </tr>
     <tr>
-        <td colspan="4"> <span class="variable">empty_ar</span> <span class="command">=</span> [], <span class="variable">empty_ar <span class="command">=</span> <span class="rbclass">Array.</span><span
+        <td colspan="4"><span class="variable">empty_ar</span> <span class="command">=</span> [], <span
+                class="variable">empty_ar <span class="command">=</span> <span class="rbclass">Array.</span><span
                 class="command">new</span></td>
     </tr>
     <tr>
 
-        <td colspan="4"> <span class="variable">game_board</span> <span class="command">=</span> <span class="rbclass">Array.</span><span
+        <td colspan="4"><span class="variable">game_board</span> <span class="command">=</span> <span class="rbclass">Array.</span><span
                 class="command">new</span>(8) { <span class="rbclass">Array.</span><span
                 class="command">new</span>(8) }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span class="comment">#init an 8 x 8 multi-dim array this way.</span></td>
+            <span class="comment">#init an 8 x 8 multi-dim array this way.</span></td>
     </tr>
     <tr>
         <td class="zero-height"></td>
@@ -38,10 +41,11 @@
 
 </table>
 <br>
+
 <p class="announcement">In the following sections let:
     <span class="variable">ar</span><span class="command"> = </span>
     <span class="reg-code">[
-        <span class="comand">5</span>,
+        <span class="command">5</span>,
         <span class="command">6</span>,
         <span class="command">7</span>,
         <span class="command">8</span>]
@@ -52,10 +56,14 @@
 
 <table>
     <tr>
-        <td><span class="variable">ar</span>[<span class="variable">i]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;#=> ith element</span></td>
-        <td><span class="variable">ar</span>[<span class="variable">-2]</span><span class="comment">  &nbsp;#=> 7, 2nd from end</span></td>
-        <td><span class="variable">ar</span>[<span class="variable">1..3</span>]<span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [6,7,8]  </span></td>
-        <td><span class="variable">ar</span>[<span class="variable">2,2]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [7,8]  </span></td>
+        <td><span class="variable">ar</span>[<span class="variable">i]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;#=> ith element</span>
+        </td>
+        <td><span class="variable">ar</span>[<span class="variable">-2]</span><span class="comment">  &nbsp;#=> 7, 2nd from end</span>
+        </td>
+        <td><span class="variable">ar</span>[<span class="variable">1..3</span>]<span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [6,7,8]  </span>
+        </td>
+        <td><span class="variable">ar</span>[<span class="variable">2,2]</span><span class="comment">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#=> [7,8]  </span>
+        </td>
     </tr>
 </table>
 <h2>operators</h2>
@@ -63,9 +71,11 @@
 
 <table>
     <tr>
-        <td><span class="variable">ar</span> <span class="command"> << </span> [<span class="variable">9</span>]&nbsp;&nbsp;<span class="comment"> #=>[5,6,7,8,9]</span>
+        <td><span class="variable">ar</span> <span class="command"> << </span> [<span class="variable">9</span>]&nbsp;&nbsp;<span
+                class="comment"> #=>[5,6,7,8,9]</span>
         </td>
-        <td><span class="variable">ar</span> <span class="command">+</span> <span class="variable">9</span>&nbsp;&nbsp;<span class="comment"> #=> [5,6,7,8,9]</span>
+        <td><span class="variable">ar</span> <span class="command">+</span> <span
+                class="variable">9</span>&nbsp;&nbsp;<span class="comment"> #=> [5,6,7,8,9]</span>
         </td>
         <td><span class="variable">ar</span>.<span class="command">concat</span>(<span
                 class="variable">9</span>)<span class="comment">#=> [5,6,7,8,9]</span></td>
@@ -80,53 +90,68 @@
 <h2>methods</h2>
 <table>
     <tr>
-        <td colspan="2">[].<span class="command">size</span>, [].<span class="command">length</span><span
-                class="comment"> &nbsp;&nbsp; #returns the number of elements</span></td>
+
         <td colspan="2">[].<span class="command">count(<span class="variable">val</span>)</span><span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #number of elements that == val </span><br>
             [].<span class="command">count{|<span class="variable">el</span>| <span
                     class="variable">el</span> < 5}</span><span class="comment"> #number that pass block test.</span>
         </td>
-    </tr>
-    <tr>
         <td colspan="2">[].<span class="command">delete</span>(el)<span class="comment"> #delete 1st el, rtn idx (modifies array)</span>
         </td>
+    </tr>
+    <tr>
         <td colspan="2">[].<span class="command">delete_at</span>(n)<span class="comment">  #delete el at index n (modifies array)</span>
         </td>
-    </tr>
-    <tr>
-
-        <td colspan="2">[].<span class="command">index</span>(el)<span class="comment"> &nbsp; #rtn index of 1st occurrence>
-        </td>
-        <td colspan="2">[].<span class="command">take</span>(n)<span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;#return new array with first n elements</span>
-        </td>
-    </tr>
-    <tr>
         <td colspan="2">[].<span class="command">drop</span>(n)<span class="comment">&nbsp;&nbsp;#return new array w/out first n elements</span>
         </td>
-        <td colspan="2">[].<span class="command">insert</span>(<span class="variable">idx, el,...</span>)<span
-                class="comment">  #after ith el (modifies array)
-        </td>
     </tr>
     <tr>
 
-        <td colspan="2">[].<span class="command">join</span>(<span class="variable">delim</span>)<span class="comment"> &nbsp; #return string with delim between els</span>
+        <td colspan="2">[].<span class="command">flatten</span>(<span class="variable">el</span>)<span class="comment"> &nbsp; #rtn 1 dim new array of all elements</span>
         </td>
         <td colspan="2">[].<span class="command">include?</span>(<span class="variable">el</span>)<span class="comment">&nbsp;&nbsp;&nbsp;&nbsp; #return true if array contains el</span>
         </td>
+
     </tr>
     <tr>
-        <td colspan="2">[].<span class="command">push</span>(<span class="variable">el</span>)<span class="comment"> &nbsp; #append el onto the end (modifies array)</span>
+        <td colspan="2">[].<span class="command">index</span>(el)<span class="comment"> &nbsp; #rtn index of 1st occurrence></span>
+        </td>
+        <td colspan="2">[].<span class="command">insert</span>(<span class="variable">idx, el,...</span>)<span
+                class="comment">  #after ith el (modifies array)</span>
         </td>
 
-        <td colspan="2">[].<span class="command">pop</span>(<span class="variable">n)<span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #remove first n el's (modifies array)</span>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">join</span>(<span class="variable">delim</span>)<span class="comment"> &nbsp; #return string with delim between els</span>
+        </td>
+        <td colspan="2">[].<span class="command">length</span><span class="comment"> &nbsp;&nbsp; #returns the number of elements</span>
         </td>
     </tr>
     <tr>
-        <td colspan="2">[].<span class="command">flatten</span>(<span class="variable">el</span>)<span class="comment"> &nbsp; #rtn 1 dim new array of all elements</span>
-        </td>
-
         <td colspan="2">[].<span class="command">pop</span>(<span class="variable">n</span>)<span class="comment"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #remove first n el's (modifies array)</span>
         </td>
+        <td colspan="2">[].<span class="command">push</span>(<span class="variable">el</span>)
+            <span class="comment"> &nbsp; #append el onto the end (modifies array)</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">size</span>
+            <span class="comment"> &nbsp;&nbsp; #returns the number of elements</span></td>
+        <td colspan="2">[].<span class="command">shift, shift</span>(n)</span>
+            <span class="comment"> &nbsp;&nbsp; #removes and returns the first number of elements</span></td>
+
+
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">shuffle, shuffle!</span>
+            <span class="comment"> &nbsp;&nbsp; #randomly reorders the elements</span></td>
+        <td colspan="2">[].<span class="command">take, take</span>(<span class="variable">n</span>)<span
+                class="comment">&nbsp;&nbsp;&nbsp;&nbsp;#remove the first n elements</span>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">[].<span class="command">uniq</span>(n)<span class="comment">
+            &nbsp;&nbsp;&nbsp;&nbsp;#return new array with duplicates removed</span>
     </tr>
     <tr>
         <td class="zero-height"></td>
@@ -173,13 +198,14 @@
         <td>[].<span class="command">all?</span></td>
         <td>[].<span class="command">none?</span></td>
         <td>[].<span class="command">delete_if</span></td>
-        <td>[].<span class="command">select</span></td>
+        <td>[].<span class="command">find</span></td>
     </tr>
     <tr>
-        <td>[].<span class="command">find</span></td>
         <td>[].<span class="command">find_index</span></td>
         <td>[].<span class="command">find_all</span></td>
         <td>[].<span class="command">first, first(n)</span></td>
+        <td>[].<span class="command">select</span></td>
+
     </tr>
 </table>
 

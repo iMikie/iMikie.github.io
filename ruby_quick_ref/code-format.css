@@ -1,0 +1,63 @@
+
+p.code-paragraph {
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-left: 18.0pt;
+    tab-stops: 72.0pt 144.0pt 216.0pt 288.0pt 360.0pt;
+    font-size: 10.0pt;
+    font-family: Consolas;
+    color: black;
+    border: none;
+}
+span.Instructions {
+    font-family:"Times New Roman";
+    color:#9D44B8;
+    font-weight:normal;
+    font-style:italic;
+    font-size:13pt;
+}
+span.parameter {
+    font-family: Consolas;
+    color: #407CD5;
+    font-weight: normal;
+    font-style: normal;
+}
+
+span.command {
+    font-family: Consolas;
+    color: #0222F9;
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.localvar {
+    font-family: Consolas;
+    color: #407CD5;
+    font-weight: normal;
+    font-style: normal;
+}
+
+span.string {
+    color: #007F00;
+    font-weight: normal;
+}
+
+span.comment {
+    font-size: 10.0pt;
+    color: #007F00;
+    font-weight: normal;
+    font-style: italic;
+}
+
+span.Class {
+    color: #6B2085;
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.text {
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+}
+

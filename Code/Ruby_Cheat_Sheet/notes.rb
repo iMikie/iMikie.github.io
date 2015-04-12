@@ -46,3 +46,12 @@ delete_if{|key,value| block}
 
 
 h.de
+
+------Missing from Array
+.shift
+.flatten out of alphabetic
+.each_index
+.shuffle
+.uniq
+.values_at
+Combine the ones that take blocks with methods

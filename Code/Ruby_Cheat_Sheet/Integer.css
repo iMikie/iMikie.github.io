@@ -104,3 +104,6 @@ td {
     background-color: #F9F9F9;
 
 }
+tr.command {
+color: red;
+}

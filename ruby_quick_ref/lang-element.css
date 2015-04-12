@@ -1,0 +1,71 @@
+h1 {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue', 'sans-serif';
+    color: #003399;
+    font-size: 32px;
+    text-align:center;
+    font-weight: 200;
+
+}
+
+h2 {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    font-size: 14px;
+    color: #003399;
+    padding-top: 1em;
+}
+h3 {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    font-size: 18px;
+    color: #003399;
+}
+.Default {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'sans-serif';
+
+    /*font-size: 12px;*/
+    margin-left: 72.0pt;
+}
+#examples {
+    margin-left:5em;
+}
+
+#methods-list {
+    width: 6em;
+    margin-left:2em;
+}
+
+
+#methods-list h3 {
+    font-family: Consolas;
+    margin:1px;
+    font-size:11pt;
+
+}
+
+#methods-list h3 a {
+    color: #003399;
+    /*font-weight: bold;*/
+    font-style: normal;
+    text-decoration: none;
+}
+#methods-list h3 a:hover {
+    color: #00A0FF;
+}
+
+.method-detail {
+    position: absolute;
+    top:30em;
+    width: 44em;
+    margin-left:12em;
+    margin-right:2em;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    display:none;
+    padding-left:1em;
+    /*padding-top:1em;*/
+}
+.rule {
+    margin-bottom:2em;
+    width:40em;
+}

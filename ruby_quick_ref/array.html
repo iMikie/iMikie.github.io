@@ -1,0 +1,643 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+
+    <link href="lang-element.css" rel="stylesheet" type="text/css">
+    <link href="code-format.css" rel="stylesheet" type="text/css">
+
+    <SCRIPT LANGUAGE="JavaScript">
+        var last = 'shovel'
+        function display_method(content_name) {
+            if (last != content_name) {
+                document.getElementById(last).style.display = "none"
+            }
+            last = content_name;
+            document.getElementById(content_name).style.display = "block";
+        }
+    </script>
+</head>
+
+<h1>Array</h1>
+<h2>
+    examples
+</h2>
+<div id="examples">
+    <p class="code-paragraph"><span class="parameter">numbers&nbsp;</span>
+        <span class="command">=</span> [<span class="command">1,2,3,4</span>]</p>
+
+    <p class="code-paragraph"><span class="localvar">strings&nbsp;</span>
+        <span class="command">=</span> [<span class="string">&quot;foo&quot;</span>,
+        <span class="string">&quot;</span><span class="string">baz</span>&quot;<span class="text">,</span>
+        <span class="string">&quot;boo&quot;</span></span>]</p>
+
+    <p class="code-paragraph"><span class="localvar">empty_ar</span>
+        <span class="command">=</span> []</p>
+
+    <p class="code-paragraph"><span class="localvar">empty_ar</span> <span style="color:#0432FF; ">=</span> <span
+            class="Class"> Array.</span></span><span class="command">new</span></p>
+
+    <p class="code-paragraph"><span class="localvar">game_board</span> <span style="color:#0432FF; ">=</span>
+        <span class="Class"> Array.</span></span><span class="command">new</span>(<span class="parameter">8</span>) {
+        <span class="Class"> Array</span></span><span style="color:#7F1B80; ">.</span>
+        <span class="command">new</span>(<span class="parameter">8</span>) }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="comment"> #init an 8 x 8 multi-dim array this way.</span></p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span>[<span class="parameter">i</span><span
+            class="text">]</span> &nbsp;&nbsp;&nbsp;&nbsp;                    <span
+            class="comment"> #=&gt; ith element</span></span></p>
+
+    <p class="code-paragraph">
+        <span class="localvar">ar</span><span
+            class="text">[</span><span class="parameter">-2</span><span class="text">]</span>&nbsp;&nbsp;&nbsp;&nbsp;                   
+        <span class="comment"> #=&gt; 2nd from end</span></span>
+    </p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span>[<span class="parameter">1..3</span>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              
+        <span class="comment"> #=&gt; [6,7,8]</span></span></p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span><span class="text">[</span><span
+            class="parameter">2,2</span><span class="text">]</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+        <span class="comment">#=&gt; [7,8]</span></span></p>
+
+    <p>&nbsp;</p>
+</div>
+<hr>
+<h2>
+    methods
+</h2>
+<div id="methods-list">
+    <h3><a onclick="display_method('shovel');" href="#"><< </a></h3>
+
+    <h3><a onclick="display_method('plus');" href="#">+ </a></h3>
+
+    <h3><a onclick="display_method('minus');" href="#">- </a></h3>
+
+    <h3><a onclick="display_method('multiply');" href="#">* </a></h3>
+
+    <h3><a onclick="display_method('all');" href="#">all? </a></h3>
+
+    <h3><a onclick="display_method('any');" href="#">any?</a></h3>
+
+    <h3><a onclick="display_method('concat');" href="#">concat </a></h3>
+    <h3><a onclick="display_method('count');" href="#">count </a></h3>
+
+    <h3><a onclick="display_method('delete');" href="#">delete </a></h3>
+
+    <h3><a onclick="display_method('delete_at');" href="#">delete_at</a></h3>
+
+    <h3><a onclick="display_method('delete_if');" href="#">delete_if</a></h3>
+
+    <h3><a onclick="display_method('each');" href="#">each</a></h3>
+
+    <h3><a onclick="display_method('each_with_index');" href="#">each_with_index</a></h3>
+
+    <h3><a onclick="display_method('find');" href="#">find</a></h3>
+
+    <h3><a onclick="display_method('find_all');" href="#">find_all</a></h3>
+
+    <h3><a onclick="display_method('find_index');" href="#">find_index</a></h3>
+
+    <h3><a onclick="display_method('first');" href="#">first</a></h3>
+
+    <h3><a onclick="display_method('inject');" href="#">inject</a></h3>
+
+    <h3><a onclick="display_method('map');" href="#">map</a></h3>
+
+    <h3><a onclick="display_method('drop');" href="#">drop</a></h3>
+
+    <h3><a onclick="display_method('flatten');" href="#">flatten</a></h3>
+
+    <h3><a onclick="display_method('include?');" href="#">include?</a></h3>
+
+    <h3><a onclick="display_method('index');" href="#">index</a></h3>
+
+    <h3><a onclick="display_method('insert');" href="#">insert</a></h3>
+
+    <h3><a onclick="display_method('join');" href="#">join</a></h3>
+
+    <h3><a onclick="display_method('length');" href="#">length</a></h3>
+
+    <h3><a onclick="display_method('max');" href="#">max</a></h3>
+
+    <h3><a onclick="display_method('min');" href="#">min</a></h3>
+
+    <h3><a onclick="display_method('minmax');" href="#">minmax</a></h3>
+
+    <h3><a onclick="display_method('pop');" href="#">pop</a></h3>
+
+    <h3><a onclick="display_method('push');" href="#">push</a></h3>
+
+    <h3><a onclick="display_method('select');" href="#">select</a></h3>
+
+    <h3><a onclick="display_method('size');" href="#">size</a></h3>
+
+    <h3><a onclick="display_method('shift');" href="#">shift</a></h3>
+
+    <h3><a onclick="display_method('shuffle');" href="#">shuffle</a></h3>
+
+    <h3><a onclick="display_method('take');" href="#">take</a></h3>
+
+    <h3><a onclick="display_method('uniq');" href="#">uniq</a></h3>
+</div>
+<div id="shovel" class="method-detail">
+    <h3><<               shovel operator</h3>
+
+    <p class="Default">Appends to the end of the array.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>      
+        <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+
+
+    <p class="code-paragraph">         
+        <span class="localvar">ar </span><span class="command">&lt;&lt;</span>
+        <span class="localvar"> 9 </span></p>
+
+    <p></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span
+                class="literal">9 </span>]</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>      
+        <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar </span><span class="command">&lt;&lt;</span><span
+            class="localvar"> </span><span class="text">[</span><span class="localvar"> </span><span
+            class="literal">1</span><span class="localvar">, </span><span class="literal">2</span><span
+            class="localvar">, </span><span class="literal">3 </span><span class="text">]</span><span
+            class="localvar"> </span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span
+                class="literal">8</span>, <span class="text">[</span><span class="localvar"> </span><span
+                class="literal">1</span><span class="localvar">, </span><span class="literal">2</span><span
+                class="localvar">, </span><span class="literal">3 </span><span class="text">]</span><span
+                class="literal"> </span>]</p>
+</div>
+
+<div id="plus" class="method-detail">
+    <h3>+                plus</h3>
+
+<p></p>
+    <p class="Default">Similar to .<span
+            class="command"><span style="font-size:12.0pt; ">concat</span></span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; background:#F2F2F2; ">(</span><span
+            class="parameter"><span style="font-family:'Menlo','serif'; font-size:12.0pt; ">element</span></span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; background:#F2F2F2; ">)</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; background:#F2F2F2; "> </span></p>
+
+    <p class="Default">Combines (concatenates) the elements of arrays.
+        </p>
+
+    <p></p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">the expression:</span></span>   
+        [<span class="literal">5</span>]
+        + <span class="text">
+            [</span>
+        <span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">3</span>]
+        + <span class="text">[</span>
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>         
+        [<span class="literal">5</span>,
+        <span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">3</span>,
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p></p>
+</div>
+
+<div id="minus" class="method-detail">
+    <h3>-                 minus, subtract</h3>
+
+    <p></p>
+
+    <p class="Default">Removes all occurrences of the elements of the second operand. <span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "><br>
+  <span style="background:#F2F2F2; "> </span></span></p>
+    <hr class="rule">
+
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">the expression:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>] -
+        <span class="text">[</span><span class="literal">6</span>,
+        <span class="literal">7 </span><span class="text">]</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>         
+        [<span class="literal">5</span>]</p>
+</div>
+
+<div id="multiply" class="method-detail">
+    <h3>*                 array multiply</h3>
+
+    <p class="Default">Combines copies of the array into a new array.
+    </p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Ouch!&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar </span>
+        <span class="command">*</span>
+        <span class="localvar"> </span>
+        <span class="text">3</span></p>
+
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+          [<span class="string">&quot;Ouch!, Ouch!, Ouch!&quot;</span>]</p>
+
+</div>
+
+<div id="all" class="method-detail">
+    <h3>all?</h3>
+
+    <p class="Default">Returns true if all elements of the array pass the block's test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">all?</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt; <span class="literal">4 </span>}</p>
+
+
+    <p class="code-paragraph"><span class="Instructions">
+        <span style="font-size:13.0pt; ">returns:</span></span> 
+        <span class="text">true</span></p>
+
+</div>
+
+<div id="any" class="method-detail">
+    <h3>any?</h3>
+    <p class="Default">Returns true if any element of the array passes the block's test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+    <br>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.any<span class="command">?</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt; <span class="literal">6 </span>}</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span
+            style="font-size:13.0pt; ">returns:</span></span>    <span
+            class="text">true</span></p>
+    <br>
+</div>
+
+<div id="concat" class="method-detail">
+    <h3>concat (<span class="parameter">array</span>)</h3>
+
+    <p></p>
+
+    <p class="Default">Adds (concatenates) the elements of the parameter array onto the end of the array.
+        <br>
+        The array is modified.</p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>       
+        <span class="localvar">ar</span> <span class="command">=</span>
+        [
+        <span class="literal">1</span>,
+        <span class="literal">2</span>
+       ]
+        <br>
+        <span class="localvar">           ar</span>.
+        <span class="command">concat</span>([<span class="literal">10</span>,
+        <span class="literal">12</span>])
+    </p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>    
+        [<span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p></p>
+</div>
+<div id="count" class="method-detail">
+    <h3>count
+        <br>count <span class="text">(<span class="parameter">element</span>)</span>
+        <br> count <span class="text">{ block } </span>
+    </h3>
+
+    <p class="Default">Without parameter: returns the length of the array.
+</p>
+
+    <p class="Default">With parameter: returns the number of times  </span>
+        <span class="parameter"><span style="font-family:'Menlo','serif'; font-size:12.0pt; ">element</span></span> appears in the array.</span></p>
+
+
+
+    <p class="Default">With block: returns the number of elements that pass the block test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; background:#F2F2F2; "> </span></p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+           <span class="text">4</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span>(<span
+            class="literal">7 </span>)
+        <br>
+        <span class="Instructions">returns:</span>  <span
+            class="text">2</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span>
+        {|<span class="parameter">el</span>| <span class="parameter">el</span> &gt;= <span class="literal">6 </span>}
+        <br>
+        <span class="Instructions">returns:</span>  <span
+            class="text">3</span></p>
+
+</div>
+
+<div id="delete" class="method-detail">
+<h3> delete (<span class="parameter">element</span>)</h3>
+
+    <p>
+    </p>
+
+    <p class="Default">Returns the  <span
+            class="parameter">element</span> if it was deleted from the array, otherwise nil. </p>
+
+    <p>
+    </p>
+
+    <p class="Default">The array itself is modified.</p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>, <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.delete</span>(<span
+            class="literal">7</span>)</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="text">7</span></p>
+
+    <p class="code-paragraph">            <span class="localvar">ar</span>
+        is now [<span class="literal">5</span>,
+        <span class="literal">6</span>]</p>
+</div>
+
+<div id="delete_at" class="method-detail">
+<h3>delete_at(<span class="parameter">index</span>)</h3>
+
+    <p class="Default">Deletes the element at <span class="parameter">index</span>.</p>
+
+    <p class="Default">The array itself is modified.</p>
+
+    <p class="Default">Returns the deleted element, or nil if there was no <span
+            class="parameter">index'</span>th element.</p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">           <span class="localvar">ar</span><span class="command">.delete_at</span>(<span class="literal">1</span>)</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+           <span class="text">6</span></p>
+
+    <p class="code-paragraph"><span class="text">            </span><span class="localvar">ar</span> is now
+        [<span class="literal">5</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+</div>
+
+<div id="delete_if" class="method-detail">
+<h3>delete_if <span class="text">{ block }</h3>
+
+
+    <p class="Default">Delete elements which pass the block test.</p>
+
+    <p class="Default">Returns the original array which has been modified.</p>
+<hr class="rule">
+    <p class="code-paragraph">
+        <span class="Instructions">let:</span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>, <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">
+                   <span class="localvar">ar</span>.<span class="command">delete_if</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt;= <span class="literal">6 </span>}</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span
+            style="font-size:13.0pt; ">returns:</span></span>   <span
+            class="text">[</span><span class="literal">5</span><span class="text">]</span></p>
+
+    <p class="code-paragraph"><span class="text">           </span><span class="localvar">ar</span> is now
+        [<span class="literal">5</span>]</p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+<span class="text"><span style="font-size:12.0pt; "><br clear="all" style="page-break-before:always;">
+</span></span>
+
+</div>
+
+<div id="each" class="method-detail">
+<h3>each <span class="text">{ block }</span>
+    </h3>
+
+    <p class="Default">Performs the block on each element of the array. Original array is not modified, thus it's is all about the side effects. </p>
+
+    <p class="Default"><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; ">Returns the unmodified array.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+               <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">each</span>{ |<span
+            class="parameter">el</span>| puts <span class="string">&quot;Hi &quot;</span> + <span class="parameter">el</span>
+        +&quot;!&quot;}</p>
+
+    <p class="code-paragraph"><span class="Instructions">StdOut:</span> </p>
+
+    <p class="code-paragraph"><span class="string">          Hi Joe!</span></p>
+
+    <p class="code-paragraph"><span class="string">          Fred!</span></p>
+
+    <p class="code-paragraph"><span class="string">          Hi Sally!</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>   
+        [<span
+                class="string">&quot;Joe&quot;</span>,
+        <span class="literal">&quot;</span><span class="string">Fred&quot;</span>,
+        <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          (<span class="text">the unmodified array)</span></p>
+
+    <p class="Default">&nbsp;</p>
+</div>
+    <div id="all?" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="all?" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="concat" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="count" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="delete" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="delete_at" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="delete_if" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="each" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="each_with_index 5" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="find" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="find_all" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="find_index" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="first" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="inject" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="map" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="drop" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="flatten" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="include?" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="index" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="insert" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="join" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="length" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="max" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="min" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="minmax" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="pop" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="push" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="select" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="size" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="shift" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="shuffle" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="take" class="method-detail">
+        This is the information for all?
+    </div>
+    <div id="uniq" class="method-detail">
+        This is the information for all?
+    </div>
+
