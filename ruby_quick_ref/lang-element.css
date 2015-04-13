@@ -17,6 +17,7 @@ h3 {
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
     font-size: 18px;
     color: #003399;
+    cursor:pointer;
 }
 .Default {
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'sans-serif';
@@ -24,6 +25,11 @@ h3 {
     /*font-size: 12px;*/
     margin-left: 72.0pt;
 }
+.Description {
+     font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'sans-serif';
+     font-size: 12px;
+     margin-left: 72.0pt;
+ }
 #examples {
     margin-left:5em;
 }

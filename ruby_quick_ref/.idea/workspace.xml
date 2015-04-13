@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e9d672-6bf9-49b2-b368-f7461bd92bd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code-format.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang-element.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ruby_quick_ref.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/Integer.css" afterPath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/Integer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/array.html" afterPath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/array.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/notes.rb" afterPath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/notes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/ruby_cheat_sheet.html" afterPath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/ruby_cheat_sheet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/tree.css" afterPath="$PROJECT_DIR$/../Code/Ruby_Cheat_Sheet/tree.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array.html" afterPath="$PROJECT_DIR$/array.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang-element.css" afterPath="$PROJECT_DIR$/lang-element.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruby_quick_ref.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,13 +29,13 @@
     <favorites_list name="ruby_quick_ref" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7177602">
+    <splitter split-orientation="horizontal" split-proportion="0.64819">
       <split-first>
         <leaf>
           <file leaf-file-name="ruby_quick_ref.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ruby_quick_ref.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="960">
+                <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="960">
                   <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                   <folding />
                 </state>
@@ -57,8 +45,8 @@
           <file leaf-file-name="array.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/array.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35008976" vertical-offset="0" max-vertical-offset="9735">
-                  <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+                <state vertical-scroll-proportion="-2.46883" vertical-offset="7511" max-vertical-offset="9690">
+                  <caret line="308" column="64" selection-start-line="308" selection-start-column="64" selection-end-line="308" selection-end-column="64" />
                   <folding>
                     <element signature="n#style#0;n#span#1;n#p#3;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#1;n#p#4;n#div#0;n#!!top" expanded="true" />
@@ -93,8 +81,6 @@
                     <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#12;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#br#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#p#1;n#div#13;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#1;n#p#1;n#div#13;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#span#2;n#p#2;n#div#13;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#13;n#!!top" expanded="true" />
                   </folding>
@@ -109,7 +95,7 @@
           <file leaf-file-name="ruby_quick_ref.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ruby_quick_ref.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+                <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="900">
                   <caret line="27" column="23" selection-start-line="18" selection-start-column="2" selection-end-line="27" selection-end-column="23" />
                   <folding />
                 </state>
@@ -119,8 +105,8 @@
           <file leaf-file-name="lang-element.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lang-element.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.81046313" vertical-offset="0" max-vertical-offset="1200">
-                  <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.32217574" vertical-offset="35" max-vertical-offset="1230">
+                  <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
@@ -129,7 +115,7 @@
           <file leaf-file-name="code-format.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code-format.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+                <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1035">
                   <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
@@ -149,8 +135,8 @@
         <option value="$PROJECT_DIR$/ruby_quick_ref.css" />
         <option value="$PROJECT_DIR$/ruby_quick_ref.html" />
         <option value="$PROJECT_DIR$/code-format.css" />
-        <option value="$PROJECT_DIR$/lang-element.css" />
         <option value="$PROJECT_DIR$/array.html" />
+        <option value="$PROJECT_DIR$/lang-element.css" />
       </list>
     </option>
   </component>
@@ -158,8 +144,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="24" />
+    <option name="x" value="113" />
+    <option name="y" value="47" />
     <option name="width" value="2090" />
     <option name="height" value="1287" />
   </component>
@@ -215,12 +201,19 @@
     <property name="options.lastSelected" value="editor.preferences.smartKeys" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -236,28 +229,36 @@
       <option name="number" value="Default" />
       <updated>1428711492647</updated>
     </task>
+    <task id="LOCAL-00001" summary="First version of ruby_quick_ref redo.">
+      <created>1428810544078</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1428810544078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="24" width="2090" height="1287" extended-state="0" />
-    <editor active="true" />
+    <frame x="113" y="47" width="2090" height="1287" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13769531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -278,48 +279,26 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="First version of ruby_quick_ref redo." />
+    <option name="LAST_COMMIT_MESSAGE" value="First version of ruby_quick_ref redo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ruby_quick_ref.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <caret line="27" column="23" selection-start-line="18" selection-start-column="2" selection-end-line="27" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruby_quick_ref.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="960">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="960">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-format.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang-element.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81046313" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35008976" vertical-offset="0" max-vertical-offset="9735">
-          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7511" max-vertical-offset="9690">
+          <caret line="308" column="64" selection-start-line="308" selection-start-column="64" selection-end-line="308" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#span#1;n#p#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#p#4;n#div#0;n#!!top" expanded="true" />
@@ -354,11 +333,109 @@
             <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#12;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
             <element signature="n#style#0;n#br#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#13;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#1;n#div#13;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#2;n#p#2;n#div#13;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#13;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby_quick_ref.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="900">
+          <caret line="27" column="23" selection-start-line="18" selection-start-column="2" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang-element.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-format.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1035">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby_quick_ref.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="27" column="23" selection-start-line="18" selection-start-column="2" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby_quick_ref.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="960">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-format.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.46883" vertical-offset="7511" max-vertical-offset="9690">
+          <caret line="308" column="64" selection-start-line="308" selection-start-column="64" selection-end-line="308" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#p#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#p#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#6;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#2;n#p#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#p#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#p#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#5;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#2;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#1;n#div#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#10;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#4;n#div#12;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#span#0;n#span#0;n#div#12;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#2;n#p#2;n#div#13;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#13;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang-element.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32217574" vertical-offset="35" max-vertical-offset="1230">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
