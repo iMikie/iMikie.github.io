@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+
+    <link href="ruby_quick_ref.css" rel="stylesheet" type="text/css">
+
+    <SCRIPT LANGUAGE="JavaScript">
+        function reload_iframe(loc) {
+            document.getElementById('embedded_page').src = loc;
+//            document.getElementById('iframe_handle').style.top=pos;
+        }
+        function new_iframe(loc) {
+            document.getElementById('embedded_page').src = loc;
+        }
+    </script>
+</head>
+<header>
+    <p>
+        Ruby Quick Reference
+    </p>
+
+</header>
+<nav class="nav-list">
+
+    <p class="nav-list">
+    </p>
+
+    <h1><a onclick="reload_iframe('array.html');" href="#"><br>Array </a></h1>
+
+    <h1><a onclick="reload_iframe('hash.html');" href="#">Hash </a></h1>
+
+    <h1><a onclick="reload_iframe('string.html');" href="#">String </a></h1>
+    <br>
+
+    <h1><a onclick="reload_iframe('integer.html',);" href="#"><br>Integer </a></h1>
+
+    <h1><a onclick="reload_iframe('float.html',);" href="#"><br>Float </a></h1>
+    <br>
+
+    <h1><a onclick="reload_iframe('control.html',);" href="#"><br>Control<br>Structures</a></h1>
+    <br>
+
+    <h1><a onclick="reload_iframe('loops.html',);" href="#"><br>Loops </a></h1>
+    <br>
+
+    <h1><a onclick="reload_iframe('classes.html',);" href="#"><br>Classes </a></h1>
+
+    <h1><a onclick="reload_iframe('blocks.html',);" href="#"><br>Blocks </a></h1>
+    <br>
+
+    <h1><a onclick="reload_iframe('files.html',);" href="#"><br>File I/O </a></h1>
+</nav>
+<main>
+    <iframe id="embedded_page" src="array.html"  onload="window.top.scrollTo(0,0);">
+    </iframe>
+</main>
+
