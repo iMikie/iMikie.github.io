@@ -54,12 +54,12 @@
         simple and complax tasks.</p>
     <h4 id="toc_1">Testing the new way.</h4>
 
-    <p>GUI based IDEs were just coming out. So we ran multiple tests. In general GUI users slaughtered the command line
-        pros. It was never close. At first there was Lightspeed C and Pascal, then Metrowerks, then NextStep and XCode.
-        (See my
-        <a href="http://www.youtube.com/watch?v=86rnZ_xsZDE"> video review of RubyMine</a> for a similar notion.)  Since you probably don't know those I'll talk about our file management tests. This is easy to understand. A
+    <p>GUI based IDEs were just coming out, Lightspeed C and Pascal(then Metrowerks then NextStep and XCode.)
+        (For a modern equivalent see
+        <a href="http://www.youtube.com/watch?v=86rnZ_xsZDE"> a video review of RubyMine</a>) Since you probably don't
+        know those those IDE's we can still get an idea by just reviewing what we all know about file explorers. A
         user in
-        the GUI clicks to open folders,
+        a GUI clicks to open folders,
         clicks or drags to select multiple files, then drags, hovers over a
         folder to have it automatically open and then drops the file(s). Compare this with a long error prone list of
         commands.
@@ -98,7 +98,7 @@
 
     <p>The guy who maintained it got no respect. There were plans to cut it. Then an interesting thing happened. </p>
 
-    <p>We decided to do an informal survey.  I think it was to CYA before killing ResEdit.
+    <p>We decided to do an informal survey. I think it was to CYA before killing ResEdit.
         We used a little known fact that for debugging purposes, ResEdit embedded a version string in the binary of the
         resources it made. You could therefore tell by looking at the file data for a resource if ResEdit made it.
     </p>
@@ -110,11 +110,11 @@
 
     <p>The real strength of the GUI was not speed but the fact that you didn't have to memorize a bazillion arcane bits
         of info just to get anything done. It allows you to see what you are doing. A dialog box also reminds you of
-        what the options and what their legal values are without having to read "man" pages.
+        what the options and what their legal values are without having to read often inscrutable "man" pages.
 
 
     <p class="embedded_aside">
-        Are man pages generated from capcha's?
+        Is man-page content generated from capcha's?
     </p>
 
 
@@ -144,15 +144,18 @@
         Sublime Text is a wonderful example. They have spent a lot of time thinking
         about how fast you can move around in this limited domain and never take your hand off the keyboard. As you
         auto-complete file names you only need to type the letters that make a filename unique, something a human mind
-        is astoundingly good at. "p0u2" uniquely identifies "phase-0-unit-2" from a collection of similar files folders
-        and as you do this files are opened in the background so that when you have a unique match it's already
+        is astoundingly good at. "p0u2" uniquely identifies "phase-0-unit-2" and you are not limited to the current
+        directory.
+        Sublime is looking throughout your project. As you do this files are opened in the background so that when you
+        have a unique match it's already
         open.</p>
 
     <h3 id="toc_4">Hybrid Designs</h3>
 
     <p>Often at Apple we found there was a simple hybrid solution gave the best of both. Triggering command completion
-        could open dialog that
-        would let you tab through the options. A dialog can remind the user of the available options when
+        could open a dialog that
+        would let you tab through the options. I'd love this for git when I need to fork, pull, or reset the head. A
+        dialog can remind the user of the available options when
         typing an unfamiliar complex command can be a nightmare. The <em>Macintosh Programmers' Workshop</em> had this
         and it was
         one of it's best features. I often wonder if this could be adopted done for linux. </p>

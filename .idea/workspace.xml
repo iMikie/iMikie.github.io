@@ -43,8 +43,8 @@
           <file leaf-file-name="blog-6.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-6.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.32047987" vertical-offset="1071" max-vertical-offset="3247">
-                  <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
+                <state vertical-scroll-proportion="0.12596402" vertical-offset="1400" max-vertical-offset="3281">
+                  <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -494,7 +494,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429060827800</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed ResEdit.png mispelling">
+      <created>1429060997100</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1429060997100</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -567,7 +573,8 @@
     <MESSAGE value="Go to the latest blog post automatically.&#10;Update blog posts&#10;" />
     <MESSAGE value="added 1984 image file" />
     <MESSAGE value="added 1984 image file&#10;Rewrote discussion, added highlites and graphics." />
-    <option name="LAST_COMMIT_MESSAGE" value="added 1984 image file&#10;Rewrote discussion, added highlites and graphics." />
+    <MESSAGE value="fixed ResEdit.png mispelling" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed ResEdit.png mispelling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -940,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32047987" vertical-offset="1071" max-vertical-offset="3247">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.12596402" vertical-offset="1400" max-vertical-offset="3281">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
           <folding />
         </state>
       </provider>
