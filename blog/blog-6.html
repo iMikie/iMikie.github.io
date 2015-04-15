@@ -16,11 +16,13 @@
 </div>
 
 <header id="headsp">
-The Tyranny of the Command Line
+    The Tyranny of the Command Line
 </header>
 <br>
-<div id="code1984">"When you use the command line, you don&#39;t slow yourself down opening a finder and double-clicking on folders. Instead, you get to navigate around your computer, open, create, delete, move, files, etc. all using commands."
-    <p id="cmline"> --from an introduction to learning the Command Line.</p>
+<div id="code1984">"When you use the command line, you don&#39;t slow yourself down opening a finder and double-clicking
+    on folders. Instead, you get to navigate around your computer, open, create, delete, move, files, etc. all using
+    commands."
+    <p id="cmline"> --from an introduction to learning the Command Line wth apologies to DBC.</p>
 
 </div>
 
@@ -29,57 +31,147 @@ The Tyranny of the Command Line
     <img src="imgs/1984.png" alt="Blackwhite and double think" width="600px"/>
 
 
-    <h2>Blackwhite.</h2>
+    <h2>Blackwhite. Wow.</h2>
 
     <p>
-    <p>Ha! When I read that quote on learning the command line I immediately thought of Orwell and 1984.  I became amazed yet again at how well Orwell understood humanity.<p>
-Even with Github, what percentage of users cut and paste the paths from the repository pages? Would that be 100% or only 99%?
+        When I read the above quote on learning the command line as part of my Dev BootCamp training I immediately
+        thought of
+        Orwell, 1984, and his brilliant description of <strong>blackwhite</strong>.
+    </p>
 
-    <h4 id="toc_1">I&#39;m not just spouting off</h4>
+    <p>
+        To be kind to my mentors at DBC, this statement was also a bit of a doctor's "Now this won't hurt a bit," but
+        come to think of it, isn't that what doctors say to a patients before doing something <strong><em>that will
+        hurt?</em></strong>
 
-    <p>It was once my job to measure this.   I worked at Apple as the product manager for UNIX.  Then later for the Macintosh Programmer's Workshop, a development system which was mostly a command line affair. UNIX done better. That&#39;s what we thought was best for program development.</p>
+    <p>
+    </p>
+    <h4 id="toc_1">It was once my job to measure this.</h4>
 
-    <p>As an operating system UNIX was better than the MacOS.  Today OSX is BSD. </p>
+    <p>In the late 80's and early 90's I worked at Apple. One of my early jobs was as a product manager for UNIX and for
+        the <em>Macintosh Programmer's Workshop</em>, a development system which was mostly a
+        command line affair but which did UNIX one (or more) better in many ways. We studied the time it took to do
+        simple and complax tasks.</p>
+    <h4 id="toc_1">Testing the new way.</h4>
 
-    <h4>But we're talking about UI: GUI versus command line.</h4>
+    <p>GUI based IDEs were just coming out. So we ran multiple tests. In general GUI users slaughtered the command line
+        pros. It was never close. At first there was Lightspeed C and Pascal, then Metrowerks, then NextStep and XCode.
+        (See my
+        <a href="http://www.youtube.com/watch?v=86rnZ_xsZDE"> video review of RubyMine</a> for a similar notion.)  Since you probably don't know those I'll talk about our file management tests. This is easy to understand. A
+        user in
+        the GUI clicks to open folders,
+        clicks or drags to select multiple files, then drags, hovers over a
+        folder to have it automatically open and then drops the file(s). Compare this with a long error prone list of
+        commands.
 
-    <p>We ran multiple tests comparing the command line to graphic user interfaces and Finder-like navigators.  Time and time again the GUI slaughtered the command line.  It was never close.  Dragging a file, or even better a group of files you’ve shift clicked or selected with the command key from one folder to another was 10 to 100 times faster that via the command line, and yes, <strong>the more complex the task, the more the GUI won.</strong>  Those regular expressions will kill you every time.<p>
-    <p> And you know what?  We never had to restore a GUI user's system from backup.  Command line file completion disasters were legendary. </p>
-       <p>
-        I ran tests with UNIX and MPW gurus who would never use a GUI if it was to save their children.  And they were faster than I've seen anyone in years.  You see back then the keyboards were faster.  Our laptop keyboards are built to be thin, not fast.</p>
+    <div id="code1985"> cd; <br>
+        ls; <br>
+        cd <em>path</em><br>
+        ls;<br>
+        cp <em>regex path</em><br>
+        stop...what was that destination path?<br>
+        cp <em>regex path</em><br>
+    </p>
+    ...
+    </div>
 
-    <p>  Let me say this again.  It was not even remotely close.  </p>
+    <p>The GUI was 10 times faster that via the command line, and <strong>the more complex the task, the more the
+        GUI won.</strong> These command line guys were pretty darn fast too. Back then the keyboards were faster. Our
+        laptop keyboards today are built to be thin, not fast.</p>
 
-    <p>Of course this isn&#39;t even the strength of the GUI.  The real strength was that you didn't have to memorize a bazillion arcane bits of info just to get anything done.  It allows you to see what you are doing.  A dialog box also reminds you of what the options are without having to type "man".  (What language are man pages written in?  It's not English.) A GUI, even if it's just a dialog box, allows you to do things you&#39;re not sure how to do without having to spend years in research.  Presumably you have better things to do.  The command line just sits there and dares you to perfectly type the exact arcane commands.  Discovery is painful.</p>
+    <p> And we never had to restore a GUI user's system from backup. Command line file manipulation
+        disasters were legendary as was the lack of an undo even for "rm". </p>
+
+    <h3 id="toc_3">Resource building <img src="imgs/resedit.png" alt="ResEdit"/>
+    </h3>
+
+    <p>Here's a funny story. It's the worst case of <strong> BLACKWHITE</strong> I'd ever seen. Our little resource
+        editor,
+        ResEdit, got no love. Resources are little bits of code, sometimes visual or with color attributes or a design
+        like an icon. RedEdit was actually a collection of editors, each specialized to it's task. It was a GUI tool
+        which was loved by external developers but reviled by the text and command line crowd internally. Only wimps
+        used it. It wasn't professional. </p>
+
+    <p class="embedded_aside">
+        Real men don't use ResEdit.
+    </p>
+
+    <p>The guy who maintained it got no respect. There were plans to cut it. Then an interesting thing happened. </p>
+
+    <p>We decided to do an informal survey.  I think it was to CYA before killing ResEdit.
+        We used a little known fact that for debugging purposes, ResEdit embedded a version string in the binary of the
+        resources it made. You could therefore tell by looking at the file data for a resource if ResEdit made it.
+    </p>
+
+    <p>
+        Surprise! Most resources, even those created by those in the anti-ResEdit camp were
+        created using ResEdit. When the doors were closed and no one was looking, programmers went back and used the GUI
+        tool.</p>
+
+    <p>The real strength of the GUI was not speed but the fact that you didn't have to memorize a bazillion arcane bits
+        of info just to get anything done. It allows you to see what you are doing. A dialog box also reminds you of
+        what the options and what their legal values are without having to read "man" pages.
+
+
+    <p class="embedded_aside">
+        Are man pages generated from capcha's?
+    </p>
+
+
+    <p>
+        A GUI, even if it's just a dialog box, allows you to do things you&#39;re
+        not sure how to do without having to spend hours in research. Presumably you have better things to do. The
+        command line just sits there and dares you to perfectly type the exact arcane commands. Discovery is
+        painful.</p>
 
     <h3 id="toc_2">When Keyboard Centric Works</h3>
 
-    <p>There are a few cases where the old ways are better, but really it's not the command line, it's the keyboard centric approach that works.  Measure this stuff and you draw that distinction pretty quick.  It's why I'm relearning VIM.</p>
+    <p>There are a few exceptional cases, but really it's not the command line, it's the keyboard
+        centric approach that works. </p>
 
-    <p>Using an editor where the style of the text doesn't matter, e.g. the user doesn’t put in bold, italic colors and font sizes, and where the contents is programming code and you have a different game.   It's a limited domain.  In this case the actual manipulations seem legion but they are actually limited and can be optimized.  That&#39;s why I&#39;m relearning Vi.  </p>
+    <p>Editing text where fonts and styles don't matter, where the program auto-formats, auto-formats and colorizes,
+        e.g. the user doesn’t put in bold, italic colors and
+        font sizes, and where the content is structured programming code and you have a different game. It's a limited
+        domain and can be optimized. </p>
 
-    <p>Moving around in a small environment of files such as a project can be faster using only the keyboard <strong>providing you memorize the entire structure</strong> or that structure doesn't vary much like Rails. It's a limited domain and the structure doesn't change, i.e no need of discovery. Sublime is a wonderful example.  They have spent a lot of time thinking about how fast you can move around in this limited domain and never take your hand off the keyboard.  </p>
+    <p>Moving around in a small environment of files such as a project can be faster using only the keyboard <strong>
+        providing you memorize the entire structure</strong> or, like Rails, it's a limited domain and the structure
+        doesn't
+        change, i.e no need of discovery.
+    </p>
+
+    <p>
+        Sublime Text is a wonderful example. They have spent a lot of time thinking
+        about how fast you can move around in this limited domain and never take your hand off the keyboard. As you
+        auto-complete file names you only need to type the letters that make a filename unique, something a human mind
+        is astoundingly good at. "p0u2" uniquely identifies "phase-0-unit-2" from a collection of similar files folders
+        and as you do this files are opened in the background so that when you have a unique match it's already
+        open.</p>
 
     <h3 id="toc_4">Hybrid Designs</h3>
 
-    <p>Often there was a hybrid solution that would give the best of both.  If you didn't finish a command or typed it wrong it would open a dialog.  Imagine typing "git add" without the option and a dialog box would come up that would let you tab through the options you wanted.  A dialog can remind the user of the available options when typing an unfamiliar complex command can be a nightmare.</p>
-
-    <h3 id="toc_3">Resource building</h3>
-
-    <p>Here's a funny story.  The worst case of <strong> BLACKWHITE</strong> I've ever seen.  Our little resource editor, ResEdit, got no love.  Resources are little bits of code, sometimes visual or with color attributes or a design like an icon.  RedEdit was actually a collection of editors, each specialized to it's task.  It was a GUI tool which was reviled by the text and command line crowd.  Only wimps used it.  It wasn't professional.  The guy who maintained it got no respect.  There were plans to cut it.  There was a "Real men don't use ResEdit contingent."  Even those who used it wouldn't admit it.  </p>
-    <p>Then an interesting thing then happened.  We decided to do a survey to confirm that we should kill ResEdit. Unknown to most, ResEdit put a version string in the resources it made.  You could tell by looking at the file data which resources were ResEdit.
-        </p>
-    <p>
-        Surprise!  Nearly all the resources in the system, even those created by those in the anti-ResEdit camp were created using ResEdit.  When the doors were closed and no one was looking, they went back and used the GUI tool.</p>
+    <p>Often at Apple we found there was a simple hybrid solution gave the best of both. Triggering command completion
+        could open dialog that
+        would let you tab through the options. A dialog can remind the user of the available options when
+        typing an unfamiliar complex command can be a nightmare. The <em>Macintosh Programmers' Workshop</em> had this
+        and it was
+        one of it's best features. I often wonder if this could be adopted done for linux. </p>
 
 
     <h3 id="toc_5">It&#39;s Old Tech</h3>
 
-    <p>The truth is the command line interpreters are 60&#39;s tech; they were invented before technology allowed for anything else.  When there was no wysiwyg drag and drop, no notion of encapsulating a command into a button, a file into an icon.   Once you have been forced to learn such a thing it becomes a badge of honor.  A reason why you are better than the other guy.  It's amazing to me that the UNIX command line system is still around. I'm amaze</p>
+    <p>The truth is the command line interpreters are 60&#39;s tech; they were invented before technology allowed for
+        anything else. When there was no wysiwyg or drag and drop, no notion of encapsulating a command into a button, a
+        file into an icon. Once you have been forced to learn such a thing it becomes a badge of honor. A reason why you
+        are better than the other guy. </p>
 
-    <p>This happens a lot in the tech world.  There is a tremendous reticence to give up a skill that elevates you in status above others in some way, even if there is a better way. <strong>Call it the narcissism of the command line..</strong>  It's pretty easy to show that it's actually the keyboard centric approach, with or without the command line that's faster and hybrid approaches are even faster.  Still we hold onto the old ways.  As I said, even with github, what percentage of users cut and paste the paths from the repository pages?  Modern easy, fast, and beautiful interfaces are all around you. Let&#39;s not call the sky green and the sun black.</p>
-
-
+    <p>This happens a lot in the tech world. There is a tremendous reticence to give up a skill that elevates you in
+        status above others in some way, even if there is a better way. <strong>Call it the narcissism of the command
+            line..</strong> When people claim speed for the command line I think that often it's a well designed
+        keyboard centric approach, <strong>with or without
+            the command line</strong> that's faster. Still we hold onto the old ways. Modern
+        easy,
+        fast, and beautiful interfaces are all around you. Let&#39;s not call the sky green and the sun black.</p>
     <footer>
         <p> Mike Farr
             <br>
