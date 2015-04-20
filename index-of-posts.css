@@ -12,7 +12,7 @@ nav p:first-child {
 
 nav p {
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
-    margin-top: -0.35em;
+    /*margin-top: -0.35em;*/
 }
 
 nav p a:link {

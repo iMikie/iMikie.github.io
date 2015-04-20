@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title> think.build </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../content-stylesheet.css">
+</head>
+
+
+<iframe id="index-of-posts" src="blog-index-of-posts.html">
+</iframe>
+
+
+<div id="nameplate">
+    Mike Farr
+    <p id="title-style">A Dev BootCamp Technical Blog
+    </p>
+</div>
+
+<header>
+    Pair Programming: We're doing it wrong
+</header>
+
+<figure>
+    <br>
+    <br>
+    <img src="imgs/sextant.png"/>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</figure>
+
+<main>
+    <p>
+        Pair programming is part of the Agile Approach to development. It means two programmers working
+        together on one computer. <a href="http://blogs.atlassian.com/2009/06/pair_programming_is_kryptonite/"> Yes
+        really.</a>
+
+    <h2>Driver-Navigator</h2>
+
+    <p>The way it is usually defined is something like the following, <a href="http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/"> to paraphrase from a post by
+        Corey Haines.</a>
+        <p>Traditionally, pair-programming has been introduced via the Driver-Navigator form. In this form, one member, The
+        Driver, has the keyboard and control of the input. Their job is to type and focus on the minute-to-minute
+        coding. The other member is The Navigator. Their job is to pay attention to the code being written, but keep the
+        larger picture in mind, guiding the driver in the right direction. Frequently, the roles should be swapped.</p>
+
+    <p> Unfortunately, too often this form of pair-programming leads to the person with the keyboard writing code while
+        the other person slowly checks out. Often the driver just goes ahead saying "just a second" and then proceeds to
+        code in silence for minutes on end. Or there is a discussion and the driver just goes ahead and does it his way. Finally, if one of the pair is a much more experience coder then as soon as he or she is the Driver, it's all over. FAIL. </p>
+    <p> If you've experienced this as I have you've felt embarrassed to intervene. Or you've had trouble maintaining interest as you are relegated to being left behind.  You feel unheard.  Your time is being wasted.  Maybe you are the stronger of the pair and despite your navigating gently your Driver just goes off into silent rabbit holes and resents it when you ask after minutes of silence and no typing, "what are you trying to do?"  If you have to ask that question, you've already lost.  In fact of all questions, that one should never arise because only happens when the Driver is trying to Navigate.
+        <p>The problem is simple.  We're doing it wrong.  As the roles are currently defined or at least practiced they are unequal and so fuzzily defined they overlap. This must change.</p>
+
+    <p> Neither role should be more powerful than the other. I think we all agree with that, but no amount of saying this is true makes it so if it's not.  As it currently stands, the Driver is writing the code, has full authority as to what is getting written
+        and this need not have anything to do with "the bigger picture" the navigator is contemplating. To say these
+        roles are equal is to engage in Unicorns and Rainbows. It doesn't work and that's why it's probably the least
+        adopted of the Agile Framework methodology. </p>
+
+    <p> We should not be afraid to put one of the roles "in charge" and talk about it that way.  This role should not be the Driver because the person on the keyboard can simply run away with the program. The Navigator should be in charge. The driver types nothing that the Navigator
+        didn't say to type. \\\But///The Navigator should not be saying things like:
+    <pre class="green_code" id="code2">
+"Type d.e.f. space my underscore method new line"
+    </pre>
+    <p>Instead it should go something like: </p>
+    <pre class="green_code" id="code2">
+"Let's make a method. What should we call it?"
+    </pre>
+    <p>Or even better: </p>
+    <pre class="green_code" id="code2">
+"We need a SailboatRace class.  The initialize method
+will create a race object from boats passed to the #new method."
+    </pre>
+    <p> Everything else is left to the Driver to type out and ask questions to clarify any time they are stuck or need
+        agreement.</p>
+        <pre class="green_code" id="code2">
+"OK, I'll call the class "SailboatRace", make some attr_accessors...
+What should the parameters be? Sailboat names, anything else?"
+    </pre>
+    <p>Both should be asking questions of each other but the
+        navigator is in charge of the program at a very high, almost language non-specific level. You ought to be able
+        to
+        navigate a Python Driver even if all you know is Ruby. If the roles were reversed I'd find myself as the Ruby
+        Driver responding to a Python Navigator, </p>
+<pre class="green_code" id="code2">
+"OK, next you said process each node in the list...
+OK, I'll use a .map like this.
+
+</pre>
+    <p>The Navigator may be in charge but nothing gets written that the Driver
+        doesn't type.  Done this way, it's a natural check.   If the Driver doesn't understand, it doesn't get written. The Navigator can't just go running ahead.  Under the current paradigm, the Driver runs ahead all the time.  Instead, the Driver has two choices: translate the design to code or ask questions.  </p>
+    <p> The terrible flaw with the way we practice it now is obvious when you hear, "Just wait,"  or "Hang on I'll show you what this does when I'm done." That should never happen, ever.  With the modification to the roles I'm suggesting it can't.  It can't come from the Navigator because he's not typing, nor can it come from the Driver because his job is to translate the Navigator's high level design. </p>
+    <p>Another sign that the current paradigm is not working is that often you see people
+        switch and the navigator has no idea what the Driver has typed. Needless to say, this should never happen either. </p>
+<p>The last problem that we need to discuss is what happens when two programmers are pretty equal in ability and equally insistent on their own approach.  There is nothing in the structure of pair programming that breaks this impasse.  Please note that there has never been an acrimonious situation when I've run into it, but it happens all the time.  It's just an impasse.  Usually the driver just runs ahead. This will never happen if the Navigator is in charge of the solution at a high level while the Driver is in charge of the code.  If the Driver doesn't like the Navigators high level solution, he or she can ask questions, "OK, have you thought of the case..." His or her job is more Socratic.  It's to get the Navigator to see the problem differently.  In the end, though, it's the navigators high level solution and the Drivers code, and then you switch.
+</p>
+
+    <p> Mike Farr
+        <br>
+        <em>Everything that's interesting to do was once impossible.</em>
+        <br>
+        March 20, 2015
+    </p>
+    </footer>
+</main>
+

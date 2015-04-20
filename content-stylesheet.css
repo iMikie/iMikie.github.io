@@ -6,8 +6,9 @@
     margin-left: 555px;
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
     font-size: 14px;
-    border:none;
+    border: none;
 }
+
 header {
     position: block;
     margin-top: 150px;
@@ -20,44 +21,72 @@ header {
     font-size: 28px;
     color: #003399;
 }
+
 #headsp {
 
-    margin-bottom:1em;
+    margin-bottom: 1em;
 }
 
 #cmline {
-    text-align:right;
-    font-size:10pt;
+    text-align: right;
+    font-size: 10pt;
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
 
 }
-#code1984 {
+
+#inset1984 {
 
     padding: 1em;
     border: 0px;
     background-color: #f1f1f1;
-    width:400px;
-    margin-left:3.5em;
-    font-size:14pt;
+    width: 400px;
+    margin-left: 3.5em;
+    font-size: 14pt;
+}
+
+#code1 {
+    height: 200px;
+
+}
+
+#code2 {
+    margin-left: 3em;
+padding-left:3em;
+}
+
+.green_code {
+    background-color: #99CC99;
+    font-family: Consolas;
+    /*padding_top: 2em;*/
+    /*padding_left: 10em;*/
+    /*padding_bottom:20px;*/
+    border: 0px;
+    width: 500px;
+    padding-top: 1em;
+    padding-bottom: 0em;
+    font-size: 10pt;
+
 }
 
 .embedded_aside {
-    background-color:#99CC99 ;
+    background-color: #99CC99;
     padding: 0.5em;
     border: 0px;
-    width:400px;
-    margin-left:3.5em;
-    font-size:12pt;
-    text-align:center;
+    width: 400px;
+    margin-left: 3.5em;
+    font-size: 12pt;
+    text-align: center;
+    border: 1px solid black;
 }
-#code1985 {
+
+.grey_code {
     font-family: Consolas;
-    font-size:10pt;
+    font-size: 10pt;
     padding: 1em;
     border: 0px;
     background-color: #f1f1f1;
-    width:400px;
-    margin-left:3.5em;
+    width: 400px;
+    margin-left: 3.5em;
 }
 
 figure {
@@ -108,6 +137,7 @@ main {
     color: #505050;
 
 }
+
 h2 {
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
     font-size: 18px;

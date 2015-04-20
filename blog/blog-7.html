@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<head>
+    <title> think.build </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../content-stylesheet.css">
+</head>
+
+
+<iframe id="index-of-posts" src="blog-index-of-posts.html">
+</iframe>
+
+
+<div id="nameplate">
+    Mike Farr
+    <p id="title-style">A Dev BootCamp Technical Blog
+    </p>
+</div>
+
+<header>
+    Ruby Class-Instance Variables
+</header>
+
+<figure>
+    <img src="imgs/sailboat.jpg"/>
+</figure>
+
+<main>
+    <p>
+        You know what an instance variable is. You are probably familiar with class variables as well and how you might
+        use them: like having a Player class keep track of how many players are in a game. Player's initialize method
+        could increment a class variable to keep track of how many players are in the game.
+    </p>
+    <p>
+        So what are Class-Instance variables, how are they created and why might you use one? Class-instance variables
+        are a good test of how well you understand scoping
+        in Ruby.
+    </p>
+
+    <p>
+        Let's say we manage a marina, and it's our job to rent out the boats. We've got a Ruby program to keep track of
+        them: how many are out on the water, and how many are in storage and available to rent etc. Let's say we have
+        two types of boats, motor boats and real boats, you know, the kind with sails. So in addition to class Boat we
+        have two sub-classes: Sailboat and Motorboat. </p>
+    <pre class="green_code">
+        class Boat
+        ...
+        end
+
+        class Sailboat < Boat
+        end
+
+        class Motorboat < Boat
+        end
+
+</pre>
+
+
+    <p>We want to keep track of how many boats are in or out at any moment. </p>
+
+    <p>
+        Our workflow is like this:
+    <ol>
+        <li> Check boats out when someone rents them</li>
+        <li> Check boats back in when they are brought back</li>
+    </ol>
+    <p>
+        The first thing we might do is to create a couple of class variables like this:</p>
+     <pre class="green_code">
+   class Boat
+     @@in = 0
+     @@out = 0
+   end
+    </pre>
+
+    <p> Then every time we check out a sailboat or motorboat we could increment the class variable:</p>
+
+    <pre class="green_code">
+
+  def self.Checkin()
+    @@in += 1
+    @@out += 1
+  end
+
+  def self.Checkout()
+    if @@in > 0
+      @@in -= 1
+      @@out += 1
+      return true
+    end
+    false
+  end
+    </pre>
+
+    We can use class methods Checkin and Checkout to keep track for us. This works fine to keep track of boats in
+    general but there is a problem with this. If we want to track sailboats separately from motorboats it won't work. The
+    class variables @@in and @@out are owned by the base class Boat so that even if we call:
+
+     <pre class="green_code">
+  Sailboat.Checkout
+  Motorboat.Checkout
+         </pre>
+    <p>
+        It's the class variables in Boat that will be modified.  Even if we declare these @@variables in the class
+        Sailboat and class Motorboat, they will still be owned by the class Boat. OK, we say to ourselves, we'll just
+        use instance variables in the Sailboat and Motorboat classes. The problem there is that instance variables live
+        inside the individual Sailboat or Motorboat objects and each instance has it's own scope, naturally it's a
+        different object. So now need something else to keep track of the Sailboats out versus the Motorboats out.</p>
+
+    <p>
+        What we need is a "sub-class" class variable, but how do we do that?
+    </p>
+
+    <p>
+        Well, in Ruby, everything is an object, even a class is an object, maybe we can give the class object
+        an instance variable. Now remember that the initialize method is a class method that gets called by the
+        <strong> .new </strong> method as in <strong>my_boat = Sailboat.new</strong>. Remember also that from initialize we can call
+        the method <strong> super</strong> to switch to the super class's method of the same name if we need to. This
+        implies that when we call a class method of Sailboat, such as <strong>Sailboat.Checkin</strong>, then within that method, <strong>self = Sailboat</strong>.
+        class. Like this:
+    </p>
+     <pre class="green_code">
+  class Boat
+    def self.Hello
+        puts "Here I am!"
+        puts "I'm in class: #{self}"
+    end
+  end
+    class Sailboat < Boat
+  end
+
+  Sailboat.Hello
+</pre>
+
+    <p> What do you think it will return? You may be surprised.</p>
+<pre class="green_code">
+  Here I am!
+  I'm in class: Context::Sailboat
+  => nil
+   </pre>
+
+    <p> We'll use this for our final solution below. We'll manually define setters and getters for self.in and self.out
+        methods. When these get executed <strong> self</strong>will be our immediate class, not the base class. Putting
+        it all together, it looks like this.
+    <pre class="green_code">
+class Boat
+
+  def self.Checkin()
+    self.in += 1
+    self.out -= 1
+    Boat.in += 1
+    Boat.out -= 1
+
+  end
+
+  def self.Checkout()
+    if self.in > 0
+      self.in -= 1
+      self.out += 1
+      Boat.in -= 1
+      Boat.out += 1
+      return true
+    end
+    false
+  end
+
+  def self.StartMorning
+    self.in = 10
+    Boat.in += 10
+  end
+
+  def self.EndEvening
+    self.in -= 10
+    Boat.in -= 10
+  end
+
+  def self.in
+    @in ||= 0
+  end
+
+  def self.in=(num)
+    @in = num
+  end
+
+  def self.out
+    @out ||= 0
+  end
+
+  def self.out=(num)
+    @out=num
+  end
+
+end
+
+class Sailboat < Boat
+end
+
+class Motorboat < Boat
+end
+</pre>
+
+    <p>Note that everything is done is class Boat. Class Sailboat and Motorboat don't actually do anything. Everything
+        depends on the value of <strong>self</strong> when our class methods are called. </p>
+
+    <p>
+        We start each morning by Checking in our 10 sailboats and 10 motorboats. Then we have routines for checking
+        boats in
+        and checking them out during the day. We've defined the getter and setter for our <strong>in</strong> and
+        <strong>out</strong> variables. These are out class-instance variables. Whether a Sailboat or Motorboat
+        class-instance variable is set or get depends on the value of <strong>self</strong> when <strong>in</strong> or
+        <strong>out</strong>. </p>
+
+    <p>
+        Looking at the code of the setters it looks like just an instance variable is getting set, e.g. @in or @out. But
+        ask yourself, what is the value of self when they are called? I constructed this
+        example specifically so that no Boat, Motorboat, or Sailboat instance objects are ever created so they can't be
+        instance variables! We are really setting class-instance variables here. Which
+        ones, Sailboat or Motorboat, (or Boat) get set depends on the value of self when Checkin or
+        Checkout are called. Sailboat.Checkin will do what it's name implies, it will checkin a sailboat!</p>
+
+    <p>
+        Modifying the class-instance variables of Boat in Checkin and Checkout are easy, we can specifically prefix them
+        with Boat as in
+        <strong>Boat.in</strong> and <strong>Boat.out</strong>. </p>
+
+    <p>
+        OK, let's test this. We'll write a little print status
+        stand-alone method so that we can easily see what our test code has done. We'll call StartMorning for Sailboats
+        and Motorboats, then we'll check some boats out and see that we are indeed accessing class variables and
+        class-instance variables. </p>
+
+<pre class="green_code">
+    def print_boats_status
+      puts "Sailboats in: #{Sailboat.in}"
+      puts "Motorboats in: #{Motorboat.in}"
+      puts
+      puts "Sailboats out: #{Sailboat.out}"
+      puts "Motorboat out: #{Motorboat.out}"
+      puts
+      puts "Boats in: #{Boat.in}"
+      puts "Boats out: #{Boat.out}"
+      puts "----------------------------------"
+    end
+
+    Sailboat.StartMorning
+    Motorboat.StartMorning
+    print_boats_status
+
+    2.times { Sailboat.Checkout }
+    6.times { Motorboat.Checkout }
+
+    print_boats_status
+        </pre>
+
+    <p> When we run the test code above, this is what we get: </p>
+            <pre class="green_code">
+  Sailboats in: 10
+  Motorboats in: 10
+
+  Sailboats out: 0
+  Motorboat out: 0
+
+  Boats in: 20
+  Boats out: 0
+  ----------------------------------
+  Sailboats in: 8
+  Motorboats in: 4
+
+  Sailboats out: 2
+  Motorboat out: 6
+
+  Boats in: 12
+  Boats out: 8
+  ----------------------------------
+</pre>
+    <p>
+        If you've stuck with me this far, then you probably now have a really good idea of scoping in classes in Ruby.
+        When I set out to write this blog post I didn't know about class-instance variables and just tried using @@in
+        and @@out. Boy was I surprised. I still rather think that @@ should work as I expected it to, that is, not to
+        refer all the way back to the base class. Now here's a question for you if you think you've got it down pat: are
+        Boat.in and Boat.out class variables or class-instance variables? If they are class-instance variables how would
+        you modify the code to use class variables?</p>
+
+    <p> Mike Farr
+        <br>
+        <em>Everything that's interesting to do was once impossible.</em>
+        <br>
+        April 20, 2015
+    </p>
+    </footer>
+</main>
+
