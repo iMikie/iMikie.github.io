@@ -22,6 +22,11 @@ header {
     color: #003399;
 }
 
+.narrow_article_width {
+    width: 650px;
+
+}
+
 #headsp {
 
     margin-bottom: 1em;
@@ -31,6 +36,13 @@ header {
     text-align: right;
     font-size: 10pt;
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+
+}
+
+.highlight {
+    background-color: #ffff00;
+    width: 500px;
+    padding: 2em;
 
 }
 
@@ -49,9 +61,13 @@ header {
 
 }
 
+.error_red {
+    color: red;
+}
+
 #code2 {
-    margin-left: 3em;
-padding-left:3em;
+    # margin-left: 2em;
+    padding-left: 2em;
 }
 
 .green_code {
@@ -68,10 +84,46 @@ padding-left:3em;
 
 }
 
+.right_picture {
+    /*position:relative;*/
+    float: right;
+    /*# display:block;*/
+    margin-left: 1em;
+}
+
+.computer_internal {
+    width: 600px;
+    height: 496px;
+
+}
+
+.line_thru {
+    text-decoration: line-through;
+}
+
+.caption {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+    font-style: Italic;
+    margin-left: 6em;
+}
+
+.firstcharacter {
+    float: left;
+    color: #003399;
+    background-color: #AAAAAA;
+    font-size: 40px;
+    margin-right: 4px;
+    line-height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-left: 3px;
+    font-family: Georgia;
+}
+
 .embedded_aside {
     background-color: #99CC99;
     padding: 0.5em;
-    border: 0px;
     width: 400px;
     margin-left: 3.5em;
     font-size: 12pt;
@@ -141,6 +193,13 @@ main {
 h2 {
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
     font-size: 18px;
+}
+
+.emphasis {
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
+
+    font-weight: 700;
+    color: black;
 }
 
 #title-style {
