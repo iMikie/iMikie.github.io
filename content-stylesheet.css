@@ -60,13 +60,12 @@ header {
     height: 200px;
 
 }
-
 .error_red {
     color: red;
 }
 
 #code2 {
-    # margin-left: 2em;
+     margin-left: 2em;
     padding-left: 2em;
 }
 
@@ -81,7 +80,23 @@ header {
     padding-top: 1em;
     padding-bottom: 0em;
     font-size: 10pt;
+}
 
+.definition {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'sans-serif';
+    padding: 1em;
+    border: 0px;
+    width: 400px;
+    border: 1px solid black;
+    /*margin-left: 1em;*/
+
+}
+.large_definition {
+    font-size: 24px;
+
+}
+.pronunciation {
+    font-size: 16px;
 }
 
 .right_picture {
@@ -94,7 +109,13 @@ header {
 .computer_internal {
     width: 600px;
     height: 496px;
-
+}
+.rounded_div {
+    border: 2px solid;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: #003399;
+    padding:1em;
 }
 
 .line_thru {
