@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="error in image path.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-10.html" afterPath="$PROJECT_DIR$/blog/blog-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,21 +47,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog-11.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
+          <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-27.5">
-                  <caret line="44" column="306" selection-start-line="44" selection-start-column="306" selection-end-line="44" selection-end-column="306" />
+                <state vertical-scroll-proportion="0.41060737">
+                  <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
+          <file leaf-file-name="blog-9.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog/blog-9.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41060737">
-                  <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+                <state vertical-scroll-proportion="-6.25">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -600,7 +600,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430853160808</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="more editing to Girls in Science post">
+      <created>1430853557513</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1430853557513</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1032,7 +1038,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1283148">
+        <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1041,7 +1047,7 @@
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41060737">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
           <folding />
         </state>
       </provider>
