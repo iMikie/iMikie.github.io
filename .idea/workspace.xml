@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="error in image path.">
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="errors in html div">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-10.html" afterPath="$PROJECT_DIR$/blog/blog-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,8 +50,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41060737">
-                  <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+                <state vertical-scroll-proportion="0.5526091">
+                  <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -606,7 +606,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430853557513</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="error in image path.">
+      <created>1430853676262</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1430853676262</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -688,7 +694,8 @@
     <MESSAGE value="update to Girls in Science articl" />
     <MESSAGE value="another update to Girls in Science article" />
     <MESSAGE value="more editing to Girls in Science post" />
-    <option name="LAST_COMMIT_MESSAGE" value="more editing to Girls in Science post" />
+    <MESSAGE value="error in image path." />
+    <option name="LAST_COMMIT_MESSAGE" value="error in image path." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1046,8 +1053,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41060737">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.5526091">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding />
         </state>
       </provider>
