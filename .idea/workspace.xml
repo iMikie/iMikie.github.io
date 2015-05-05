@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-10.html" afterPath="$PROJECT_DIR$/blog/blog-10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-master.html" afterPath="$PROJECT_DIR$/site-master.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -61,8 +60,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40975192">
-                  <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.65355">
+                  <caret line="140" column="99" selection-start-line="140" selection-start-column="99" selection-end-line="140" selection-end-column="99" />
                   <folding />
                 </state>
               </provider>
@@ -498,7 +497,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430838701369</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update to Girls in Science articl">
+      <created>1430846637216</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1430846637216</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,7 +582,8 @@
     <MESSAGE value="Added final images to git" />
     <MESSAGE value="Stereotypes: Girls in Science" />
     <MESSAGE value="Stereotypes: Women/Girls in Science.  Block and Procs, the untold story" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stereotypes: Women/Girls in Science.  Block and Procs, the untold story" />
+    <MESSAGE value="update to Girls in Science articl" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to Girls in Science articl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -934,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40975192">
-          <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.65355">
+          <caret line="140" column="99" selection-start-line="140" selection-start-column="99" selection-end-line="140" selection-end-column="99" />
           <folding />
         </state>
       </provider>
