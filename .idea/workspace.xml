@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="errors in html div">
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-10.html" afterPath="$PROJECT_DIR$/blog/blog-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,7 +24,7 @@
     <favorites_list name="iMikie.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.68989545">
       <split-first>
         <leaf>
           <file leaf-file-name="site-master.html" pinned="false" current-in-tab="false">
@@ -50,8 +50,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5526091">
-                  <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+                <state vertical-scroll-proportion="0.55355614">
+                  <caret line="75" column="222" selection-start-line="75" selection-start-column="222" selection-end-line="75" selection-end-column="222" />
                   <folding />
                 </state>
               </provider>
@@ -94,7 +94,7 @@
           <file leaf-file-name="blog-index-of-posts.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-index-of-posts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35928145">
+                <state vertical-scroll-proportion="0.46193328">
                   <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
                   <folding />
                 </state>
@@ -612,7 +612,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430853676262</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="errors in html div">
+      <created>1430855322240</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1430855322241</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,7 +701,8 @@
     <MESSAGE value="another update to Girls in Science article" />
     <MESSAGE value="more editing to Girls in Science post" />
     <MESSAGE value="error in image path." />
-    <option name="LAST_COMMIT_MESSAGE" value="error in image path." />
+    <MESSAGE value="errors in html div" />
+    <option name="LAST_COMMIT_MESSAGE" value="errors in html div" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1021,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-index-of-posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35928145">
+        <state vertical-scroll-proportion="0.46193328">
           <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
           <folding />
         </state>
@@ -1053,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5526091">
-          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.55355614">
+          <caret line="75" column="222" selection-start-line="75" selection-start-column="222" selection-end-line="75" selection-end-column="222" />
           <folding />
         </state>
       </provider>
