@@ -60,8 +60,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.46107784">
-                  <caret line="132" column="118" selection-start-line="132" selection-start-column="118" selection-end-line="132" selection-end-column="118" />
+                <state vertical-scroll-proportion="0.26860565">
+                  <caret line="122" column="191" selection-start-line="122" selection-start-column="191" selection-end-line="122" selection-end-column="191" />
                   <folding />
                 </state>
               </provider>
@@ -528,7 +528,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430848833901</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="more editing to Girls in Science post">
+      <created>1430850139368</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1430850139368</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -967,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46107784">
-          <caret line="132" column="118" selection-start-line="132" selection-start-column="118" selection-end-line="132" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.26860565">
+          <caret line="122" column="191" selection-start-line="122" selection-start-column="191" selection-end-line="122" selection-end-column="191" />
           <folding />
         </state>
       </provider>
