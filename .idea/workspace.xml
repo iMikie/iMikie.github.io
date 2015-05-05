@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-10.html" afterPath="$PROJECT_DIR$/blog/blog-10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -49,8 +50,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.087403595">
-                  <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0094258785">
+                  <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -202,8 +203,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="61" />
+    <option name="x" value="82" />
+    <option name="y" value="37" />
     <option name="width" value="2090" />
     <option name="height" value="1287" />
   </component>
@@ -629,11 +630,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430856174092</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="site not updating...">
+      <created>1430856239214</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1430856239214</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="61" width="2090" height="1287" extended-state="0" />
+    <frame x="82" y="37" width="2090" height="1287" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -713,7 +720,8 @@
     <MESSAGE value="more editing to Girls in Science post" />
     <MESSAGE value="error in image path." />
     <MESSAGE value="errors in html div" />
-    <option name="LAST_COMMIT_MESSAGE" value="errors in html div" />
+    <MESSAGE value="site not updating..." />
+    <option name="LAST_COMMIT_MESSAGE" value="site not updating..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1071,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087403595">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0094258785">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding />
         </state>
       </provider>
