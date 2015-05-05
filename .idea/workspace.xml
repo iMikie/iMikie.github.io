@@ -50,8 +50,8 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55355614">
-                  <caret line="75" column="222" selection-start-line="75" selection-start-column="222" selection-end-line="75" selection-end-column="222" />
+                <state vertical-scroll-proportion="0.33504713">
+                  <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
                   <folding />
                 </state>
               </provider>
@@ -618,7 +618,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430855322241</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="errors in html div">
+      <created>1430856129657</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1430856129657</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1060,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55355614">
-          <caret line="75" column="222" selection-start-line="75" selection-start-column="222" selection-end-line="75" selection-end-column="222" />
+        <state vertical-scroll-proportion="0.33504713">
+          <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
           <folding />
         </state>
       </provider>
