@@ -229,7 +229,9 @@ h2 {
     margin-top: -0.15em;
 
 }
-
+#four-hundred-wide {
+    width:400px;
+}
 #nameplate {
     position: absolute;
     margin-left: 500px;
