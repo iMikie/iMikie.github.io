@@ -1,0 +1,296 @@
+body {
+    font-family: 'HelveticaNeue-UltraLightItalic', 'Helvetica Neue', 'sans-serif';
+    /*position:absolute;*/
+    /*width:900px;*/
+    /*height:1000px;*/
+    background-color: #55AA55;
+}
+
+#dealer_area {
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    left: 25px;
+    top: 25px;
+    /*background-color:#55AA55;*/
+    /*border: 1px solid black;*/
+}
+
+#player_area {
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    left: 25px;
+    top: 600px;
+    /*background-color: #55AA55;*/
+    /*border: 1px solid black;*/
+}
+
+#user-message-area {
+    position: absolute;
+    display:none;
+    width: 400px;
+    height: 200px;
+    left: 450px;
+    top: 385px;
+    background-color: white;
+    border: 1px solid black;
+}
+#user-message {
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+    margin: 2em;
+
+    color:#425c8a;
+}
+
+#OK-button {
+    position: relative;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+    text-size:30px;
+    color:#425c8a;
+    text-align: center;
+    padding-right: 2em;
+    text-decoration: none;
+}
+ a:hover {
+    color: #18a220;
+}
+#start-button-label {
+}
+
+.button-label {
+    text-decoration: none;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+    color:white;
+
+}
+
+.button {
+    position: absolute;
+    width: 150px;
+
+}
+
+#start-button {
+    height: 50px;
+    /*top: 1100px ;*/
+    left: 250px;
+    background-color: #FF4444;
+}
+
+#view-hand-button-label {
+    margin-top: 1em;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+}
+
+#view-hand-button {
+    display: none;
+    width: 150px;
+    height: 50px;
+    /*top: 1100px ;*/
+    left: 50px;
+    background-color: #425c8a;
+}
+
+#hit-me-button-label {
+    margin-top: 1em;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+}
+
+#hit-me-button {
+    display: none;
+    width: 150px;
+    height: 50px;
+    /*top: 1100px ;*/
+    left: 250px;
+    background-color: #003b56;
+}
+
+#hold-button-label {
+    margin-top: 1em;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+}
+
+#hold-button {
+    display: none;
+    width: 150px;
+    height: 50px;
+    /*top: 1100px ;*/
+    left: 450px;
+    background-color: #127261;
+}
+
+#new-hand-button-label {
+    margin-top: 1em;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
+    text-size: 20px;
+    text-align: center;
+}
+
+#new-hand-button {
+    display: none;
+    width: 150px;
+    height: 50px;
+    /*top: 1100px ;*/
+    left: 650px;
+    background-color: #4C8E47;
+}
+
+.bottom-nav-bar {
+    opacity: 0.75;
+    width: 100%;
+    left: 0px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    /*background-color:indigo;*/
+}
+
+#table_area {
+    background-color: #55AA55;
+}
+
+.card {
+    display: none;
+    position: absolute;
+}
+#dealer_card0 {
+    left: 20px;
+}
+
+#dealer_card1 {
+    position: absolute;
+    left: 300px;
+}
+
+#dealer_card2 {
+    position: absolute;
+    left: 350px;
+}
+
+#dealer_card3 {
+    position: absolute;
+    left: 400px;
+}
+
+#dealer_card4 {
+    position: absolute;
+    left: 450px;
+}
+
+#dealer_card5 {
+    position: absolute;
+    left: 500px;
+}
+
+#dealer_card6 {
+    position: absolute;
+    left: 550px;
+}
+
+#dealer_card7 {
+    position: absolute;
+    left: 600px;
+}
+
+#dealer_card8 {
+    position: absolute;
+    left: 650px;
+}
+
+#dealer_card9 {
+    position: absolute;
+    left: 700px;
+}
+
+#dealer_card10 {
+    position: absolute;
+    left: 750px;
+}
+
+#dealer_card11 {
+    position: absolute;
+    left: 800px;
+}
+
+#dealer_card12 {
+    position: absolute;
+    left: 850px;
+}
+
+#player_card0 {
+    position: absolute;
+    left: 20px;
+}
+
+#player_card1 {
+    position: absolute;
+    left: 300px;
+}
+
+#player_card2 {
+    position: absolute;
+    left: 350px;
+}
+
+#player_card3 {
+    position: absolute;
+    left: 400px;
+}
+
+#player_card4 {
+    position: absolute;
+    left: 450px;
+}
+
+#player_card5 {
+    position: absolute;
+    left: 500px;
+}
+
+#player_card6 {
+    position: absolute;
+    left: 550px;
+}
+
+#player_card7 {
+    position: absolute;
+    left: 600px;
+}
+
+#player_card8 {
+    position: absolute;
+    left: 650px;
+}
+
+#player_card9 {
+    position: absolute;
+    left: 700px;
+}
+
+#player_card10 {
+    position: absolute;
+    left: 750px;
+}
+
+#player_card11 {
+    position: absolute;
+    left: 800px;
+}
+
+#player_card12 {
+    position: absolute;
+    left: 850px;
+}
+

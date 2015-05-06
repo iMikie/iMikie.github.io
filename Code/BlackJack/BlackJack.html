@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bj_stylesheet.css">
+
+    <title>Mike Farr's Blackjack Game - DevBootCamp JS week 1</title>
+    <script src="my_solution.js"></script>
+</head>
+<body>
+<div id="table_area">
+    <div id="dealer_area">
+        <img class="card" id="dealer_card0" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card1" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card2" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card3" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card4" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card5" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card6" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card7" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card8" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card9" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card10" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card11" src="PlayingCards/back.png">
+        <img class="card" id="dealer_card12" src="PlayingCards/back.png">
+    </div>
+
+    <div id="user-message-area">
+        <p id="user-message"> MESSAGE</p>
+        <a onclick="okCommand();" href="#" id="OK-button"><p>OK</p></a>
+    </div>
+    <div id="player_area">
+        <img class="card" id="player_card0" src="PlayingCards/back.png">
+        <img class="card" id="player_card1" src="PlayingCards/back.png">
+        <img class="card" id="player_card2" src="PlayingCards/back.png">
+        <img class="card" id="player_card3" src="PlayingCards/back.png">
+        <img class="card" id="player_card4" src="PlayingCards/back.png">
+        <img class="card" id="player_card5" src="PlayingCards/back.png">
+        <img class="card" id="player_card6" src="PlayingCards/back.png">
+        <img class="card" id="player_card7" src="PlayingCards/back.png">
+        <img class="card" id="player_card8" src="PlayingCards/back.png">
+        <img class="card" id="player_card9" src="PlayingCards/back.png">
+        <img class="card" id="player_card10" src="PlayingCards/back.png">
+        <img class="card" id="player_card11" src="PlayingCards/back.png">
+        <img class="card" id="player_card12" src="PlayingCards/back.png">
+
+    </div>
+</div>
+
+
+</body>
+<div class="bottom-nav-bar">
+
+    <div class="button" id="start-button">
+        <a class="button-label" id="start-button-label" href="#" onclick="startGameCommand();"><p>Start Game</p></a>
+    </div>
+    <div class="button" id="view-hand-button">
+        <a class="button-label" id="view-hand-button-label" href="#" onclick="showPlayersCardsCommand();"><p>Show Hand</p></a>
+    </div>
+    <div class="button" id="hit-me-button">
+        <a class="button-label" id="hit-me-button-label" href="#" onclick="hitMeCommand();"><p>Hit Me</p></a>
+    </div>
+    <div class="button" id="hold-button">
+        <a class="button-label" id="hold-button-label" href="#" onclick="holdCommand();"><p>Hold</p></a>
+    </div>
+    <div class="button" id="new-hand-button">
+        <a class="button-label" id="new-hand-button-label" href="#"  onclick="newHandCommand(deck, dealer, player);"><p>Deal Again</p></a>
+            Hand</a>
+    </div>
+
+
+</div>
+</html>
