@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="add BlackJack directory to website.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/BlackJack.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/design-basic-game-solo-challenge.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/example_solution.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/my_solution.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-master.html" afterPath="$PROJECT_DIR$/site-master.html" />
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -629,7 +615,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430892917304</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add BlackJack directory to website.">
+      <created>1430893257723</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1430893257723</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +708,8 @@
     <MESSAGE value="site not updating..." />
     <MESSAGE value="final push" />
     <MESSAGE value="switch code to load BlackJack" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch code to load BlackJack" />
+    <MESSAGE value="add BlackJack directory to website." />
+    <option name="LAST_COMMIT_MESSAGE" value="add BlackJack directory to website." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
