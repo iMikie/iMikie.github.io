@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-master.html" afterPath="$PROJECT_DIR$/site-master.html" />
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="c">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -27,11 +27,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.5477816">
       <split-first>
         <leaf>
-          <file leaf-file-name="site-master.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="site-master.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site-master.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41267943">
+                <state vertical-scroll-proportion="-14.375">
                   <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="false">
+            <entry file="http://imikie.github.io/Code/BlackJack.html">
+              <provider selected="true" editor-type-id="httpFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Code/BlackJack.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.017942583">
+                  <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -233,10 +250,11 @@
         <option value="$PROJECT_DIR$/blog/blog-11.html" />
         <option value="$PROJECT_DIR$/blog/blog-10.html" />
         <option value="$PROJECT_DIR$/Code/code-index-of-posts.html" />
-        <option value="$PROJECT_DIR$/Code/BlackJack.html" />
         <option value="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" />
         <option value="$PROJECT_DIR$/Code/BlackJack/my_solution.js" />
         <option value="$PROJECT_DIR$/site-master.html" />
+        <option value="imikie.github.io/Code/BlackJack.html" />
+        <option value="$PROJECT_DIR$/Code/BlackJack.html" />
       </list>
     </option>
   </component>
@@ -328,46 +346,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMikie.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMikie.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlackJack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMikie.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMikie.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlackJack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlayingCards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,7 +668,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430898207429</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="game runnning in blog frame">
+      <created>1430899400977</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1430899400977</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -731,7 +715,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Blog 5: RubyMine review." />
     <MESSAGE value="Go to the latest blog post automatically.&#10;" />
     <MESSAGE value="Go to the latest blog post automatically.&#10;Update blog posts&#10;" />
     <MESSAGE value="added 1984 image file" />
@@ -756,7 +739,8 @@
     <MESSAGE value="add BlackJack directory to website." />
     <MESSAGE value="deleted extra blackjack.html file" />
     <MESSAGE value="game runs in blog frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="game runs in blog frame" />
+    <MESSAGE value="game runnning in blog frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="game runnning in blog frame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,20 +749,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/blog-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/architecture/architecture-index-of-posts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14023831">
@@ -1103,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/code-index-of-posts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17942584">
@@ -1119,10 +1081,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site-master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41267943">
+        <state vertical-scroll-proportion="-14.375">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://imikie.github.io/Code/BlackJack.html">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.017942583">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>
