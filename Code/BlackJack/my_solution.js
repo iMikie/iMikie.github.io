@@ -128,6 +128,7 @@ function hitMeCommand() {
         player.returnCards(deck);
         dealer.returnCards(deck);
     }
+    else
     renderHand(player);
 
 }
@@ -165,6 +166,7 @@ function newHandCommand(deck, dealer, player) {
     changeIsVisible("hit-me-button", true);
     changeIsVisible("hold-button", true);
     changeIsVisible("new-hand-button", false);
+    changeIsVisible("user-message-area", false);
 
     renderHand(player);
     renderHand(dealer);
@@ -452,6 +454,7 @@ Dealer.prototype.pay_bet = function () {
 var deck = new Deck();
 var dealer = new Dealer();
 var player = new Player("player", 1000);
+
 
 //
 //// Test Card Class methods *********************************************************

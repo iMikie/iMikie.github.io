@@ -5,9 +5,10 @@
   <link rel="stylesheet" type="text/css" href="site-master.css">
 
   <SCRIPT LANGUAGE="JavaScript">
-      function reload_iframe(loc, pos){
+      function reload_iframe(loc, pos, frameHandleColor){
           document.getElementById('embedded_page').src = loc;
           document.getElementById('iframe_handle').style.top=pos;
+          document.getElementById('iframe_handle').style.backgroundColor = frameHandleColor;
       }
       function new_iframe(loc){
           document.getElementById('embedded_page').src = loc;
@@ -26,20 +27,20 @@
 
 <nav id="nav-style">
   <div id="nav-button-1">
-    <a onclick="reload_iframe('architecture/architecture-1.html','140px');" href="#"><br>Architecture</a>
+    <a onclick="reload_iframe('architecture/architecture-1.html','140px','#F9F9F9');" href="#"><br>Architecture</a>
   </div>
   <div id="nav-button-2">
-    <a onclick="reload_iframe('film/film-1.html','265px');" href="#"><br>Film</a>
+    <a onclick="reload_iframe('film/film-1.html','265px','#F9F9F9');" href="#"><br>Film</a>
   </div>
   <div id="nav-button-3">
-    <a onclick="reload_iframe('music/music-1.html','385px');" href="#"><br>Music</a>
+    <a onclick="reload_iframe('music/music-1.html','385px', '#F9F9F9');" href="#"><br>Music</a>
   </div>
   <div id="nav-button-4">
     <!--<a onclick="reload_iframe('Code/Ruby_Cheat_Sheet/ruby_cheat_sheet.html','505px');" href="#"><br>Code</a>-->
-      <a onclick="reload_iframe('Code/BlackJack/BlackJack.html','505px');" href="#"><br>Code</a>
+      <a onclick="reload_iframe('Code/BlackJack/BlackJack.html','505px','#55AA55');" href="#"><br>Code</a>
   </div >
   <div id="nav-button-5">
-    <a onclick="reload_iframe('blog/blog-1.html','625px');" href="#"><br>Blog</a>
+    <a onclick="reload_iframe('blog/blog-1.html','625px', '#F9F9F9');" href="#"><br>Blog</a>
   </div>
 
 </nav>
