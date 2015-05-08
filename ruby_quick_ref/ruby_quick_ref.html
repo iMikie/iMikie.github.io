@@ -23,33 +23,25 @@
 </header>
 <nav class="nav-list">
 
-    <p class="nav-list">
-    </p>
+    <div class="button"> <a onclick="reload_iframe('array.html');" href="#">Array </a></div>
 
-    <h1><a onclick="reload_iframe('array.html');" href="#"><br>Array </a></h1>
+    <div class="button"><a onclick="reload_iframe('hash.html');" href="#">Hash </a></div>
 
-    <h1><a onclick="reload_iframe('hash.html');" href="#">Hash </a></h1>
+    <div class="button"><a onclick="reload_iframe('string.html');" href="#">String </a></div>
 
-    <h1><a onclick="reload_iframe('string.html');" href="#">String </a></h1>
-    <br>
+    <div class="button"><a onclick="reload_iframe('integer.html',);" href="#">Integer </a></div>
 
-    <h1><a onclick="reload_iframe('integer.html',);" href="#"><br>Integer </a></h1>
+    <div class="button"><a onclick="reload_iframe('float.html');" href="#">Float </a></div>
 
-    <h1><a onclick="reload_iframe('float.html',);" href="#"><br>Float </a></h1>
-    <br>
+    <div class="button"><a onclick="reload_iframe('control.html',);" href="#">Control<br>Structures</a></div>
 
-    <h1><a onclick="reload_iframe('control.html',);" href="#"><br>Control<br>Structures</a></h1>
-    <br>
+    <div class="button"><a onclick="reload_iframe('loops.html');" href="#">Loops </a></div>
 
-    <h1><a onclick="reload_iframe('loops.html',);" href="#"><br>Loops </a></h1>
-    <br>
+    <div class="button"><a onclick="reload_iframe('classes.html');" href="#">Classes </a></div>
 
-    <h1><a onclick="reload_iframe('classes.html',);" href="#"><br>Classes </a></h1>
+    <div class="button"><a onclick="reload_iframe('blocks.html');" href="#">Blocks </a></div>
 
-    <h1><a onclick="reload_iframe('blocks.html',);" href="#"><br>Blocks </a></h1>
-    <br>
-
-    <h1><a onclick="reload_iframe('files.html',);" href="#"><br>File I/O </a></h1>
+    <div class="button"><a onclick="reload_iframe('files.html');" href="#">File I/O </a></>
 </nav>
 <main>
     <iframe id="embedded_page" src="array.html"  onload="window.top.scrollTo(0,0);">

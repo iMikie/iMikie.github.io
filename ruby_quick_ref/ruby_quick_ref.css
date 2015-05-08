@@ -9,43 +9,54 @@ header {
     margin-top:-8px;
     margin-left:-8px;
     margin-right:-8px;
-    margin-bottom:15px;
-    padding-top:10px;
-    padding-top:10px;
+    /*margin-bottom:15px;*/
     padding-left:3em;
 }
 
 #embedded_page {
     display: inline-block;
     position: absolute;
-    left: 10em;
+    left: 8em;
     top: 6em;
     width: 60em;
     height: 1200px;
     background-color: #F9F9F9;
     border: 1px solid black;
-    z-index: 2;
     border-radius:25px;
 }
 
 
 .nav-list {
-    width: 6em;
+    width: 8em;
+    /*border: 1px solid black;*/
+    background-color: #5D9C59;
+    margin-left: -8px;
+    border-left: 1px solid #F9F9F9;
+    z-index: -2;
 }
 
-h1 {
-    padding: 0em;
-    margin: 0em;
+.button {
+    padding-top: 2em;
     font-size: 20px;
     text-align: right;
-    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue', 'sans-serif';
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'sans-serif';
     font-weight: 200;
     text-decoration: none;
+    height:75px;
+    border-top: 1px solid #F9F9F9;
+    border-bottom: 1px solid #555555;
+    border-right: 1px solid #555555;
+    /*width: 6em;*/
+    text-align: center;
+
+
 }
 
-.nav-list h1 a {
+.nav-list div a {
     color: black;
     text-decoration: none;
+    color: #003399;
+
 }
 .nav-list h1 a:hover {
     color: #00A0FF;
