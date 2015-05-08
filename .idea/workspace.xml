@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/10-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/10-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/10-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/10-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/2-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/2-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/2-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/2-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/3-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/3-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/3-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/3-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/4-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/4-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/4-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/4-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/5-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/5-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/5-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/5-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/6-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/6-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/6-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/6-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/7-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/7-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/7-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/7-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/8-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/8-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/8-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/8-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/9-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/9-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/9-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/9-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Ace-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Ace-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Ace-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Ace-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Jack-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Jack-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Jack-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Jack-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/King-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/King-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/King-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/King-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Queen-Clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Queen-Diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Queen-Hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/Queen-Spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/PlayingCards.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/workspace.xml" />
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="added Playing Cards folder">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/BlackJack/BlackJack.html" afterPath="$PROJECT_DIR$/Code/BlackJack/BlackJack.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" afterPath="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/BlackJack/my_solution.js" afterPath="$PROJECT_DIR$/Code/BlackJack/my_solution.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -88,31 +32,14 @@
           <file leaf-file-name="site-master.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site-master.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+                <state vertical-scroll-proportion="-31.25">
+                  <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="false">
-            <entry file="http://imikie.github.io/Code/BlackJack.html">
-              <provider selected="true" editor-type-id="httpFileEditor">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Code/BlackJack.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.625">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".name" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".name" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/.name">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
@@ -132,11 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+                <state vertical-scroll-proportion="0.59210527">
+                  <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -170,7 +97,7 @@
             <entry file="file://$PROJECT_DIR$/site-master.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -180,7 +107,7 @@
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                  <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -190,7 +117,7 @@
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/my_solution.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="456" column="0" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+                  <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -198,21 +125,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="code-index-of-posts.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="code-index-of-posts.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Code/code-index-of-posts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20026702">
-                  <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+                <state vertical-scroll-proportion="-8.75">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="content-stylesheet.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="content-stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+                <state vertical-scroll-proportion="1.0824742">
+                  <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog-11.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.375">
+                  <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -223,16 +160,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blog-5.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blog/blog-5.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -313,16 +240,17 @@
         <option value="$PROJECT_DIR$/blog/blog-8.html" />
         <option value="$PROJECT_DIR$/blog/blog-9.html" />
         <option value="$PROJECT_DIR$/ruby_quick_ref/lang-element.css" />
-        <option value="$PROJECT_DIR$/content-stylesheet.css" />
         <option value="$PROJECT_DIR$/blog/blog-index-of-posts.html" />
         <option value="$PROJECT_DIR$/blog/blog-11.html" />
         <option value="$PROJECT_DIR$/blog/blog-10.html" />
         <option value="$PROJECT_DIR$/Code/code-index-of-posts.html" />
-        <option value="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" />
-        <option value="$PROJECT_DIR$/Code/BlackJack/my_solution.js" />
-        <option value="$PROJECT_DIR$/site-master.html" />
         <option value="imikie.github.io/Code/BlackJack.html" />
         <option value="$PROJECT_DIR$/Code/BlackJack.html" />
+        <option value="$PROJECT_DIR$/site-master.html" />
+        <option value="$PROJECT_DIR$/Code/BlackJack/my_solution.js" />
+        <option value="$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css" />
+        <option value="$PROJECT_DIR$/content-stylesheet.css" />
+        <option value="$PROJECT_DIR$/Code/BlackJack/BlackJack.html" />
       </list>
     </option>
   </component>
@@ -384,6 +312,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -435,9 +364,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMikie.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMikie.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -779,33 +721,39 @@
       <option name="project" value="LOCAL" />
       <updated>1430900755113</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="added Playing Cards folder">
+      <created>1430900848309</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1430900848309</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="48" width="2090" height="1287" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15885167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15885167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32802013" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802013" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925764" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -820,7 +768,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added 1984 image file&#10;Rewrote discussion, added highlites and graphics." />
     <MESSAGE value="fixed ResEdit.png mispelling" />
     <MESSAGE value="more annoying typos and changes" />
     <MESSAGE value="finished blogs: Ruby Class-Instance variables and Pairing" />
@@ -845,7 +792,8 @@
     <MESSAGE value="can't get rid of deleted file on GitHub's http server" />
     <MESSAGE value="trying to fix git hub submodule problem" />
     <MESSAGE value="removed Playing Cards folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed Playing Cards folder" />
+    <MESSAGE value="added Playing Cards folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Playing Cards folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,6 +802,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/blog-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/music/music-index-of-posts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15582035">
@@ -1106,13 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.5">
-          <caret line="44" column="306" selection-start-line="44" selection-start-column="306" selection-end-line="44" selection-end-column="306" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1129,40 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack/my_solution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="456" column="0" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Ruby_Cheat_Sheet/ruby_cheat_sheet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1173,24 +1088,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/code-index-of-posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20026702">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1200,18 +1107,60 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack.html">
+    <entry file="file://$PROJECT_DIR$/site-master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-31.25">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/BlackJack/PlayingCards/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/site-master.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack/my_solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0824742">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59210527">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

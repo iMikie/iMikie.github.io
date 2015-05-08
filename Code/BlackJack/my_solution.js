@@ -89,6 +89,7 @@
 
 function startGameCommand() {
     newHandCommand(deck, dealer, player);
+    changeIsVisible("welcome", false);
 }
 
 function showPlayersCardsCommand() {
@@ -167,7 +168,7 @@ function newHandCommand(deck, dealer, player) {
     changeIsVisible("hold-button", true);
     changeIsVisible("new-hand-button", false);
     changeIsVisible("user-message-area", false);
-
+    showPlayersCardsCommand() ;        //changed my mind, start with players cards face up.
     renderHand(player);
     renderHand(dealer);
 }
