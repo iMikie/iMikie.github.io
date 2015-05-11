@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/blog-12.html" />
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="more changes to blog12">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-12.html" afterPath="$PROJECT_DIR$/blog/blog-12.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iMikie.github.io.iws" />
@@ -57,11 +57,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog-12.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="blog-12.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.692307">
-                  <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
+                <state vertical-scroll-proportion="0.43679342">
+                  <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
                   <folding />
                 </state>
               </provider>
@@ -77,10 +77,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="site-master.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="site-master.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site-master.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25119618">
+                <state vertical-scroll-proportion="-8.75">
                   <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
                   <folding />
                 </state>
@@ -194,7 +194,7 @@
           <file leaf-file-name="bj_stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6627907">
+                <state vertical-scroll-proportion="0.5705706">
                   <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
                   <folding />
                 </state>
@@ -260,8 +260,8 @@
         <option value="$PROJECT_DIR$/Code/code-index-of-posts.html" />
         <option value="$PROJECT_DIR$/blog/blog-11.html" />
         <option value="$PROJECT_DIR$/blog/blog-index-of-posts.html" />
-        <option value="$PROJECT_DIR$/blog/blog-12.html" />
         <option value="$PROJECT_DIR$/site-master.html" />
+        <option value="$PROJECT_DIR$/blog/blog-12.html" />
       </list>
     </option>
   </component>
@@ -754,24 +754,30 @@
       <option name="project" value="LOCAL" />
       <updated>1431338440635</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add most recent blog post&#10;">
+      <created>1431338531876</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1431338531876</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="2345" height="1287" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13842282" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13842282" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925764" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -795,7 +801,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added images to git" />
     <MESSAGE value="Added final images to git" />
     <MESSAGE value="Stereotypes: Girls in Science" />
     <MESSAGE value="Stereotypes: Women/Girls in Science.  Block and Procs, the untold story" />
@@ -820,7 +825,8 @@
     <MESSAGE value="large change to array.html, may need to roll back" />
     <MESSAGE value="clean up cheat sheet, try to get working in code blog" />
     <MESSAGE value="bring github up to date" />
-    <option name="LAST_COMMIT_MESSAGE" value="bring github up to date" />
+    <MESSAGE value="add most recent blog post&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add most recent blog post&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1241,7 +1247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/BlackJack/bj_stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6627907">
+        <state vertical-scroll-proportion="0.5705706">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding />
         </state>
@@ -1311,14 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
@@ -1345,8 +1343,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site-master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25119618">
+        <state vertical-scroll-proportion="-8.75">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43679342">
+          <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
           <folding />
         </state>
       </provider>
