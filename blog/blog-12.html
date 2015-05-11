@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <title> think.build </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../content-stylesheet.css">
+</head>
+
+
+<iframe id="index-of-posts" src="blog-index-of-posts.html">
+</iframe>
+
+
+<div id="nameplate">
+    Mike Farr
+    <p id="title-style">A Dev BootCamp Technical Blog
+    </p>
+</div>
+
+<header>
+    No SQL?
+</header>
+<figure class="definition">
+    <span class="large_definition">no·SQL</span>
+    <br>
+    <span class="pronunciation"> ˈnō-ess-qu-'el</span>
+<br>    <em>noun</em>
+        <p>Provides a mechanism for the storage and retrieval of data that is modeled in means other than the
+            tabular relations used in relational databases. Translation: NoSQL is different from SQL. No kidding.</p>
+</figure>
+
+
+<main>
+    <p> Even a new student of WebTech can't help but notice
+        the
+        rise of "noSQL" databases. What are they and why? Do I gotta learn this s***? A quick glance over to Wikipedia reveals an abysmal article full of jargon and little
+        explanation. I imagine some gnome who never had a date in high school and who is still looking to demostrate that
+        he knows something you don't. Even over at Mongo you get painfully awkward sentences like
+        "Some
+        key-value stores, such as Redis, allow each value to have a type, such as "integer", which adds functionality",
+        Take away: integers add functionality.  Maybe I should get a job as a writer instead.
+    </p>
+
+    <p>
+        OK, so what can we say? It appears that noSQL has become popular with the rise of social media and the massive
+        data generated from
+        spying on
+        every aspect of users online lives: what they purchase, the web-pages they visit, how long they stay there, who
+        they are
+        connected to, etc. If SQL was designed to connect customers with products and record their orders, this new type
+        of data needs something different.  OK, so what choices do we have?
+    </p>
+
+    <p>
+
+    <h3>NoSQL Database Types</h3>
+    <ul>
+        <li><strong>Document databases</strong> pair a search key with data structured into a "document". Documents can
+            contain
+            many different key-value pairs, or key-array pairs, or even nested documents.
+        </li>
+        <li><strong>Graph stores</strong>   are used to store information about networks, such as social connections.  It looks
+            like these are nodes containing data with links between nodes.
+        </li>
+        <li><strong>Wide-column</strong> stores such as Cassandra and HBase are optimized for queries over large
+            datasets, and store columns of data together, instead of rows.
+        </li>
+        <li><strong>Graph</strong> appear to be implemented as serialized objects that have pointers to other
+            objects.  The graph database manager can follow these networks of objects.
+        </li>
+
+    </ul>
+    <p>
+        So why use a no-SQL database? Oh, 'cause they are more scalable and offer superior performance. Note to reader: if you
+        are
+        ever asked to be a marketing person, just write "more scalable and better performance".  It doesn't really matter
+        what you are selling.  I ran into that phrase a lot.  OK, here's what we can say...maybe.
+    </p>
+
+    <h3>Storing Data when you don't know it will be</h3>
+
+    <p>
+        Relational databases require that schemas be defined before you can add data. For example, you might want to
+        store
+        data about your customers such as phone numbers, first and last name, address, city and state. So if you decide,
+        a
+        few iterations into development, that you'd like to store customers' favorite items in addition to their
+        addresses
+        and phone numbers, you'll need to add that column to the database, and then migrate the entire database to the
+        new
+        schema.
+    </p>
+
+    <h3>Distributing the database</h3>
+    Here is another "gotta have" feature which is never explained well. If your data grows without bounds, then
+    eventually it might be nice to divide it over several servers. It's easy to see that if you want to search
+    for customers with in some location then if that data is on several servers, you gotta talk to all the servers.
+    Evidentially there is no easy way to split up Relational tables and still query against the entire dataset.  Evidentially as well
+    there are ways to provide this with noSQL databases automatically.  Alas, I was not able to find a competent
+    explanation as to how this is done.  Just accept that it is.
+    <h3>Replication and Redundancy</h3>
+    Backing up an SQL database and keeping both copies up-to-date is evidentially difficult but easy to do with
+    a non SQL database.  Once again, this claim was repeated over and over, while I could not find a simple explanation.
+    Unfortunately I can't tell you why and how this works.
+    <p>
+        It's pretty clear that the particular suitability of a given NoSQL database depends on the problem it must solve but
+        unfortunately the tech writers these companies hire don't seem to be able to give any concrete examples.  In the meantime
+        I'm sure it's "more better", less downtime, more agile, non-proprietary...
+          </p>
+
+    <hr>
+<p> Mike Farr
+    <br>
+    <em>Everything that's interesting to do was once impossible.</em>
+    <br>
+    May 11, 2015
+</p>
+</main>
+
