@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="more changes to blog12">
+    <list default="true" id="9a1e8d84-3b72-4ddf-82bc-18d7bcdb2bec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog-12.html" afterPath="$PROJECT_DIR$/blog/blog-12.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -60,8 +60,8 @@
           <file leaf-file-name="blog-12.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43679342">
-                  <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+                <state vertical-scroll-proportion="0.4193217">
+                  <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -466,12 +466,6 @@
       <option name="number" value="Default" />
       <updated>1428001422115</updated>
     </task>
-    <task id="LOCAL-00001" summary="First commit of Ruby Cheatsheet, Arrays, Strings, Integers.">
-      <created>1428308145921</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1428308145921</updated>
-    </task>
     <task id="LOCAL-00002" summary="Change case of 'Code' folder to match actual name.  Don't know why it worked locally!">
       <created>1428449381327</created>
       <option name="number" value="00002" />
@@ -760,7 +754,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431338531876</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="more changes to blog12">
+      <created>1431338768369</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1431338768371</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -801,7 +801,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added final images to git" />
     <MESSAGE value="Stereotypes: Girls in Science" />
     <MESSAGE value="Stereotypes: Women/Girls in Science.  Block and Procs, the untold story" />
     <MESSAGE value="update to Girls in Science articl" />
@@ -826,7 +825,8 @@
     <MESSAGE value="clean up cheat sheet, try to get working in code blog" />
     <MESSAGE value="bring github up to date" />
     <MESSAGE value="add most recent blog post&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add most recent blog post&#10;" />
+    <MESSAGE value="more changes to blog12" />
+    <option name="LAST_COMMIT_MESSAGE" value="more changes to blog12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1351,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43679342">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.4193217">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           <folding />
         </state>
       </provider>
