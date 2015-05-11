@@ -13,6 +13,9 @@ h2 {
     color: #003399;
     padding-top: 1em;
 }
+.grey {
+    color:#555555;
+}
 h3 {
     font-family: 'HelveticaNeue-Medium', 'Helvetica Neue', 'sans-serif';
     font-size: 18px;
@@ -38,17 +41,23 @@ h3 {
 #methods-list {
     width: 6em;
     margin-left:2em;
+    border-right:1px solid #777777;
+    padding-right:2em;
 }
 
 
 #methods-list h3 {
-    font-family: Consolas;
-    margin:1px;
     font-size:11pt;
+    font-family: Consolas;
+    font-size:11pt;
+    margin-top: 1px;
+    margin-bottom: 1px;
 
 }
 
 #methods-list h3 a {
+
+
     color: #003399;
     /*font-weight: bold;*/
     font-style: normal;
@@ -59,20 +68,21 @@ h3 {
 }
 
 .method-detail {
-    position: absolute;
-    top:30em;
+    /*position: absolute;*/
+    /*top:8em;*/
     width: 44em;
     margin-left:12em;
     margin-right:2em;
     height: 700px;
     background-color: white;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius:5px;
-    display:none;
+    display:block;
     padding-left:1em;
     /*padding-top:1em;*/
 }
 .rule {
     margin-bottom:2em;
     width:40em;
+}#basics .Default {
 }

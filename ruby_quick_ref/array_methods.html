@@ -1,0 +1,1284 @@
+<!doctype html><head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+
+    <link href="lang-element.css" rel="stylesheet" type="text/css">
+    <link href="code-format.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+
+<h1>Array</h1>
+    <hr>
+
+
+<div id="basics" class="method-detail">
+    <h3>basics: creation and element access</h3>
+
+    <p class="Default">The elements of an array can be any object class and can even be mixed within the array.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <hr class="rule">
+    <p class="code-paragraph"><span class="parameter">numbers&nbsp;</span>
+        <span class="command">=</span> [<span class="command">1,2,3,4</span>]</p>
+
+    <p class="code-paragraph"><span class="localvar">strings&nbsp;</span>
+        <span class="command">=</span> [<span class="string">&quot;foo&quot;</span>,
+        <span class="string">&quot;</span><span class="string">baz</span>&quot;<span class="text">,</span>
+        <span class="string">&quot;boo&quot;</span>]</p>
+
+    <p class="code-paragraph"><span class="localvar">empty_ar</span>
+        <span class="command">=</span> []</p>
+
+    <p class="code-paragraph"><span class="localvar">empty_ar</span> <span style="color:#0432FF; ">=</span> <span
+            class="Class"> Array.</span></span><span class="command">new</span></p>
+
+    <p class="code-paragraph"><span class="localvar">game_board</span> <span style="color:#0432FF; ">=</span>
+        <span class="Class"> Array.</span><span class="command">new</span>(<span class="parameter">8</span>) {
+        <span class="Class"> Array</span><span style="color:#7F1B80; ">.</span>
+        <span class="command">new</span>(<span class="parameter">8</span>) }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="comment"> #init an 8 x 8 multi-dim array this way.</span></p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span>[<span class="parameter">i</span><span
+            class="text">]</span> &nbsp;&nbsp;&nbsp;&nbsp;                    <span
+            class="comment"> #=&gt; ith element</span></p>
+
+    <p class="code-paragraph">
+        <span class="localvar">ar</span><span
+            class="text">[</span><span class="parameter">-2</span><span class="text">]</span>&nbsp;&nbsp;&nbsp;&nbsp;                   
+        <span class="comment"> #=&gt; 2nd from end</span>
+    </p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span>[<span class="parameter">1..3</span>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              
+        <span class="comment"> #=&gt; [6,7,8]</span></span></p>
+
+    <p class="code-paragraph"><span class="localvar">ar</span><span class="text">[</span><span
+            class="parameter">2,2</span><span class="text">]</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+        <span class="comment">#=&gt; [7,8]</span></span></p>
+
+    <p>&nbsp;</p>
+</div>
+
+<div id="shovel" class="method-detail">
+    <h3><<               shovel operator</h3>
+
+    <p class="Default">Appends the element or array on the right to the end of the array on the left.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+    <p class="Default"><strong>Returns:</strong> the array on the left, modified.</p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>      
+        <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+
+
+    <p class="code-paragraph">         
+        <span class="localvar">ar </span><span class="command">&lt;&lt;</span>
+        <span class="localvar"> 9 </span></p>
+
+    <p></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span
+                class="literal">9 </span>]</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>      
+        <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar </span><span class="command">&lt;&lt;</span><span
+            class="localvar"> </span><span class="text">[</span><span class="localvar"> </span><span
+            class="literal">1</span><span class="localvar">, </span><span class="literal">2</span><span
+            class="localvar">, </span><span class="literal">3 </span><span class="text">]</span><span
+            class="localvar"> </span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span
+                class="literal">8</span>, <span class="text">[</span><span class="localvar"> </span><span
+                class="literal">1</span><span class="localvar">, </span><span class="literal">2</span><span
+                class="localvar">, </span><span class="literal">3 </span><span class="text">]</span><span
+                class="literal"> </span>]</p>
+</div>
+
+<div id="plus" class="method-detail">
+    <h3>+                plus</h3>
+
+<p></p>
+    <p class="Default">Appends (concatenates) the elements of arrays together. </p>
+    <p class="Default">See also  .<span
+            class="command"><span style="font-size:12.0pt; ">concat</span></span>(<span class="parameter">other_array</span>)</p>
+    <p></p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">the expression:</span></span>   
+        [<span class="literal">5</span>]
+        + <span class="text">
+            [</span>
+        <span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">3</span>]
+        + <span class="text">[</span>
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>         
+        [<span class="literal">5</span>,
+        <span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">3</span>,
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p></p>
+</div>
+
+<div id="minus" class="method-detail">
+    <h3>-                 minus, subtract</h3>
+
+    <p></p>
+
+    <p class="Default">Removes all occurrences of the elements of the second operand. <span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "><br>
+  <span style="background:#F2F2F2; "> </span></span></p>
+    <hr class="rule">
+
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">the expression:</span></span>   
+        [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>] -
+        <span class="text">[</span><span class="literal">6</span>,
+        <span class="literal">7 </span><span class="text">]</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>         
+        [<span class="literal">5</span>]</p>
+</div>
+
+<div id="multiply" class="method-detail">
+    <h3>*                 array multiply</h3>
+
+    <p class="Default">Combines copies of the array into a new array.
+    </p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Ouch!&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar </span>
+        <span class="command">*</span>
+        <span class="localvar"> </span>
+        <span class="text">3</span></p>
+
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+          [<span class="string">&quot;Ouch!, Ouch!, Ouch!&quot;</span>]</p>
+
+</div>
+
+<div id="all" class="method-detail">
+    <h3>all?</h3>
+
+    <p class="Default">Returns true if all elements of the array pass the block's test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">all?</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt; <span class="literal">4 </span>}</p>
+
+
+    <p class="code-paragraph"><span class="Instructions">
+        <span style="font-size:13.0pt; ">returns:</span></span> 
+        <span class="text">true</span></p>
+
+</div>
+
+<div id="any" class="method-detail">
+    <h3>any?</h3>
+    <p class="Default">Returns true if any element of the array passes the block's test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span></span>
+              <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.any<span class="command">?</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt; <span class="literal">6 </span>}</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span
+            style="font-size:13.0pt; ">returns:</span></span>   <span
+            class="text">true</span></p>
+</div>
+
+<div id="concat" class="method-detail">
+    <h3>concat (<span class="parameter">other_array</span>)</h3>
+
+    <p></p>
+
+    <p class="Default">Adds (concatenates) the elements of <span class="parameter">other_array</span> onto the end of the array. <br>
+        <strong>Returns:</strong> the array is modified.</p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>       
+        <span class="localvar">ar</span> <span class="command">=</span>
+        [
+        <span class="literal">1</span>,
+        <span class="literal">2</span>
+       ]
+        <br>
+        <span class="localvar">           ar</span>.
+        <span class="command">concat</span>([<span class="literal">10</span>,
+        <span class="literal">12</span>])
+    </p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>    
+        [<span class="literal">1</span>,
+        <span class="literal">2</span>,
+        <span class="literal">10</span>,
+        <span class="literal">12</span>]
+    </p>
+
+    <p></p>
+</div>
+
+<div id="concat" class="method-detail">
+    <h3>compact  <br>
+    compact!    </h3>
+    <p class="Default">Removes nil elements from the array. </p>
+    <p class="Default"><span class="command">compact</span> <strong>Returns: </strong>a new array with nil elements removed. </p>
+    <p class="Default"><span class="command">compact!</span>  <strong>Returns:</strong> the original array modified. <br> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Returns:</strong> <span class="localvar">nil</span> if no changes were made.</p>
+
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>       
+        <span class="localvar">ar</span> <span class="command">=</span>
+        [
+        <span class="literal">1</span>,
+        <span class="literal">2, nil, nil, 3, 5</span>
+       ]
+        <br>
+      <span class="localvar">           ar</span>.
+    <span class="command">compact</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>    
+        [<span class="literal">1</span>,
+        <span class="literal">2</span>, 3,
+        <span class="literal">5</span>]
+    , original array unmodified</p>
+
+  <p></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>        <span class="localvar">ar</span> <span class="command">=</span> [ <span class="literal">1</span>, <span class="literal">2, nil, nil, 3, 5</span> ] <br>
+    <span class="localvar">           ar</span>. <span class="command">compact!</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>    
+    [<span class="literal">1</span>, <span class="literal">2</span>, 3, <span class="literal">5</span>] </p>
+  <p></p>
+<p>&nbsp;</p>
+</div>
+<div id="count" class="method-detail">
+    <h3>count
+        <br>count <span class="text">(<span class="parameter">element</span>)</span>
+        <br> 
+        count <span class="text">{ <span class="code-paragraph">|<span class="parameter">el</span>|</span> block_code } </span>
+    </h3>
+
+    <p class="Default">Without parameter: returns the length of the array.
+</p>
+
+    <p class="Default">With parameter: returns the number of times  </span>
+        <span class="parameter"><span style="font-family:'Menlo','serif'; font-size:12.0pt; ">element</span></span> appears in the array.</span></p>
+
+
+
+    <p class="Default">With block: returns the number of elements that pass the block test.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; background:#F2F2F2; "> </span></p>
+
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+           <span class="text">4</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span>(<span
+            class="literal">7 </span>)
+        <br>
+        <span class="Instructions">returns:</span>  <span
+            class="text">2</span></p>
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span>
+        = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>
+       ]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">count</span>
+        {|<span class="parameter">el</span>| <span class="parameter">el</span> &gt;= <span class="literal">6 </span>}
+        <br>
+        <span class="Instructions">returns:</span>  <span
+            class="text">3</span></p>
+
+</div>
+
+<div id="delete" class="method-detail">
+<h3> delete (<span class="parameter">element</span>)</h3>
+
+    <p>
+    </p>
+
+    <p class="Default">Returns the  <span
+            class="parameter">element</span> if it was deleted from the array, otherwise nil. </p>
+
+    <p>
+    </p>
+
+    <p class="Default">The array itself is modified.</p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>, <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.delete</span>(<span
+            class="literal">7</span>)</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="text">7</span></p>
+
+    <p class="code-paragraph">            <span class="localvar">ar</span>
+        is now [<span class="literal">5</span>,
+        <span class="literal">6</span>]</p>
+</div>
+
+<div id="delete_at" class="method-detail">
+<h3>delete_at (<span class="parameter">index</span>)</h3>
+
+    <p class="Default">Deletes the element at <span class="parameter">index</span>.</p>
+
+    <p class="Default">The array itself is modified.</p>
+
+    <p class="Default"><strong>Returns:</strong> the deleted element, or nil if there was no <span
+            class="parameter">index'</span>th element.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>,
+        <span class="literal">6</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">           <span class="localvar">ar</span><span class="command">.delete_at</span>(<span class="literal">1</span>)</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions">returns:</span>
+           <span class="text">6</span></p>
+
+    <p class="code-paragraph"><span class="text">            </span><span class="localvar">ar</span> is now
+        [<span class="literal">5</span>,
+        <span class="literal">7</span>,
+        <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+
+</div>
+
+<div id="delete_if" class="method-detail">
+<h3>delete_if <span class="text">{ block }</span></h3>
+
+
+    <p class="Default">Delete elements which pass the block test.</p>
+
+    <p class="Default"><strong>Returns:</strong> the original array which has been modified.</p>
+<hr class="rule">
+    <p class="code-paragraph">
+        <span class="Instructions">let:</span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span
+                class="literal">7</span>, <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">
+                   <span class="localvar">ar</span>.<span class="command">delete_if</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> &gt;= <span class="literal">6 </span>}</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span
+            style="font-size:13.0pt; ">returns:</span></span>   <span
+            class="text">[</span><span class="literal">5</span><span class="text">]</span></p>
+
+    <p class="code-paragraph"><span class="text">           </span><span class="localvar">ar</span> is now
+        [<span class="literal">5</span>]</p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+<span class="text"><span style="font-size:12.0pt; "><br clear="all" style="page-break-before:always;">
+</span></span>
+
+</div>
+
+<div id="drop" class="method-detail">
+<h3>drop (<span class="parameter">n</span>)<span class="text"></span>
+    </h3>
+
+    <p class="Default"><strong>Returns:</strong> a new array without the first <span class="parameter">n</span> elements. </p>
+    <p class="Default">Leaves the original array unmodified.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">drop</span>(<span class="parameter">2</span>)</p>
+
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          </p>
+
+</div>
+
+<div id="each" class="method-detail">
+<h3>each <span class="text">{ |</span><span class="parameter">el</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span> </h3>
+
+    <p class="Default">Performs the <em class="non-terminal">block_code</em> on each element of the array. Original array is not modified, thus it's is all about the side effects. </p>
+    <p class="Default">Returns the unmodified array.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">each</span>{ |<span
+            class="parameter">el</span>| puts <span class="string">&quot;Hi &quot;</span> + <span class="parameter">el</span>
+        +&quot;!&quot;}</p>
+
+    <p class="code-paragraph"><span class="Instructions">StdOut:</span> </p>
+
+  <p class="code-paragraph"><span class="string">          Hi Joe!</span></p>
+
+    <p class="code-paragraph"><span class="string">          Hi Fred!</span></p>
+
+    <p class="code-paragraph"><span class="string">          Hi Sally!</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Joe&quot;</span>,
+        <span class="literal">&quot;</span><span class="string">Fred&quot;</span>,
+        <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          (<span class="text">the unmodified array)</span></p>
+
+    <p class="Default">&nbsp;</p>
+</div>
+
+<div id="each_with_index" class="method-detail">
+<h3>each_with_index <span class="text">{ |</span><span class="parameter">el</span><span class="text">, </span><span class="parameter">index</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span>
+  </h3>
+
+    <p class="Default">Performs the <em class="non-terminal">block_code</em> on each element of the array. </p>
+    <p class="Default">Passes the element and its index to the block.</p>
+    <p class="Default">Original array is not modified, thus it's is all about the side effects. </p>
+    <p class="Default">Returns the unmodified array.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">each</span>{ |<span
+            class="parameter">el</span>| puts <span class="string">&quot;Element: &quot; + </span><span class="parameter">index</span><span class="string"> +&quot; is &quot; +</span> <span class="parameter">el</span>&quot;}</p>
+
+    <p class="code-paragraph"><span class="Instructions">StdOut:</span> </p>
+
+  <p class="code-paragraph"><span class="string">          1: Joe</span></p>
+
+    <p class="code-paragraph"><span class="string">          2: Fred</span></p>
+
+    <p class="code-paragraph"><span class="string">          3: Sally</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span></p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Joe&quot;</span>,
+        <span class="literal">&quot;</span><span class="string">Fred&quot;</span>,
+        <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          (<span class="text">the unmodified array)</span></p>
+
+    <p class="Default">&nbsp;</p>
+</div>
+
+<div id="empty" class="method-detail">
+<h3>empty?</h3>
+
+    <p class="Default"><strong>Returns:</strong> true if the array has no elements.     </p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = []</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">empty?</span></p>
+
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        true</p>
+
+    <p class="code-paragraph">          </p>
+
+</div>
+
+<div id="first" class="method-detail">
+<h3>first<br>
+first (<span class="parameter">n</span>)<span class="text"></span>  </h3>
+
+    <p class="Default"><strong>Returns:</strong> the first element or the first <span class="parameter">n</span> elements. </p>
+    <p class="Default">Leaves the original array unmodified.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">first</span>(<span class="parameter">2</span>)</p>
+
+  <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]</p>
+    <p class="code-paragraph">          </p>
+</div>
+
+
+
+<div id="flatten" class="method-detail">
+<h3>flatten<br>
+flatten (<span class="parameter">n</span>)<span class="text"></span><br>
+flatten!<br>
+  flatten! (<span class="parameter">n</span>)<span class="text"></span>  </h3>
+
+    <p class="Default">Without a parameter, converts an array of arrays into a one dimensional array, inserting all elements of the embedded arrays at the top level. </p>
+    <p class="Default">With  parameter <span class="parameter">n</span>, flattens the array <span class="parameter">n</span> levels </p>
+    <p class="Default"><strong>Returns:</strong> a new flattened array.</p>
+    <p class="Default"><strong>Returns!:</strong> the <span class="command">!</span> version returns the modified array or nil if no modifications were made.    </p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span style="font-size: 10.0pt">[</span>1,2], [35, 17, [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]]]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">flatten</span>    </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [1, 2, 35, 17, <span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]</p>
+  <p class="code-paragraph">          (<span class="text">a new array)</span> </p>
+  <p class="code-paragraph">&nbsp;</p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span style="font-size: 10.0pt">[</span>1,2], [35, 17, [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]]]</p>
+
+  <p class="code-paragraph">           <span class="localvar">ar</span>.<span class="command">flatten!</span>(<span class="parameter">1</span>)</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+    [1, 2, 35, 17, <span class="string"><span
+                style="font-size:10.0pt; ">[&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]]</p>
+    <p class="code-paragraph">          (<span class="text">the array, modified)</span></p>
+
+</div>
+
+<div id="include" class="method-detail">
+<h3> include? (<span class="parameter">object</span>)</h3>
+
+    <p>
+    </p>
+
+    <p class="Default"><strong>Returns:</strong> true if the array contains  <span
+            class="parameter">object</span></p>
+
+    <p>
+    </p>
+
+    <p class="Default">The array itself is modified.</p>
+<hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>, <span class="literal">7</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.include?</span>(<span
+            class="literal">7</span>)  </p>
+  <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="text">true</span></p>
+  <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.include?</span>(<span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>)</p>
+    <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="text">false</span></p>
+</div>
+
+
+<div id="index" class="method-detail">
+<h3>find_index(<span class="parameter">object</span>)<br>
+index(<span class="parameter">object</span>)</h3>
+
+    <p class="Default"><strong>Returns:</strong> the index in the array of the object passed to it. </p>
+    <p class="Default">Leaves the original array unmodified.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">first</span>(<span class="parameter">2</span>)</p>
+
+  <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>]</p>
+    <p class="code-paragraph">          </p>
+</div>
+
+
+<div id="inject" class="method-detail">
+<h3>inject(<span class="parameter">sym</span>)</h3>
+<p class="Default"><span class="parameter">sym</span> is an operator, for example, addition, written as <span class="parameter">:+</span> . <span class="command">inject</span> will return the value of the statement formed by &quot;injecting&quot; the operator between each element in the array. For example if the sym is :+  inject will perform <span class="parameter">el1</span> + <span class="parameter">el2</span> + <span class="parameter">el3</span>... That is, it will return the sum of the elements.</p>
+<h3>inject(<span class="parameter">initial, sym</span>)</h3>
+<p class="Default">Same as above but include initial as the starting value.</p>
+<h3>inject (<span class="parameter">initial</span>)&nbsp;<span class="text">{ |</span><span class="parameter">memo, element</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Calls <em>block_code</em>, passing <span class="parameter">memo</span> and <span class="parameter">element</span> at each iteration.  <em class="non-terminal">block_code</em> should use <span class="parameter">memo</span> in its calculation. After each iteration, the value returned by <em class="non-terminal">block_code</em> is set to memo. Then <span class="parameter">memo</span> and the next element are passed to <em class="non-terminal">block_code</em>.</p>
+<p class="Default"> <span class="parameter">memo</span> is a traditional name for an accumulated value. If initial is not present, the first element of the array is used instead.  </p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> =  <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">inject</span><span class="command">(</span><span class="command">:+</span>)</p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        10 </p>
+  <p class="code-paragraph">           (<span class="text">inject computes: 1 + 2 + 3 + 4 )</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">inject(</span>25<span class="command">,:+</span>)</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      35</p>
+  <p class="code-paragraph">           (<span class="text">inject computes: 25 + 1 + 2 + 3 + 4 )</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">inject(</span>10) { |<span
+            class="parameter">memo, element| memo</span><span class="parameter"></span> + <span class="parameter">element</span><span class="literal"></span>} </p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      20 </p>
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph">&nbsp;</p>
+  <p class="code-paragraph">&nbsp;</p>
+</div>
+
+
+
+<div id="insert" class="method-detail">
+<h3> insert (<span class="parameter">index, object</span>)</h3>
+
+  <p><span class="Default">Starting at before the element at index, insert the object or objects into the array.</span>
+  </p>
+
+    <p class="Default"><strong>Returns:</strong> the modified array<span
+            class="parameter"></span></p>
+
+    <p></p>
+  <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>, <span class="literal">7</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.insert</span>(2, 5)  </p>
+  <p class="code-paragraph"><span class="Instructions">returns:</span>   [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">5, 7</span>, <span class="literal">7</span>]</p>
+  <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span> </span>        <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span class="literal">7</span>]</p>
+  <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.insert</span>(-1, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>,<span
+                class="string"> &quot;Sam&quot;</span>,<span
+                class="string"> &quot;George&quot;</span>)</p>
+    <p class="code-paragraph"><span class="Instructions">returns:</span>  [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span class="literal">7, &quot;<span
+                class="string">Fred&quot;</span>,<span
+                class="string"> &quot;Sam&quot;</span>,<span
+                class="string"> &quot;George&quot;</span></span>]</p>
+</div>
+
+<div id="insert" class="method-detail">
+<h3> inspect 
+<br> 
+to_s</h3>
+
+    <p class="Default"><strong>Returns:</strong> a string representation of the array.<span
+            class="parameter"></span></p>
+
+    <p></p>
+  <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>,<span class="string">&quot;Sam&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.inspect</span></p>
+  <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="string">&quot;[5, 6, 5, 7, \&quot;Sam\&quot;]</span></p>
+  <p class="code-paragraph">&nbsp;</p>
+</div>
+<div id="insert" class="method-detail">
+<h3> join
+<br>join (<span class="parameter">separator</span>)</h3>
+
+  <p span class="Default">Join all elements of the array into a string, inserting <span class="parameter">        separator</span> between each element.</span>
+  </p>
+
+
+    <p class="Default"><strong>Returns:</strong> a string<span
+            class="parameter"></span></p>
+
+    <p></p>
+  <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span>
+    </span>
+               <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>,
+        <span class="literal">7</span>, <span class="literal">7</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.join</span>()  </p>
+  <p class="code-paragraph"><span class="Instructions">returns:</span>   <span class="string">&quot;5677&quot;</span></p>
+  <p class="code-paragraph">&nbsp;</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span> </span>        <span class="localvar">ar</span> = [<span class="string">&quot;I&quot;</span>, <span class="string">&quot;love&quot;</span>, <span class="string">&quot;pizza&quot;</span>]</p>
+  <p class="code-paragraph">          <span class="localvar">ar</span><span class="command">.join(</span><span class="string">&quot; &quot;</span><span class="command">)</span></p>
+    <p class="code-paragraph"><span class="Instructions">returns:</span>  <span class="literal">&quot;</span><span
+                class="string">I love  pizza</span><span
+                class="string">&quot;</span></p>
+</div>
+<div id="each" class="method-detail">
+<h3>keep_if <span class="text">{ |</span><span class="parameter">element</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span> 
+<br>
+</h3>
+
+    <p class="Default">Delete each element of the array for which <span class="non-terminal">block_code</span> returns <span class="literal">false</span>. </p>
+    <p class="Default"><strong>Returns:</strong> the modified array.</p>
+    <h3><br>
+  select &nbsp;&nbsp;<span class="text">{ |</span><span class="parameter">element</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+    <p class="Default"><strong>Returns:</strong> a new array containing each element for which the <span class="non-terminal">block_code</span> test returns <span class="literal">true</span>.</p>
+    <hr class="rule">
+
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">let:</span> </span>       <span class="localvar">ar</span> = [<span class="literal">5</span>, <span class="literal">6</span>, <span class="literal">7</span>, <span class="literal">8</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">keep_if</span>{ |<span
+            class="parameter">el</span>| el % 2 == 0}</p>
+
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+    [<span class="literal">6</span>, <span class="literal">8</span>]</p>
+    <p class="code-paragraph">          (<span class="text">keep_if modifies the original array)</span></p>
+
+    <p class="code-paragraph"><span class="text">&nbsp;</span><span class="Instructions">let:</span>      <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">select</span>{ |<span
+            class="parameter">el</span>| el =~ /[FS]/ }    </p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="literal">&quot;</span><span class="string">Fred&quot;</span>,
+        <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          (<span class="text">the original array is unmodified)</span></p>
+
+    <p class="Default">&nbsp;</p>
+</div>
+
+<div id="last" class="method-detail">
+<h3>last<br>
+last (<span class="parameter">n</span>)<span class="text"></span>  </h3>
+
+    <p class="Default"><span class="command">last</span> <strong>returns</strong> the last element or <span class="literal">nil</span> if the array was empty. <br>
+    <span class="command">last</span>(<span class="parameter">n</span>) <strong>returns</strong> a new array containing the last <span class="parameter">n</span> elements. If <span class="parameter">n</span> &gt; then the number of elements, then return all the elements.</p>
+    <p class="Default">Leaves the original array unmodified.</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">last</span>(<span class="parameter">2</span>)  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Fred&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+</div>
+
+
+<div id="last" class="method-detail">
+<h3>length<br>
+size</h3>
+
+    <p class="Default"><strong>Returns: </strong> the number of elements in the array. <br>
+  </p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;Joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">length</span></p>
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">size</span>  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        3</p>
+</div>
+
+
+
+<div id="map" class="method-detail">
+<h3>map &nbsp;<span class="text">{ |</span><span class="parameter">el</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Calls <em>block_code</em> on each element of the array. </p>
+<p class="Default"><strong>Returns:</strong> a new array containing the values returned by <em>block_code</em>. </p>
+<h3><br>
+  map! <span class="text">{ |</span><span class="parameter">el</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+
+    <p class="Default">Calls <em>block_code</em> on each element of the array. </p>
+    <p class="Default"><strong>Returns:</strong> the original array containing the values returned by <em>block_code</em>. </p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">fred&quot;</span>, <span class="string">&quot;sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">map</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span>.capitalize}  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Joe&quot;</span>,
+        <span class="literal">&quot;</span><span class="string">Fred&quot;</span>,
+        <span class="string">&quot;Sally&quot;</span>]    </p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">map!</span>{ |<span
+            class="parameter">el</span>| <span class="parameter">el</span> * <span class="literal">2</span>}    </p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [<span style="font-size:10.0pt;">2, 4, 6, 8</span>]</p>
+    <p class="code-paragraph">           (map! <span class="text">modifies the original)</span></p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+<div id="max" class="method-detail">
+<h3>max</h3>
+<p class="Default"><strong>Returns:</strong> the maximum value of the array. Order is determined by using the <span class="literal">&lt;=&gt;</span> operator.</p>
+<h3><br>
+  max &nbsp;<span class="text">{ |</span><span class="parameter">a, b</span><span class="text">|  <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Provide your own comparison test. Calls <em>block_code</em> on pairs of elements of the array. Your block should return -1, 0, 1 if <span class="parameter">a</span> is &lt;, ==, or &gt; <span class="parameter">b</span> respectively.</p>
+<p class="Default"><strong>Returns:</strong> the maximum value of the array.</p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">fred&quot;</span>, <span class="string">&quot;sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">max</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;sally&quot;</span>]    </p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">2, 1, -10, 9</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">max</span>{|<span
+            class="parameter">a, b</span>| <span class="parameter">a</span> - <span class="parameter">b</span> }    </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      9</p>
+    <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="min" class="method-detail">
+<h3>min</h3>
+<p class="Default"><strong>Returns:</strong> the minimum value of the array. Order is determined by using the <span class="literal">&lt;=&gt;</span> operator.</p>
+<h3><br>
+  min &nbsp;<span class="text">{ |</span><span class="parameter">a, b</span><span class="text">|  <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Provide your own comparison test. Calls <em>block_code</em> on pairs of elements of the array. Your block should return -1, 0, 1 if <span class="parameter">a</span> is &lt;, ==, or &gt; <span class="parameter">b</span> respectively.</p>
+<p class="Default"><strong>Returns:</strong> the minimum value of the array.</p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">fred&quot;</span>, <span class="string">&quot;sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">min</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;fred&quot;</span>]    </p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">2, 1, -10, 9</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">min</span>{|<span
+            class="parameter">a, b</span>| <span class="parameter">a</span> - <span class="parameter">b</span> }    </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      -10</p>
+    <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="minmax" class="method-detail">
+<h3>minmax</h3>
+<p class="Default"><strong>Returns:</strong> the minimum value of the array. Order is determined by using the <span class="literal">&lt;=&gt;</span> operator.</p>
+<h3><br>
+  minmax &nbsp;<span class="text">{ |</span><span class="parameter">a, b</span><span class="text">|  <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Provide your own comparison test. Calls <em>block_code</em> on pairs of elements of the array. Your block should return -1, 0, 1 if <span class="parameter">a</span> is &lt;, ==, or &gt; <span class="parameter">b</span> respectively.</p>
+<p class="Default"><strong>Returns:</strong> a new array containing the minimum and maximum value of the array.</p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">fred&quot;</span>, <span class="string">&quot;sally&quot;</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">minmax</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;fred&quot;</span>,<span class="string"> &quot;sally&quot;</span>]    </p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">2, 1, -10, 9</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">min</span>{|<span
+            class="parameter">a, b</span>| <span class="parameter">a</span> - <span class="parameter">b</span> }    </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [-10, 9]</p>
+    <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+
+<div id="pop" class="method-detail">
+<h3>pop</h3>
+<p class="Default"><strong>Returns:</strong> the last element from the array. The original array is modified. If array is empty returns nil.</p>
+<h3><br>
+  pop <span class="text">(</span><span class="parameter">n</span><span class="text">)</span>. </h3>
+    <p class="Default"><strong>Returns:</strong> a new array containing the last <span class="parameter">n</span> elements of the original. The original array is modified. If the original array is empty, returns <span class="literal">[]</span>.</p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">pop</span>  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        <span class="string">&quot;Sally&quot;</span></p>
+
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>])</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">pop(</span><span class="literal">3</span><span class="command">)</span></p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [2, 3, 4]</p>
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now </span>[1])</p>
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+
+<div id="push" class="method-detail">
+<h3>push <span class="text">(</span><span class="parameter">object</span><span class="text">, <span class="parameter">object2</span>, <span class="parameter">object3</span>...)</span></h3>
+<p class="Default">Appends the given objects on<span class="text"></span> to the end of the array. </p>
+<p class="Default"><strong>Returns:</strong> the original array after the objects are pushed. </p>
+<p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">push</span>(<span class="string">&quot;Sally&quot;</span>, <span class="string">&quot;Bill&quot;</span>)</p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>, <span class="string">&quot;Bill&quot;</span>]</p>
+
+    <p class="code-paragraph">           (<span class="text">the original array  modified)</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">push(</span><span class="literal">5</span><span class="command">)</span>.push(<span class="literal">6</span>)</p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [1, 2, 3, 4, 5, 6]</p>
+    <p class="code-paragraph">           (<span class="text">the original array  modified)</span></p>
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="reverse" class="method-detail">
+<h3>reverse</h3>
+<p class="Default"><strong>Returns:</strong> a new array with elements in reverse order. </p>
+<p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>, <span class="string">&quot;Bill&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">reverse</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;Bill&quot;</span>, <span class="literal">&quot;</span><span class="string">Sally&quot;</span>, <span class="string">&quot;Fred&quot;</span>, <span class="string">&quot;Joe&quot;</span>]</p>
+
+    <p class="code-paragraph">           (<span class="text">the original array  is unmodified)</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">reverse</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [6, 5, 4, 3, 2, 1]</p>
+    <p class="code-paragraph">           (<span class="text">the original array  is unmodified)</span></p>
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="sample" class="method-detail">
+<h3>sample<br>
+sample (<span class="parameter">n</span>)<span class="text"></span>  </h3>
+
+    <p class="Default"><span class="command">sample</span> <strong>returns</strong> an element chosen at random from the array or <span class="literal">nil</span> if the array was empty. <br>
+    <span class="command">sample</span>(<span class="parameter">n</span>) <strong>returns</strong> a new array containing a random selection of <span class="parameter">n</span> elements. There will be no duplicates unless the original array contains duplicates itself. If the array is empty, it returns an empty array..</p>
+    <p class="Default">The original array is unmodified.</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6]</p>
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">sample</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+    3</p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">sample</span>(<span class="parameter">3</span>)  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span style="font-size: 10.0pt">3, 1</span>, 4]</p>
+
+    <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+</div>
+
+
+<div id="shift" class="method-detail">
+<h3>shift</h3>
+<p class="Default"><strong>Returns:</strong> the first element from the array, shifting the remaining elements down. If the array is empty, returns nil.</p>
+<h3><br>
+  shift <span class="text">(</span><span class="parameter">n</span><span class="text">)</span>. </h3>
+    <p class="Default"><strong>Returns:</strong> a new array containing the first <span class="parameter">n</span> elements of the original. The remaining elements are shifted down. If the original array is empty, returns <span class="literal">[]</span>.</p>
+    <p class="Default">In both cases the original array is modified.</p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">shift</span>  </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        <span class="string">&quot;Joe&quot;</span></p>
+
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now [<span class="string">&quot;Fred&quot;</span>, <span class="literal">&quot;</span><span class="string">Sally&quot;</span>])</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">shift(</span><span class="literal">3</span><span class="command">)</span></p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [<span
+                style="font-size:10.0pt;">1, 2, 3</span>]</p>
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now </span>[4])</p>
+    <p class="code-paragraph">&nbsp;</p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="shuffle" class="method-detail">
+<h3>shuffle<br>
+shuffle! </h3>
+
+    <p class="Default"><span class="command">shuffle</span> <strong>returns</strong> a new array whose elements are randomly mixed up, i.e. shuffled. <br>
+    <span class="command">shuffle</span>! does the same on the array in place.    </p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6]</p>
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">shuffle</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+    [3, 2, 6, 1, 5, 4]</p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph">&nbsp;</p>
+</div>
+
+
+
+<div id="slice" class="method-detail">
+<h3>slice <span class="text">(</span><span class="parameter">index</span><span class="text">)</span></h3>
+  <p class="Default">Delete the indicated element from the array.</p>
+  <p class="Default"><strong>Returns:</strong> the deleted element or <span class="literal">nil</span> if there is no <span class="parameter">index</span>'th element.</p>
+    <h3>slice <span class="text">(</span><span class="parameter">index</span>,<span class="parameter"> length</span><span class="text">)</span></h3>
+    <p class="Default">Delete <span class="parameter">length</span> elements starting at <span class="parameter">index</span> from the array. </p>
+    <p class="Default"><strong>Returns:</strong> an array of the deleted elements.     If there are not enough elements in the array, fewer than <span class="parameter">length</span> elements will be returned.</p>
+    <h3>slice <span class="text">(</span><span class="parameter">range</span><span class="text">)</span></h3>
+    <p class="Default">Delete the <span class="parameter">range</span> of elements from the array.</p>
+  <p class="Default"><strong>Returns:</strong> an array of the deleted elements. If both indices of the range are outside the array, return nil. If only the second index is outside then return as many as possible.</p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Fred&quot;</span>, <span class="string">&quot;Sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">slice(</span><span class="literal">1</span><span class="command">)</span> </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        <span class="string">&quot;Fred&quot;</span></p>
+
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now [<span class="string">&quot;Joe&quot;</span>, <span class="literal">&quot;</span><span class="string">Sally&quot;</span>])</span></p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6, 7, 8, 9]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">slice(</span><span class="literal">3</span>, <span class="literal">4</span><span class="command">)</span></p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [<span
+                style="font-size:10.0pt;">4, 5, 6, 7</span>]</p>
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now </span>[<span style="font-size:10.0pt;">1, 2, 3, </span>8, 9])</p>
+    <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>, 5, 6, 7, 8, 9]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">slice(</span><span class="literal">0..3</span><span class="literal"></span><span class="command">)</span></p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [<span
+                style="font-size:10.0pt;">1, 2, 3, 4</span>]</p>
+    <p class="code-paragraph">          (<span class="text"><span class="localvar">ar</span> is now </span>[<span style="font-size:10.0pt;">5, 6, 7, </span>8, 9])</p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+<div id="sort" class="method-detail">
+<h3>sort</h3>
+<p class="Default"><strong>Returns:</strong> a new sorted array. Order is determined by using the <span class="literal">&lt;=&gt;</span> operator.</p>
+<h3><br>
+  sort &nbsp;<span class="text">{ |</span><span class="parameter">a, b</span><span class="text">|  <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Provide your own comparison test. Calls <em>block_code</em> on pairs of elements of the array. Your block should return -1, 0, 1 if <span class="parameter">a</span> is &lt;, ==, or &gt; <span class="parameter">b</span> respectively.</p>
+<p class="Default"><strong>Returns:</strong> a new sorted array. </p>
+<h3><br>
+  sort!<br>
+  sort! &nbsp;<span class="text">{ |</span><span class="parameter">a, b</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+<p class="Default">Same as above but sorts the original array.  </p>
+<hr class="rule">
+
+    <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span class="string"><span
+                style="font-size:10.0pt; ">&quot;joe&quot;</span></span>, <span class="literal">&quot;</span><span
+                class="string">fred&quot;</span>, <span class="string">&quot;sally&quot;</span>]</p>
+
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">sort</span></p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+        [<span class="string">&quot;fred&quot;</span>,
+        <span class="literal">&quot;</span><span class="string">joe&quot;</span>,
+        <span class="string">&quot;sally&quot;</span>]    </p>
+  <p class="code-paragraph">           (<span class="text">the original array is unmodified)</span></p>
+  <p class="code-paragraph"><span class="Instructions">let:</span>       <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">2, 1, 0, 9</span>]</p>
+    <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">sort</span>{|<span
+            class="parameter">a, b</span>| <span class="parameter">a</span> - <span class="parameter">b</span> }    </p>
+    <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  
+      [<span style="font-size:10.0pt;">0, 1, 2, 9</span>]</p>
+    <p class="code-paragraph">           (sort! <span class="text">modifies the original)</span></p>
+    <p class="Default">&nbsp;</p>
+<p class="Default">&nbsp;</p>
+</div>
+
+
+<div id="take_while" class="method-detail">
+  <h3>take <span class="text">(</span><span class="parameter">n</span><span class="text"><span class="code-paragraph">)</span></span></h3>
+    <p class="Default">Copy <span class="parameter">n</span> elements from the beginning of the array</p>
+    <p class="Default"><strong>Returns:</strong> a new array containing the elements copied. </p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4, 5, 6, 7, 8</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">take</span>(<span class="command"><span
+            class="parameter">5</span></span>) </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  [<span
+                style="font-size:10.0pt;">1, 2, 3, 4, 5]</span></p>
+
+    <p class="code-paragraph">          (original array unmodified<span class="text">)</span></p>
+<p class="Default">&nbsp;</p>
+</div>
+
+<div id="take_while" class="method-detail">
+  <h3>take_while <span class="text">{ |</span><span class="parameter">el</span><span class="text">| <span class="code-paragraph"><em class="non-terminal">block_code</em> }</span></span></h3>
+    <p class="Default">Passes elements from the beginning of the array to the code block and as long as the code block doesn't return false or nil, copies those elements into a new array</p>
+    <p class="Default"><strong>Returns:</strong> the elements copied from the beginning of the original array. </p>
+    <p class="Default">&nbsp;</p>
+    <hr class="rule">
+
+  <p class="code-paragraph"><span class="Instructions">let:</span>
+              <span class="localvar">ar</span> = [<span
+                style="font-size:10.0pt;">1, 2, 3, 4, 5, 6, 7, 8</span>]</p>
+
+  <p class="code-paragraph">          <span class="localvar">ar</span>.<span class="command">take_while</span>{|<span class="command"><span
+            class="parameter">el</span>| <span class="parameter">el</span> </span>&lt; <span class="parameter">6</span> } </p>
+  <p class="code-paragraph"><span class="Instructions"><span style="font-size:13.0pt; ">returns:</span></span>  [<span
+                style="font-size:10.0pt;">1, 2, 3, 4, 5]</span></p>
+
+    <p class="code-paragraph">          (original array unmodified<span class="text">)</span></p>
+<p class="Default">&nbsp;</p>
+</div>

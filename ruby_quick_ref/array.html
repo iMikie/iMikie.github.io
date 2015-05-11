@@ -20,10 +20,103 @@
 </head>
 
 <h1>Array</h1>
-<h2>
-    simple examples:
-</h2>
-<div id="examples">
+    <hr>
+
+
+<div id="methods-list">
+    <h3> <a onclick="display_method('basics');" > Basics </a> </h3>
+    <hr>
+<h3 class="grey"> Methods: </h3>
+    <hr>
+
+
+    <h3><a onclick="display_method('shovel');" ><< </a></h3>
+
+    <h3><a onclick="display_method('plus');" >+ </a></h3>
+
+    <h3><a onclick="display_method('minus');" >- </a></h3>
+
+    <h3><a onclick="display_method('multiply');" >* </a></h3>
+
+    <h3><a onclick="display_method('all');" >all? </a></h3>
+
+    <h3><a onclick="display_method('any');" >any?</a></h3>yy
+
+    <h3><a onclick="display_method('compact');" >concat </a></h3>
+    <h3><a onclick="display_method('concat');" >concat </a></h3>
+    <h3><a onclick="display_method('count');" >count </a></h3>
+
+    <h3><a onclick="display_method('delete');" >delete </a></h3>
+
+    <h3><a onclick="display_method('delete_at');" >delete_at</a></h3>
+
+    <h3><a onclick="display_method('delete_if');" >delete_if</a></h3>
+    <h3><a onclick="display_method('drop');" >drop</a></h3>
+
+    <h3><a onclick="display_method('each');" >each</a></h3>
+
+    <h3><a onclick="display_method('each_with_index');" >each_with_index</a></h3>
+    <h3><a onclick="display_method('empty');" >empty</a></h3>
+
+    <h3><a onclick="display_method('find');" >find</a></h3>
+
+    <h3><a onclick="display_method('find_all');" >find_all</a></h3>
+
+    <h3><a onclick="display_method('find_index');" >find_index</a></h3>
+
+    <h3><a onclick="display_method('first');" >first</a></h3>
+
+    <h3><a onclick="display_method('flatten');" >flatten</a></h3>
+
+    <h3><a onclick="display_method('include');" >include?</a></h3>
+
+    <h3><a onclick="display_method('index');" >index</a></h3>
+    <h3><a onclick="display_method('inject');" >inject</a></h3>
+
+    <h3><a onclick="display_method('insert');" >insert</a></h3>
+    <h3><a onclick="display_method('inspect');" >inspect</a></h3>
+
+    <h3><a onclick="display_method('join');" >join</a></h3>
+
+    <h3><a onclick="display_method('length');" >length</a></h3>
+    <h3><a onclick="display_method('map');" >map</a></h3>
+
+    <h3><a onclick="display_method('max');" >max</a></h3>
+
+    <h3><a onclick="display_method('min');" >min</a></h3>
+
+    <h3><a onclick="display_method('minmax');" >minmax</a></h3>
+    <h3><a onclick="display_method('none?');" >none?</a></h3>yy
+
+    <h3><a onclick="display_method('pop');" >pop</a></h3>
+
+    <h3><a onclick="display_method('push');" >push</a></h3>
+    <h3><a onclick="display_method('reverse');" >reverse</a></h3>
+    <h3><a onclick="display_method('sample');" >sample</a></h3>
+
+    <h3><a onclick="display_method('keep_if');" >select</a></h3>
+
+    <h3><a onclick="display_method('length');" >size</a></h3>
+
+    <h3><a onclick="display_method('shift');" >shift</a></h3>
+
+    <h3><a onclick="display_method('shuffle');" >shuffle</a></h3>
+    <h3><a onclick="display_method('slice');" >slice></h3>
+    <h3><a onclick="display_method('sort');" >sort</a></h3>
+
+    <h3><a onclick="display_method('take');" >take</a></h3
+     <h3><a onclick="display_method('take_while');" >take</a></h3>
+    <h3><a onclick="display_method('inspect');" >to_s</a></h3>
+
+    <h3><a onclick="display_method('uniq');" >uniq</a></h3>
+</div>
+<div id="basics" class="method-detail">
+    <h3>basics: creation and element access</h3>
+
+    <p class="Default">The elements of an array can be any object class and can even be mixed within the array.</span><span
+            style="font-family:'Menlo','serif'; font-size:12.0pt; "> </span></p>
+
+    <hr class="rule">
     <p class="code-paragraph"><span class="parameter">numbers&nbsp;</span>
         <span class="command">=</span> [<span class="command">1,2,3,4</span>]</p>
 
@@ -65,84 +158,7 @@
 
     <p>&nbsp;</p>
 </div>
-<hr>
-<h2>
-    here are the methods you'll run into:
-</h2>
-<div id="methods-list">
-    <h3><a onclick="display_method('shovel');" ><< </a></h3>
 
-    <h3><a onclick="display_method('plus');" >+ </a></h3>
-
-    <h3><a onclick="display_method('minus');" >- </a></h3>
-
-    <h3><a onclick="display_method('multiply');" >* </a></h3>
-
-    <h3><a onclick="display_method('all');" >all? </a></h3>
-
-    <h3><a onclick="display_method('any');" >any?</a></h3>
-
-    <h3><a onclick="display_method('concat');" >concat </a></h3>
-    <h3><a onclick="display_method('count');" >count </a></h3>
-
-    <h3><a onclick="display_method('delete');" >delete </a></h3>
-
-    <h3><a onclick="display_method('delete_at');" >delete_at</a></h3>
-
-    <h3><a onclick="display_method('delete_if');" >delete_if</a></h3>
-
-    <h3><a onclick="display_method('each');" >each</a></h3>
-
-    <h3><a onclick="display_method('each_with_index');" >each_with_index</a></h3>
-
-    <h3><a onclick="display_method('find');" >find</a></h3>
-
-    <h3><a onclick="display_method('find_all');" >find_all</a></h3>
-
-    <h3><a onclick="display_method('find_index');" >find_index</a></h3>
-
-    <h3><a onclick="display_method('first');" >first</a></h3>
-
-    <h3><a onclick="display_method('inject');" >inject</a></h3>
-
-    <h3><a onclick="display_method('map');" >map</a></h3>
-
-    <h3><a onclick="display_method('drop');" >drop</a></h3>
-
-    <h3><a onclick="display_method('flatten');" >flatten</a></h3>
-
-    <h3><a onclick="display_method('include?');" >include?</a></h3>
-
-    <h3><a onclick="display_method('index');" >index</a></h3>
-
-    <h3><a onclick="display_method('insert');" >insert</a></h3>
-
-    <h3><a onclick="display_method('join');" >join</a></h3>
-
-    <h3><a onclick="display_method('length');" >length</a></h3>
-
-    <h3><a onclick="display_method('max');" >max</a></h3>
-
-    <h3><a onclick="display_method('min');" >min</a></h3>
-
-    <h3><a onclick="display_method('minmax');" >minmax</a></h3>
-
-    <h3><a onclick="display_method('pop');" >pop</a></h3>
-
-    <h3><a onclick="display_method('push');" >push</a></h3>
-
-    <h3><a onclick="display_method('select');" >select</a></h3>
-
-    <h3><a onclick="display_method('size');" >size</a></h3>
-
-    <h3><a onclick="display_method('shift');" >shift</a></h3>
-
-    <h3><a onclick="display_method('shuffle');" >shuffle</a></h3>
-
-    <h3><a onclick="display_method('take');" >take</a></h3>
-
-    <h3><a onclick="display_method('uniq');" >uniq</a></h3>
-</div>
 <div id="shovel" class="method-detail">
     <h3><<               shovel operator</h3>
 
@@ -471,7 +487,7 @@
 </div>
 
 <div id="delete_if" class="method-detail">
-<h3>delete_if <span class="text">{ block }</h3>
+<h3>delete_if <span class="text">{ block }</span></h3>
 
 
     <p class="Default">Delete elements which pass the block test.</p>
@@ -538,103 +554,5 @@
 
     <p class="Default">&nbsp;</p>
 </div>
-    <div id="all?" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="all?" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="concat" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="count" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="delete" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="delete_at" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="delete_if" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="each" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="each_with_index 5" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="find" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="find_all" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="find_index" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="first" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="inject" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="map" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="drop" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="flatten" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="include?" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="index" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="insert" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="join" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="length" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="max" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="min" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="minmax" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="pop" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="push" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="select" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="size" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="shift" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="shuffle" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="take" class="method-detail">
-        This is the information for all?
-    </div>
-    <div id="uniq" class="method-detail">
-        This is the information for all?
-    </div>
+
 

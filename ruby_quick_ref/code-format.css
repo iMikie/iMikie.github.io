@@ -61,3 +61,12 @@ span.text {
     font-style: normal;
 }
 
+span.non-terminal {
+	font-style: italic;
+}
+
+span.literal {
+	    font-family: Consolas;
+    color: #666666;
+
+}
