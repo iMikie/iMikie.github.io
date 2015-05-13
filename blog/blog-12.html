@@ -36,19 +36,19 @@
         explanation. I imagine some gnome whose only purpose was to demostrate that
         he knows something I don't. (He succeeded.)
         </p><p>
-    Even over at Mongo you get painfully awkward sentences like
+    Over at Mongo you get some good explanation along with painfully awkward dropouts like
         "Some
-        key-value stores, such as Redis, allow each value to have a type, such as "integer", which adds functionality".
-        Take away: integers add functionality to some things.  Seriously, maybe I should get a job as a writer instead.
+        key-value stores allow each value to have a type, such as "integer", which adds functionality."
+      Integers add functionality.  Got it.
     </p>
 
     <p>
-        OK, so what can we say? It appears that noSQL has become popular with the rise of social media and the massive
-        data generated from
-        spying on
-        every aspect of users online lives: what they purchase, the web-pages they visit, how long they stay there, who
-        they are
-        connected to, etc. If SQL was designed to connect customers with products and record their orders, this new type
+        OK, so what can we say? It appears that noSQL has become popular with the rise of social media and the generation of massive
+        data from
+        <strike>spying on</strike> recording
+        every aspect of our online lives: what we purchase, the web-pages we visit, how long we stay there, who
+        we are
+        connected to, etc. A first hesitant conclusion: SQL was designed to connect customers with products and record their orders.  This new type
         of data needs something different.  OK, so what choices do we have?
     </p>
 
@@ -66,16 +66,16 @@
         <li><strong>Wide-column</strong> stores such as Cassandra and HBase are optimized for queries over large
             datasets, and store columns of data together, instead of rows.
         </li>
-        <li><strong>Graph</strong> appear to be implemented as serialized objects that have pointers to other
+        <li><strong>Graphs</strong> appear to be implemented as serialized objects that have pointers to other
             objects.  The graph database manager can follow these networks of objects.
         </li>
 
     </ul>
     <p>
-        So why use a no-SQL database? Oh, 'cause they are more scalable and offer superior performance. Note to reader: if you
+        So why use a no-SQL database? Because they are "more scalable and offer superior performance." Note to reader: if you
         are
         ever asked to be a marketing person, just write "more scalable and better performance".  It doesn't really matter
-        what you are selling.  I ran into that phrase a lot.  OK, here's what we can say...maybe.
+        what you are selling. OK, here's what we can say...maybe.
     </p>
 
     <h3>Storing Data when you don't know it will be</h3>
@@ -93,20 +93,20 @@
     </p>
 
     <h3>Distributing the database</h3>
-    Here is another "gotta have" feature which is never explained well. If your data grows without bounds, then
+    This is another "gotta have" feature which I never found explained terribly well, but here goes. If your data grows without bounds, then
     eventually it might be nice to divide it over several servers. It's easy to see that if you want to search
-    for customers with in some location then if that data is on several servers, you gotta talk to all the servers.
-    Evidentially there is no easy way to split up Relational tables and still query against the entire dataset.  Evidentially as well
-    there are ways to provide this with noSQL databases automatically.  Alas, I was not able to find a competent
-    explanation as to how this is done.  Just accept that it is.
+    for customers with in some in some category then if that data is on several servers, you gotta talk to all the servers.
+    Evidently there is no easy way to split up Relational tables and still query against the entire dataset.  It appears
+    there are ways to provide this with noSQL databases automatically.  Alas, I was not able to find a good
+    explanation as to how exactly and under what parameters this is actually done.  Just accept that it is.
     <h3>Replication and Redundancy</h3>
-    Backing up an SQL database and keeping both copies up-to-date is evidentially difficult but easy to do with
-    a non SQL database.  Once again, this claim was repeated over and over, while I could not find a simple explanation.
-    Unfortunately I can't tell you why and how this works.
+    Backing up a database and keeping both copies up-to-date appears to also be a classically difficult Relational problem but easy and automatic
+    to do with
+    a non SQL database.  Once again, although this claim was repeated over and over,  I could not find a simple explanation of how it's done.
     <p>
         It's pretty clear that the particular suitability of a given NoSQL database depends on the problem it must solve but
         unfortunately the tech writers these companies hire don't seem to be able to give any concrete examples.  In the meantime
-        I'm sure it's "more better", less downtime, more agile, non-proprietary...
+        I'm sure it's "more better", more scalable, superior performance, less downtime, more agile, non-proprietary...
           </p>
 
     <hr>
