@@ -30,7 +30,7 @@
           <file leaf-file-name="blog-10.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-36.875">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
                   <folding />
                 </state>
@@ -40,7 +40,7 @@
           <file leaf-file-name="blog-11.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.875">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
@@ -50,7 +50,7 @@
           <file leaf-file-name="blog-12.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.25">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
                   <folding />
                 </state>
@@ -80,7 +80,7 @@
           <file leaf-file-name="BlackJack.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="4" column="31" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="77" />
                   <folding />
                 </state>
@@ -90,7 +90,7 @@
           <file leaf-file-name="blog-9.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-9.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
@@ -100,7 +100,7 @@
           <file leaf-file-name="blog-8.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-8.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-43.125">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
                   <folding />
                 </state>
@@ -110,8 +110,8 @@
           <file leaf-file-name="blog-6.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/blog-6.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7692308">
-                  <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
+                <state vertical-scroll-proportion="0.6615385">
+                  <caret line="109" column="86" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
                   <folding />
                 </state>
               </provider>
@@ -120,7 +120,7 @@
           <file leaf-file-name="blog-7.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/blog-7.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.875">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
                   <folding />
                 </state>
@@ -164,7 +164,7 @@
           <file leaf-file-name="content-stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.015015015">
+                <state vertical-scroll-proportion="-0.1051051">
                   <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
@@ -333,7 +333,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,6 +399,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -507,12 +507,6 @@
       <created>1428001422115</created>
       <option name="number" value="Default" />
       <updated>1428001422115</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Go to the latest blog post automatically.&#10;Update blog posts&#10;">
-      <created>1429051943860</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1429051943860</updated>
     </task>
     <task id="LOCAL-00006" summary="Go to the latest blog post automatically.&#10;Update blog posts&#10;">
       <created>1429052081522</created>
@@ -802,21 +796,24 @@
       <option name="project" value="LOCAL" />
       <updated>1431538661184</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="nit changes to blog6">
+      <created>1431539728263</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1431539728263</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2345" y="313" width="2345" height="1287" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13842282" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -826,9 +823,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -843,7 +843,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update to Girls in Science articl" />
     <MESSAGE value="another update to Girls in Science article" />
     <MESSAGE value="more editing to Girls in Science post" />
     <MESSAGE value="error in image path." />
@@ -868,7 +867,8 @@
     <MESSAGE value="more changes to blog12" />
     <MESSAGE value="even more changes to blog12" />
     <MESSAGE value="nit changes to blog11" />
-    <option name="LAST_COMMIT_MESSAGE" value="nit changes to blog11" />
+    <MESSAGE value="nit changes to blog6" />
+    <option name="LAST_COMMIT_MESSAGE" value="nit changes to blog6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.015015015">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/BlackJack/BlackJack.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1192,7 +1184,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
@@ -1200,7 +1192,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-43.125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
           <folding />
         </state>
@@ -1216,7 +1208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
           <folding />
         </state>
@@ -1224,7 +1216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -1232,16 +1224,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1051051">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog-6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308">
-          <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.6615385">
+          <caret line="109" column="86" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
           <folding />
         </state>
       </provider>
