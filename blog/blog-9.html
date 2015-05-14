@@ -281,10 +281,10 @@ As with a block, (but unlike a method) referring to local variables like below i
 </p>
 
 <p>
-    You can pass a Proc
-    just
-    like any other parameter.
+    You can pass a Proc just like any other parameter.
+</p>
 
+<pre class="green_code" id="code2">
     my_p = Proc.new {|a, b| a + b}
 
     def method_call_a_proc(my_p)
@@ -292,7 +292,7 @@ As with a block, (but unlike a method) referring to local variables like below i
     end
 
     method_call_a_proc(my_p)
-</p>
+</pre>
 <p>
     Whenever you pass a Proc to a method you have to do it within the parameter ( )s. The reason for this is that Ruby
     reuses the code for passing a variable (remember a Proc's name is just a variable) and anything outside the () is
