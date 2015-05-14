@@ -28,9 +28,8 @@
     <p class="caption">Blocks make me want to kill someone.</p>
 </figure>
 
-<p>
     <img class="right_picture" alt="Eniac" src="imgs/eniac.jpg"/>
-
+<main>
 <p><span class="firstcharacter">B</span>locks are used everywhere in Ruby and in the beginning they're pretty easy to
     understand.</p>
 <p>Past this very-very beginning, however, we get Procs, Lambdas and the ability to use them as
@@ -43,10 +42,10 @@
     the untold, secret history of Blocks, Procs
     and Lambdas. When we return to the present you'll not only be a master of B's, P's and L's, you'll truly understand
     variable scope and that's rather fundamental too.
-
+</p>
 <div class="narrow_article_width">
 
-</p> <p>And those bloody Blocs and Proc will never bother you again. </p>
+ <p>And those bloody Blocs and Proc will never bother you again. </p>
 
 
 <h2>In the Beginning...</h2>
@@ -54,7 +53,7 @@
 <p>In the dark days before Object Oriented Programming and even before Procedural Programming graced the earth, the very first
     programs were just a string of commands:</p>
 
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
 load 50
 load 23
 add
@@ -68,7 +67,7 @@ add
     in 5 times. This happened all the time so pretty soon the loop was invented. The
     first
     loops were just a conditional test and a GOTO:
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
   10 Sub 1, count.           #subtract 1 from count
   15 GOTO 40 on result 0     #if count went to zero, jump to line 40
   20 ...
@@ -158,7 +157,7 @@ add
 </div>
 <h2>Blocks are just GOTOs</h2>
 Blocks are very much like a GOTO as described in our first diagram above. Take a look at this simple block:
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     a = 5
     2.times do |par1|
       puts par1
@@ -184,7 +183,7 @@ Blocks are very much like a GOTO as described in our first diagram above. Take a
     frame markers pushed. This is why we can still access the variable 'a' from within the block. Compare this
     with the same thing in Method form:</p>
 
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
    def my_meth(par1)
       puts "par1"
       puts a
@@ -195,7 +194,7 @@ Blocks are very much like a GOTO as described in our first diagram above. Take a
         my_meth(i)
     end
 
-<em>#When we run this code we get an error:</span></em>
+<em>#When we run this code we get an error:</em>
         <span class="error_red">...in `my_meth': undefined local variable or method `a'
             for main:Object (NameError)</span>
 
@@ -221,7 +220,7 @@ Blocks are very much like a GOTO as described in our first diagram above. Take a
     stored return address and jump there. Blocks don't push a return address so they just keep running. Guess what
     happens then if you put a
     <strong>return</strong> statement in the middle of a block like this:
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     a = 5
     2.times do |par1|
       puts par1
@@ -251,7 +250,7 @@ Blocks are very much like a GOTO as described in our first diagram above. Take a
     refer to by that name from multiple places in our code. The name is just a Ruby variable which store the address
     of the Proc's block.
 
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     my_p = Proc.new {{|a, b| a + b}
 
 #<em>You call it like this:</em>
@@ -260,7 +259,7 @@ Blocks are very much like a GOTO as described in our first diagram above. Take a
 
 </pre>
 As with a block, (but unlike a method) referring to local variables like below is just fine.
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     c = 5
     my_p = Proc.new do |a, b|
       a + b + c
@@ -284,7 +283,7 @@ As with a block, (but unlike a method) referring to local variables like below i
     You can pass a Proc just like any other parameter.
 </p>
 
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     my_p = Proc.new {|a, b| a + b}
 
     def method_call_a_proc(my_p)
@@ -307,15 +306,15 @@ As with a block, (but unlike a method) referring to local variables like below i
     If you try to pass a block to it directly as below, it will complain. (Remember that you pass a block by writing
     it just outside the parameter parentheses().)
 </p>
-<pre class="green_code" id="code2">
+    <pre class="green_code code2">
 call_a_proc { Puts "inside the block")
 
-<em><span class="error_red"># This generates an error.</em>
+<em><span class="error_red"># This generates an error.</span></em>
     </pre>
 
 <p>
     You have to redefine the method using the '&' operator:
-<pre class="green_code" id="code2">
+    <pre class="green_code code2">
     def call_a_block(&block)
        block.call(2,1)
     end
@@ -328,7 +327,7 @@ call_a_proc { Puts "inside the block")
 <p>
     OK, so what if you still wanted to pass a Proc to a method that expects a block like call_a_block? In this case
     there's syntax that let's you do this and confusingly it re-uses the '&' operator.
-<pre class="green_code" id="code2">
+    <pre class="green_code code2">
 p = Proc.new{|a, b| a + b}
 
 [1,2,3,4].each_with_index(&p)
@@ -349,12 +348,12 @@ p = Proc.new{|a, b| a + b}
 <p>
     There are two ways to define a lambda. I like to do it like this because it reminds me that a lambda handles
     parameters and return like a method:
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     my_add -> (a,b){a + b}
 
 </pre>
 <p>
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
     my_add = lambda {|a,b| a + b }
 
 </pre>
@@ -366,7 +365,7 @@ p = Proc.new{|a, b| a + b}
     Now it's time to really bend your mind. When a new Proc is created it has access to its local scope because it
     doesn't push a new stack frame on the stack like a method does. Just for fun, let's create a Proc in one scope and then use it
     in a different one. Wonder what will happen.  Warning this is about to get really weird.
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
 c = 5
 
 my_p = Proc.new do |a|
@@ -394,7 +393,7 @@ puts "c = #{c}"
     stores a reference to 'c' so that when the value of
     'c' changes, no problem, my_p picks it up. Well what about if we call my_p from within a method. Now inside
     method "foo" we can't access 'c'. Interestingly, my_p still can. When we run the above we get:
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
 c = 22
 24
 26
@@ -408,7 +407,7 @@ c = 26
     local context it can use the variable c. But look what happens next. C is only defined inside the method. It should
     be dead to any code outside it. </p>
 
-<pre class="green_code" id="code2">
+<pre class="green_code code2">
 def foo
   c = 3
   Proc.new { c += 1 }
@@ -454,12 +453,17 @@ puts f.call  #=> 5
     tenants of OOD like encapsulation it makes me want to hurl. </p>
 <p>
 <h2> What is it good for?</h2>
+    <p>
     I've been trying to think of a user story for closures. All I can imagine is that you've just written the code for
     NASA's Pluto probe and you have a Proc "outer_space" in which you want to save all the local variables when it's closest to
     the <span class="line_thru"> planet</span> dwarf planet Pluto, and then again when it's closest to Charon, it's moon.
     Maybe a year later NASA wants to run "outer_space" passing it some new parameters
     to see what it would have done differently at the Pluto fly-by and at the Charon fly-by.</p>
-This is why closures were created but no one will tell you because unless you understand where this all comes from you won't have a model of how it works.  You'll be doing what Web programmers who don't know CSS's box model do: they just hack away until the thing they want to move does.  Well now you know.  Send me an email if you ever use this shit.</p>
+    <p>
+This is why closures were created but no one will tell you because unless you understand where this all
+comes from you won't have a model of how it works.  You'll be doing what Web programmers who don't know CSS's box
+model do: they just hack away until the thing they want to move does.  Well now you know.  Send me an email if you
+ever use this shit.</p>
 
 
 </div>
@@ -469,6 +473,5 @@ This is why closures were created but no one will tell you because unless you un
     <br>
     April 24, 2015
 </p>
-</footer>
 </main>
 
