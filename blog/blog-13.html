@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<head>
+    <title> think.build </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../content-stylesheet.css">
+</head>
+
+
+<iframe id="index-of-posts" src="blog-index-of-posts.html">
+</iframe>
+
+
+<div id="nameplate">
+    Mike Farr
+    <p id="title-style">A Dev BootCamp Cultural Blog
+        Post</p>
+</div>
+
+<header>
+    How Did JavaScript Get Its Name?
+</header>
+<figure class="definition">
+    <span class="large_definition">ja·va·SCRIPT</span>
+    <br>
+    <span style="font-variant:normal; letter-spacing:normal; line-height:normal;
+    text-align:left; text-indent:0px; text-transform:none; white-space:normal; widows:1; word-spacing:0px;
+    -webkit-text-stroke-width:0px; background-color:rgb(255, 255, 255); font-family:arial, sans-serif; font-size:large;
+    color:rgb(34, 34, 34); font-style:normal; font-weight:normal; ">ˈjävəskript</span>
+    <span style="font-variant:normal; letter-spacing:normal; line-height:normal;  text-align:left;
+    text-indent:0px; text-transform:none; white-space:normal; widows:1; word-spacing:0px; -webkit-text-stroke-width:0px;
+    display:inline !important; float:none; background-color:rgb(255, 255, 255); font-family:arial, sans-serif;
+    font-size:large; color:rgb(34, 34, 34); font-style:normal; font-weight:normal; ">,</span><span
+        style="font-family:arial, sans-serif; font-size:large; color:rgb(34, 34, 34); font-style:normal; font-weight:normal; ">ˈjavə-</span><span
+        style="font-family:arial, sans-serif; font-size:large; color:rgb(34, 34, 34); font-style:normal; font-weight:normal; ">/</span><br>
+    <em>noun</em>
+
+    <p>A programming language used to create websites that has nothing whatsoever to do with Java, a programming
+        language used to create websites.</p>
+</figure>
+
+<div class="paul">"When I first started to learn programming I thought Java and JavaScript were the same thing.
+    Then I realized they were different. Then I realized HOW different they were. Finally, I realized
+    that they really have nothing in common."
+    <p class="quote-attr"> --New JavaScript students everywhere</p>
+</div>
+<main>
+    <p>
+        How could it come to pass that two languages as different as Java and Javascript could have nearly the same
+        name?
+
+    <p>
+        It's a story that I happen to know a little bit about and therein lies a tale.</p>
+
+    <p></p>
+    <br>
+
+    <div class="paul"><em>Listen my children and you shall hear<br>
+        of the midnight ride of Paul Revere.</em>
+
+        <p class="quote-attr"> --Henry Wadsworth Longfellow</p>
+    </div>
+    <p></p>
+    <img class="paul" src="imgs/paulrevere.png" alt="Midnight Ride" width="425px"/>
+
+
+    <p></p>
+
+
+    <p>
+        In the early 90's I was working at Apple, "between Jobs" as they say. I started as a young QA
+        engineer on a scripting language called HyperTalk which was used for a hypertext environment called HyperCard.
+        It was
+        created by the inventor of Quicktime and an original Macintosh team member, the brilliant Bill Atkinson. The
+        language had not
+        been formally defined though Bill had a pretty clear idea of what he wanted. Having a formal grammar gives you
+        something to test against so I wrote a grammar for it.
+        That grammar became the basis
+        of, or at least a resource for several texts on the language as well as some follow on languages, as was evident
+        by the naming conventions
+        I chose and a few little errors I made that got copied for years.
+    </p>
+
+    <p>
+        It looked like something like this, with some modifications I added in later languge projects:
+
+    <div class="grey_code">
+        info = fields 1 to 4 of form "registration"
+        <br>
+        my_ref = a reference to all fields named "quotation"
+        <br>
+        set the style of the text of my_ref to (bold, italic)
+        <br>
+        set the path of image "sunset" to "../images/sunset.jpg"
+    </div>
+    </p><p>
+    Imagine the code you'd have to write in JavaScript or JQuery for that today and you'll get an idea of its simple
+    power.
+</p>
+
+    <p>
+        After a stint in international marketing I returned to scripting languages workking on
+        AppleScript and
+        the underlying library that provided the ability for any application to connect the scripting language to it's DOM.
+    </p>
+    <p>
+        Being able to specify elements in a page based on the DOM regardless of the underlying data
+        representation was rather novel in 1992.
+    </p>
+
+    <p>
+        I had a sabbatical coming up, and so on my way out the door I stopped by Tech Support to chat. Like many Silicon
+        Valley firms, Apple had a tendency to live it its own bubble. In a way, the Tech Support guys
+         were the blue collar mechanics who dealt with reality rather than theory and kept the vehicle going. My people.
+        They had a good sense of what was going on outside the bubble.
+    </p>
+
+    <p>
+        And they drank a lot of Mountain Dew.
+    </p>
+
+
+    <p>
+        "What's new and interesting?" I asked.
+    </p> <p>
+        "Have you seen Mosaic? It's a lot like HyperCard but it runs on TCP/IP.  It was invented by a guy named Tim
+        Berners Lee and he cites HyperCard as one of his inspirations. Didn't you work on HyperCard?"
+    </p>
+
+    <p>
+        I had and if fact had argued strongly that we should enable HyperCard to run over TCP/IP and worked with a
+        European
+        engineer Richard Moore, to change it's proprietary file format to some version of SGML. Alas, that never got off the
+        ground.
+    </p>
+
+    <p>
+        It was clear to me and many others that the era of proprietary networking would soon be over. Still Novel was
+        king with Netware (It's CEO was Eric Schmidt), Microsoft had it's own networking protocol and Apple had
+        AppleTalk.
+    </p>
+
+    <p>
+        "How do I get Mosaic?" I asked.
+    </p>
+
+    <p>
+        "You can get it via dialup from NCSA. A guy named Mark Andreessen is working on it. You gotta get MacTCP and
+        hack your system a little. You also need a dialup connection to the Internet."
+    </p>
+    <p>I got excited.</p>
+    <p>
+        On sabbatical I recreated Mosaic inside ClarisWorks, but unlike Mosaic where Mark Andreessen had just
+        added GIFs, I added GIFs, JPGs, Quicktime movies, full live embedded spreadsheets (think Google Docs) and
+        database connectivity through something called MacWorkstation.
+    </p>
+
+    <p>
+        ClarisWorks was an integrated app, like Microsoft Works, if you remember that, so a lot of that functionality
+        came for free. It had it's own WYSIWIG
+        text editor (what became Pages I believe, or at least its notion simplicity), a graphics editor, paint program,
+        and spreadsheet and database modules. So my little Browser got a web page editing environment for free.
+        ClarisWorks even had a built-in dialer for getting online. We could bundle it with TCP/IP and have a
+        complete solution.
+    </p>
+
+    <p>
+        Then I tried and tried but I couldn't sell the idea internally at Apple. There were conflicting group interests.
+        ClarisWorks was part
+        of Claris, a company that had been spun out of Apple. NIH at Apple was pretty thick. The networking group
+        objected because
+        TCP/IP wasn't AppleTalk. The HyperCard group objected because they already had HyperCard but HyperCard didn't
+        support HTTP or the PC.  I don't think they really got or
+        believed
+        in communicating text based pages via a server side application.
+    </p>
+    <p>
+        So I left Apple.
+    </p>
+
+    <p>
+        One thing clear to me, even if it was not generally clear then, was that like HyperCard, Mosaic needed a scripting language.
+        As soon as you had fields, buttons, and text entry forms,
+        you needed scripting. In
+        HyperCard you could do everything you can do today in the Browser's DOM with
+        JavaScript and JQuery. The fact that JQuery had to be invented and is used on nearly 1/4 of the Web these days is a
+        testament that something was/is missing in JavaScript.
+    </p>
+
+    <p>
+        Besides, it made no sense that tiny change meant going back to the server to redraw the entire
+        page.
+        Remember that in those days, Internet download and upload speeds were reported in kilobytes, not megabytes.
+        I contacted NCSA and they told me to contact Sun, the "custodians" of the NCSA code.
+    </p>
+
+    <p>
+        So I marched over to Sun. Bill Joy had recently taken over the Oak programming language group. The language was
+        renamed Java. As one of the founders of Sun, Bill got and kept executive level attention for Java. I
+        got to meet the whole team, but was told that Bill was the guy to talk to.
+    </p>
+    <p>
+        I pitched him on the need for a client side scripting language. It
+        was a big
+        deal for me. Likely just one of a million things he did that week.
+    </p>
+
+
+
+    I talked about AppleScript and waxed on about how a lightweight scripting language was needed as part of the
+    browser, how it could talk to a server (and my being unashamedly obsequious, that server would be written in Java!)
+    <p>
+        Following the naming of AppleScript and the JapanScript version of it that an Apple engineer named Eric House
+        had created at Apple—and in an effort to kiss up to Bill Joy as much as possible, I called my language
+        "JavaScript."
+    </p>
+
+    <p>
+        Bill Joy's response was, "Java doesn't need a scripting language."  You see the browser had the Java plugin.
+    </p>
+    <p>
+        I remember being speechless. Java was never going to succeed client side. It was all wrong
+        for that. Plugins would never work.
+    </p>
+
+    <p>
+        Don't run in a frame in the page. Be the page.
+    </p>
+    <div class="grey_code">
+        orderResult = sendServer("OrderItem", item, price)<br>
+        put orderResult after the text of field "order"
+        <br>
+        set the font of each listitem whose name is "Order" to "Courier"
+    </div>
+    <p>
+        You can see some of the power of this language today over at <a href="www.livecode.com"> LiveCode </a> where you
+        can create a single app and save
+        it as an iPhone, Macintosh, Android, or Windows app and soon as a WebApp. Usually you can do in 1 or two lines
+        of LiveCode script what it takes 20 to 100 lines of Java or JavaScript.
+    </p>
+
+    <p>
+        Discussions with Sun were going well. At least I thought so. The marketing position for Java was taken over by
+        an ex-Apple employee I knew. Then as December 1995 approached, everything went silent. No one answered the
+        phone. It turns out that Netscape and Brendan Eich had also seen the need for a Browser scripting language and
+        they wanted their language, Mocha, blessed as an official part of Mosaic.
+        Sun wanted Netscape, who was winning the browser wars to endorse Java and bundle the Java plugin with the
+        Netscape browser.
+        I discovered the disappointing news by reading the press release.
+    </p>
+    <p>
+        The only thing they kept from my efforts was the name, "JavaScript".  It was my rather transparent attempt to kiss up to
+        Sun and it was a nod to having Java run your server while JavaScript ran the client.
+        Still, I never intended that name to actually be used in public.
+        It was completely different language from Java by design. It solved a different problem.
+
+
+    </p><p>
+    But someone liked it. Perhaps the Netscape people thought that by associating it with Java, it might be more easily
+ accepted.
+        Calling it Mocha would have been better, or more descriptively,
+        HTMLScript, HyperScript, or even WebScript.  (Anything else except ECMAScript which is no doubt
+        why we still call it JavaScript.) As for my little world I had to convince Apple colleagues and programmer friends
+        that this JavaScript wasn't my fault.
+    </p>
+    <p>
+        So that's how it happened.
+       <p class="embedded_aside">
+    An Oracle engineer once said to me, "there is so much wrong with
+    JavaScript -- is it really surprising
+    that the name was the first thing they got wrong??
+</p>
+
+<h3>Epilogue</h3>
+    <p>
+        As for me this was the biggest conflict and loss I'd ever experienced.  I was half a million in debt. Time
+        to scramble. Time for a new business plan.
+        At this time ISP's didn't care about Mac. So I started writing software that enabled 500 or so of the first ISPs to
+        support Macintosh. Later, it became clear that the cable companies would own broadband Internet.
+        Time to pivot again. The Internet was taking off Internationally and from my stint in Apple's International
+        product marketing group I had managed localization for HyperCard. I knew how to test
+        languages
+        and translate into international languages products with scripting languages. I reformed my company to produce
+        Internet Starter Kits in 7
+        languages. Our biggest customer ended up being Netscape. Netscape which had killed us, then saved us.
+    </p>
+
+    <p>
+        After a hard year of contract work I'd saved up $750k. I could take the money and run, but my first attempt at
+        a startup had cost my investors nearly $500k. Doing contract work doesn't make you rich so I wrote each
+        of my original investors a check for the amount they had invested and I paper cliped it to a new business
+        plan. The next big thing was going to be small devices I said. It was 1999 and we had been working on a phone
+        and tablet prototype. Instead of Windows, it would be Linux based. Where the Palm Pilot was
+        1 bit per pixel black and white, we had a color touch interface.
+    </p>
+
+    <p>
+        The investors were so surprised to see their money again they each tore up their checks and said "go for it."
+        Then they helped me find investors for a second angel round and then a small venture round. In 9 months we sold the
+        company to Macromedia/Adobe and I retired. What got us bought was our implementation of Mobile Flash.
+    </p>
+
+    <p>
+        Today I am taking DevBootCamp to finally learn the real JavaScript. I was never able to bring myself to do it
+        before. Now there are new libraries like JQuery that make it more tolerable. There are new languages, like Ruby
+        that are very clean.
+
+    </p>
+    <p>
+        If there is a moral to this story it is that you have to roll with the punches in the startup world.
+        You have to pivot to survive. You win some, you lose
+        more. You can't hold grudges. Still, I wonder what programming the Web might have been like with a better
+        scripting
+        language.
+    </p>
+
+    <p>
+        We may get to see what that will look like all these many of years later when LiveCode releases their next major
+        version which will include web app development.
+    </p>
+
+
+    <hr>
+    <p> Mike Farr
+        <br>
+        <em>Everything that's interesting to do was once impossible.</em>
+        <br>
+        May 16, 2015
+    </p>
+</main>
+
